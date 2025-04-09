@@ -81,11 +81,6 @@ public class GameManager : MonoBehaviour
 
     public void SwapPieces(Piece a, Piece b)
     {
-        // Swap visual positions
-        /*Vector3 tempPos = a.transform.localPosition;
-        a.transform.localPosition = b.transform.localPosition;
-        b.transform.localPosition = tempPos;*/
-
         // Swap references in the list
         int indexA = pieces.IndexOf(a.transform);
         int indexB = pieces.IndexOf(b.transform);
@@ -96,13 +91,6 @@ public class GameManager : MonoBehaviour
             pieces[indexA] = pieces[indexB];
             pieces[indexB] = temp;
         }
-
-        /*
-        Debug.Log("List State");
-        for (int i=0; i<pieces.Count; i++)
-        {
-            Debug.Log($"Pos {i}" + $" Piece {pieces[i].name}");
-        }*/
     }
 
 

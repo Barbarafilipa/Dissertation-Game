@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class MinigameManager : MonoBehaviour
 {
     public DialogManager dialogManager;
+    public RewardManager rewardManager; // Reference to the RewardManager
 
     [Header("Minigame Screens")]
     [SerializeField] private GameObject[] minigames;
@@ -42,6 +43,10 @@ public class MinigameManager : MonoBehaviour
         {
             activeMinigame.SetActive(false);
             Debug.Log("Completed minigame: " + activeMinigame.name);
+
+            // Reward the player using RewardManager
+            rewardManager.RewardSticker(activeMinigame.name);
+
             activeMinigame = null;
         }
 

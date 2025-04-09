@@ -2,8 +2,10 @@ using Unity.VisualScripting;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using TMPro;
 using Ink.Runtime;
+using UnityEngine.EventSystems;
 
 public class DialogManager : MonoBehaviour
 {
@@ -26,6 +28,7 @@ public class DialogManager : MonoBehaviour
 
     private Story currentStory;
     private bool dialogueIsPlaying;
+    public bool isExitingLevel = false; // Flag to check if exiting the level
 
     private const string SPEAKER_TAG = "speaker";
     private const string PORTRAIT_TAG = "portrait";
@@ -55,7 +58,7 @@ public class DialogManager : MonoBehaviour
     private void Update()
     {
         // return right away if dialogue isn't playing
-        if(!dialogueIsPlaying)
+        if(!dialogueIsPlaying || isExitingLevel)
         {
             return;
         }
@@ -69,8 +72,37 @@ public class DialogManager : MonoBehaviour
         // handle continuing to the next line in the dialogue when button is pressed
         if ( Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began )
         {
+            if (IsTouchOverUI())
+            {
+                Debug.Log("Touch is on the Exit button, ignoring input for story continuation.");
+                return;
+            }
+
+            Debug.Log("Touch detected, continuing story.");
             ContinueStory();
         }
+    }
+
+    private bool IsTouchOverUI()
+    {
+        PointerEventData pointerData = new PointerEventData(EventSystem.current)
+        {
+            position = Input.GetTouch(0).position
+        };
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(pointerData, results);
+
+        foreach (RaycastResult result in results)
+        {
+            if (result.gameObject.name == "ExitButton") // Replace "ExitButton" with your button's name
+            {
+                Debug.Log("Touch is on the Exit button.");
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public void EnterDialogueMode(TextAsset inkJSON) {
@@ -184,5 +216,14 @@ public class DialogManager : MonoBehaviour
     {
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
+    }
+
+    public void ExitLevel()
+    {
+        // Exit the level and return to the main menu
+        isExitingLevel = true; // Set the flag to indicate exiting the level
+
+        ExitDialogueMode(); // Ensure dialogue is exited when leaving the level
+        SceneManager.LoadScene("Levels"); // Example: Load the main menu scene
     }
 }

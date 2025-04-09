@@ -8,14 +8,12 @@ public class Piece : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
     private RectTransform rectTransform;
     private Canvas canvas;
     private GameManager gameManager;
-    private Camera mainCam;
 
     void Start()
     {
         rectTransform = GetComponent<RectTransform>();
         canvas = GetComponentInParent<Canvas>();
         gameManager = FindFirstObjectByType<GameManager>();
-        mainCam = Camera.main;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -59,6 +57,7 @@ public class Piece : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         Vector2 temp = b.rectTransform.anchoredPosition;
         b.rectTransform.anchoredPosition = a.originalPosition;
         a.rectTransform.anchoredPosition = temp;
+        gameManager.SwapPieces(a, b);
     }
 
 }

@@ -1,10 +1,10 @@
 É hora de dormir, mas sentes um frio na barriga ao apagar as luzes. #portrait:narration
 O quarto parece cheio de sombras estranhas e barulhos esquisitos…
 
--> minigame_labirinto
+-> minigame_puzzle_medo
 
-=== minigame_labirinto ===
-#minigame:labirinto
+=== minigame_puzzle_medo ===
+#minigame:PuzzleMedo
 
 Está tudo bem? #portrait:speech_right
 
@@ -26,13 +26,13 @@ E se tiver um monstro no meu quarto? #portrait:thought
     Estou com medo, mas sei que é a minha imaginação. #portrait:speech_left
     Vamos ver o que é. #portrait:speech_right
     
-    -> minigame_lanterna
+    -> minigame_lanterna_da_coragem
 
 === continue ===
 Se voltares a sentir medo, já sabes: podes olhar à tua volta e lembrar-te que muitas vezes o medo vem da nossa cabeça. #portrait:speech_right
 
 -> END
 
-=== minigame_lanterna ===
-#minigame:lanterna
+=== minigame_lanterna_da_coragem ===
+#minigame:LanternaDaCoragem
 -> continue
