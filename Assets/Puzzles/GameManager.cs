@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     private void CreateGamePieces(float gapThickness)
     {
         // This is the width of each tile
-        float pieceSize = 300f;
+        float pieceSize = 250f;
         float gap = gapThickness * pieceSize;
 
         float totalWidth = size * pieceSize;
@@ -99,8 +99,16 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if (!shuffling && CheckCompletion()) {
+            // Wait 2 seconds before completing the minigame
+            //StartCoroutine(WaitComplete(2f));
             minigameManager.CompleteMinigame();
         }
+    }
+
+    private IEnumerator WaitComplete(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        minigameManager.CompleteMinigame();
     }
 
     private bool CheckCompletion()

@@ -26,6 +26,9 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private GameObject[] choices;
     private TextMeshProUGUI[] choicesText;
 
+    [Header("Characters")]
+    [SerializeField] private GameObject[] characters;
+
     private Story currentStory;
     private bool dialogueIsPlaying;
     public bool isExitingLevel = false; // Flag to check if exiting the level
@@ -74,11 +77,9 @@ public class DialogManager : MonoBehaviour
         {
             if (IsTouchOverUI())
             {
-                Debug.Log("Touch is on the Exit button, ignoring input for story continuation.");
                 return;
             }
-
-            Debug.Log("Touch detected, continuing story.");
+            //Debug.Log("Touch detected, continuing story.");
             ContinueStory();
         }
     }
@@ -97,7 +98,6 @@ public class DialogManager : MonoBehaviour
         {
             if (result.gameObject.name == "ExitButton") // Replace "ExitButton" with your button's name
             {
-                Debug.Log("Touch is on the Exit button.");
                 return true;
             }
         }
@@ -126,6 +126,13 @@ public class DialogManager : MonoBehaviour
         {
             // set text for the current dialogue line
             dialogueText.text = currentStory.Continue();
+
+            //Debug.Log("Current line: " + currentStory.currentText);
+            //Print current tags
+            foreach (string tag in currentStory.currentTags)
+            {
+                //Debug.Log("Current tag: " + tag);
+            }
 
             // display choices, if any, for this dialogue line
             DisplayChoices();
@@ -157,9 +164,11 @@ public class DialogManager : MonoBehaviour
             switch (tagKey)
             {
                 case SPEAKER_TAG:
+                    MakeSpeakerVisible(tagValue);
                     break;
                 case PORTRAIT_TAG:
                     portraitAnimator.Play(tagValue);
+                    Debug.Log("Playing animation: " + tagValue);
                     break;
                 case LAYOUT_TAG:
                     break;
@@ -171,6 +180,20 @@ public class DialogManager : MonoBehaviour
                     break;
             }
         }
+    }
+
+    private void MakeSpeakerVisible(string speakerName)
+    {
+        // Find the corresponding GameObject for the speaker name and set it active
+        foreach (GameObject character in characters)
+        {
+            if (character.name == speakerName)
+            {
+                character.SetActive(true);
+                return; // Exit the loop once the character is found and activated
+            }
+        }
+        Debug.LogWarning("Speaker not found: " + speakerName);
     }
 
     private void DisplayChoices()
@@ -201,7 +224,6 @@ public class DialogManager : MonoBehaviour
     public void MakeChoice(int choiceIndex)
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
-        Debug.Log("Choice made: " + choiceIndex);
         ContinueStory(); // Continue the story after making a choice
     }
 
@@ -214,8 +236,10 @@ public class DialogManager : MonoBehaviour
 
     public void ResumeDialogue()
     {
-        dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
+        dialogueIsPlaying = true;
+
+        ContinueStory(); // Resume the story after the minigame
     }
 
     public void ExitLevel()
