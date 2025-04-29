@@ -34,8 +34,8 @@ public class DialogManager : MonoBehaviour
 
     private Story currentStory;
     private bool dialogueIsPlaying;
-    public bool isExitingLevel = false; // Flag to check if exiting the level
-
+    private bool isExitingLevel = false; // Flag to check if exiting the level
+    public string currentLevelName;
     private const string SPEAKER_TAG = "speaker";
     private const string PORTRAIT_TAG = "portrait";
     private const string LAYOUT_TAG = "layout";
@@ -117,13 +117,6 @@ public class DialogManager : MonoBehaviour
         ContinueStory();
     }
 
-    private void ExitDialogueMode()
-    {
-        dialogueIsPlaying = false;
-        dialoguePanel.SetActive(false);
-        dialogueText.text = "";
-    }
-
     private void ContinueStory()
     {
         if(currentStory.canContinue)
@@ -140,6 +133,8 @@ public class DialogManager : MonoBehaviour
         else
         {
             // If the story has ended, exit the level
+            PlayerPrefs.SetInt(currentLevelName, 1); // Save the level as completed
+            PlayerPrefs.Save();
             ExitLevel();
         }
     }

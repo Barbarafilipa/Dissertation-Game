@@ -3312,7 +3312,7 @@ MonoBehaviour:
   otherUIElements:
   - {fileID: 290386310}
   - {fileID: 206148338}
-  isExitingLevel: 0
+  currentLevelName: Level_1
 --- !u!1 &1559585809
 GameObject:
   m_ObjectHideFlags: 0
