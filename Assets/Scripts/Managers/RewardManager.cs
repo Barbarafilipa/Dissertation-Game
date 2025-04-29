@@ -13,7 +13,9 @@ public class RewardManager : MonoBehaviour
         minigameStickers = new Dictionary<string, string>
         {
             { "PuzzleMedo", "Medo" },
-            { "LanternaDaCoragem", "Lanterna Mágica" }
+            { "LanternaDaCoragem", "Lanterna Mágica" },
+            { "PuzzleNojo", "Nojo" },
+            { "PratoMisterioso", "Chef de Cozinha"}
         };
     }
 
