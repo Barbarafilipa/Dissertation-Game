@@ -100,8 +100,8 @@ public class GameManager : MonoBehaviour
     {
         if (!shuffling && CheckCompletion()) {
             // Wait 2 seconds before completing the minigame
-            //StartCoroutine(WaitComplete(2f));
-            minigameManager.CompleteMinigame();
+            StartCoroutine(WaitComplete(2f));
+            //minigameManager.CompleteMinigame();
         }
     }
 

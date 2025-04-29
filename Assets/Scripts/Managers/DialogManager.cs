@@ -29,6 +29,9 @@ public class DialogManager : MonoBehaviour
     [Header("Characters")]
     [SerializeField] private GameObject[] characters;
 
+    [Header("Other UI Elements")]
+    [SerializeField] private GameObject[] otherUIElements;
+
     private Story currentStory;
     private bool dialogueIsPlaying;
     public bool isExitingLevel = false; // Flag to check if exiting the level
@@ -36,7 +39,8 @@ public class DialogManager : MonoBehaviour
     private const string SPEAKER_TAG = "speaker";
     private const string PORTRAIT_TAG = "portrait";
     private const string LAYOUT_TAG = "layout";
-
+    private const string SHOW_TAG = "show";
+    private const string HIDE_TAG = "hide";
     private const string MINIGAME_TAG = "minigame";
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -127,13 +131,6 @@ public class DialogManager : MonoBehaviour
             // set text for the current dialogue line
             dialogueText.text = currentStory.Continue();
 
-            //Debug.Log("Current line: " + currentStory.currentText);
-            //Print current tags
-            foreach (string tag in currentStory.currentTags)
-            {
-                //Debug.Log("Current tag: " + tag);
-            }
-
             // display choices, if any, for this dialogue line
             DisplayChoices();
 
@@ -142,7 +139,8 @@ public class DialogManager : MonoBehaviour
         }
         else
         {
-            ExitDialogueMode();
+            // If the story has ended, exit the level
+            ExitLevel();
         }
     }
 
@@ -172,6 +170,12 @@ public class DialogManager : MonoBehaviour
                     break;
                 case LAYOUT_TAG:
                     break;
+                case SHOW_TAG:
+                    ShowUiElement(tagValue);
+                    break;
+                case HIDE_TAG:
+                    HideUiElement(tagValue);
+                    break;
                 case MINIGAME_TAG:
                     PlayMinigame(tagValue);
                     break;
@@ -180,6 +184,34 @@ public class DialogManager : MonoBehaviour
                     break;
             }
         }
+    }
+
+    private void ShowUiElement(string tagValue)
+    {
+        // Loop through all other UI elements and set the active state based on the tag value
+        foreach (GameObject uiElement in otherUIElements)
+        {
+            if (uiElement.name == tagValue)
+            {
+                uiElement.SetActive(true);
+                return; // Exit the loop once the UI element is found and activated
+            }
+        }
+        Debug.LogWarning("UI element not found: " + tagValue);
+    }
+
+    private void HideUiElement(string tagValue)
+    {
+        // Loop through all other UI elements and set the active state based on the tag value
+        foreach (GameObject uiElement in otherUIElements)
+        {
+            if (uiElement.name == tagValue)
+            {
+                uiElement.SetActive(false);
+                return; // Exit the loop once the UI element is found and deactivated
+            }
+        }
+        Debug.LogWarning("UI element not found: " + tagValue);
     }
 
     private void MakeSpeakerVisible(string speakerName)
@@ -247,7 +279,6 @@ public class DialogManager : MonoBehaviour
         // Exit the level and return to the main menu
         isExitingLevel = true; // Set the flag to indicate exiting the level
 
-        ExitDialogueMode(); // Ensure dialogue is exited when leaving the level
         SceneManager.LoadScene("Levels"); // Example: Load the main menu scene
     }
 }

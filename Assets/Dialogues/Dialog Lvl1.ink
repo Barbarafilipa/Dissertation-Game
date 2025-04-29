@@ -1,12 +1,12 @@
 É hora de dormir, mas sentes um frio na barriga ao apagar as luzes. #portrait:narration
-O quarto parece cheio de sombras estranhas e barulhos esquisitos…
+O quarto parece cheio de sombras estranhas e barulhos esquisitos… #show:Darkness #show:Monsters
 
 -> minigame_puzzle_medo
 
 === continue1 ===
 Parabéns, reconheceste o medo! O medo aparece quando achamos que algo nos pode fazer mal, mesmo que não seja de verdade. #portrait:narration
 
-Está tudo bem? #portrait:speech_right #speaker:Mother
+Está tudo bem? #portrait:speech_right #speaker:Mother #hide:Darkness #hide:Monsters
 
 -> main
 
@@ -28,7 +28,13 @@ E se tiver um monstro no meu quarto? #portrait:thought
     -> minigame_lanterna_da_coragem
 
 === continue2 ===
-Se voltares a sentir medo, já sabes: podes olhar à tua volta e lembrar-te que muitas vezes o medo vem da nossa cabeça. #portrait:speech_right
+Parabéns! Usaste a lanterna para iluminar os teus medos e descobriste que não era um monstro. #portrait:narration
+
+Se voltares a sentir medo, já sabes: pede ajuda a um adulto ou acende a luz para ver o que são as sombras. #portrait:speech_right
+
+O medo às vezes vem da nossa imaginação. Agora podes descansar tranquilo. #portrait:speech_right
+
+Superar o medo é uma grande conquista! Agora sabes que, com coragem, podes enfrentar qualquer desafio que aparecer no teu caminho. #portrait:narration
 
 -> END
 
@@ -37,5 +43,5 @@ Qual é a emoção que o João está a sentir? #portrait:narration #minigame:Puz
 -> continue1
 
 === minigame_lanterna_da_coragem ===
-#minigame:LanternaDaCoragem
+Minijogo Lanterna da Coragem #minigame:LanternaDaCoragem
 -> continue2

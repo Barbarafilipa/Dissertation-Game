@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 1bbd36c394d2d6b489d89dd6d088e95a
+guid: 22efdb7697b31f04f93b90743ec12e2e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3704988796269433362
-    second: speech_bubble_0
+      213: -4971900967378381179
+    second: monster_eyes_0
   - first:
-      213: 5840383458878665319
-    second: speech_bubble_1
+      213: 4685173942910374994
+    second: monster_eyes_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: speech_bubble_0
+      name: monster_eyes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 860
-        width: 1679
-        height: 765
+        x: 165
+        y: 125
+        width: 154
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 212117a2ea3ca6330800000000000000
-      internalID: 3704988796269433362
+      spriteID: 5869df49962400bb0800000000000000
+      internalID: -4971900967378381179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speech_bubble_1
+      name: monster_eyes_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 1679
-        height: 765
+        x: 345
+        y: 125
+        width: 155
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 762b78aefc53d0150800000000000000
-      internalID: 5840383458878665319
+      spriteID: 254d612c0e4150140800000000000000
+      internalID: 4685173942910374994
       vertices: []
       indices: 
       edges: []
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      monster_eyes_0: -4971900967378381179
+      monster_eyes_1: 4685173942910374994
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

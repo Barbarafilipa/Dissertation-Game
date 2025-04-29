@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 480dc4057d322284fbde4fb25bd439ac
+guid: 3a0368fcacbc2b149816183da05c9695
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5364273658523971450
-    second: narrator_0
+      213: 6423988865230629998
+    second: flashligth_circle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: narrator_0
+      name: flashligth_circle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3787
-        height: 367
+        width: 3985
+        height: 2816
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7f6e46a87ab17a40800000000000000
-      internalID: 5364273658523971450
+      spriteID: e6ce22156d7962950800000000000000
+      internalID: 6423988865230629998
       vertices: []
       indices: 
       edges: []
