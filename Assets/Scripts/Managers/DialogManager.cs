@@ -38,7 +38,7 @@ public class DialogManager : MonoBehaviour
     public string currentLevelName;
     private const string SPEAKER_TAG = "speaker";
     private const string PORTRAIT_TAG = "portrait";
-    private const string LAYOUT_TAG = "layout";
+    private const string ANIMATION_TAG = "animation";
     private const string SHOW_TAG = "show";
     private const string HIDE_TAG = "hide";
     private const string MINIGAME_TAG = "minigame";
@@ -163,7 +163,8 @@ public class DialogManager : MonoBehaviour
                     portraitAnimator.Play(tagValue);
                     Debug.Log("Playing animation: " + tagValue);
                     break;
-                case LAYOUT_TAG:
+                case ANIMATION_TAG:
+                    HandleCharacterAnimation(tagValue);
                     break;
                 case SHOW_TAG:
                     ShowUiElement(tagValue);
@@ -179,6 +180,36 @@ public class DialogManager : MonoBehaviour
                     break;
             }
         }
+    }
+
+    private void HandleCharacterAnimation(string tagValue)
+    {
+        string[] splitTag = tagValue.Split('_');
+        if (splitTag.Length != 2)
+        {
+            Debug.LogError("Animation tag could not be appropriately parsed: " + tagValue);
+            return;
+        }
+        string characterName = splitTag[0].Trim();
+        string animationName = splitTag[1].Trim();
+
+        GameObject character = null;
+        // Find the character GameObject by name
+        foreach (GameObject characterObj in characters)
+        {
+            if (characterObj.name == characterName)
+            {
+                character = characterObj;
+                break;
+            }
+        }
+        if (character == null)
+        {
+            Debug.LogError("Character not found: " + characterName);
+            return;
+        }
+        character.GetComponent<Animator>().Play(animationName);
+        Debug.Log("Playing animation: " + animationName + " for character: " + characterName);
     }
 
     private void ShowUiElement(string tagValue)

@@ -56,6 +56,12 @@ TextureImporter:
   - first:
       213: -8386686263731185815
     second: boy_17
+  - first:
+      213: -9040205828850551619
+    second: boy_18
+  - first:
+      213: 8621430246756893956
+    second: boy_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -257,7 +263,7 @@ TextureImporter:
         serializedVersion: 2
         x: 659
         y: 1747
-        width: 223
+        width: 224
         height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -343,9 +349,9 @@ TextureImporter:
       name: boy_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 881
-        width: 264
+        x: 963
+        y: 1310
+        width: 266
         height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -365,10 +371,10 @@ TextureImporter:
       name: boy_9
       rect:
         serializedVersion: 2
-        x: 344
-        y: 880
-        width: 224
-        height: 385
+        x: 1257
+        y: 1308
+        width: 264
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,9 +393,9 @@ TextureImporter:
       name: boy_10
       rect:
         serializedVersion: 2
-        x: 639
-        y: 882
-        width: 265
+        x: 0
+        y: 881
+        width: 264
         height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -409,9 +415,9 @@ TextureImporter:
       name: boy_11
       rect:
         serializedVersion: 2
-        x: 984
-        y: 882
-        width: 223
+        x: 344
+        y: 880
+        width: 224
         height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -431,10 +437,10 @@ TextureImporter:
       name: boy_12
       rect:
         serializedVersion: 2
-        x: 1277
+        x: 639
         y: 882
-        width: 223
-        height: 385
+        width: 265
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,10 +459,10 @@ TextureImporter:
       name: boy_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 446
-        width: 264
-        height: 382
+        x: 984
+        y: 882
+        width: 224
+        height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,8 +481,8 @@ TextureImporter:
       name: boy_14
       rect:
         serializedVersion: 2
-        x: 346
-        y: 446
+        x: 1277
+        y: 882
         width: 224
         height: 385
       alignment: 0
@@ -497,10 +503,10 @@ TextureImporter:
       name: boy_15
       rect:
         serializedVersion: 2
-        x: 12
-        y: 0
-        width: 235
-        height: 397
+        x: 0
+        y: 446
+        width: 264
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +525,10 @@ TextureImporter:
       name: boy_16
       rect:
         serializedVersion: 2
-        x: 343
-        y: 9
-        width: 234
-        height: 388
+        x: 346
+        y: 446
+        width: 224
+        height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,6 +547,50 @@ TextureImporter:
       name: boy_17
       rect:
         serializedVersion: 2
+        x: 12
+        y: 0
+        width: 235
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96797a717418c9b80800000000000000
+      internalID: -8386686263731185815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 9
+        width: 234
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db472fa12bcba8280800000000000000
+      internalID: -9040205828850551619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_19
+      rect:
+        serializedVersion: 2
         x: 690
         y: 4
         width: 235
@@ -553,8 +603,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96797a717418c9b80800000000000000
-      internalID: -8386686263731185815
+      spriteID: 405c0c1912975a770800000000000000
+      internalID: 8621430246756893956
       vertices: []
       indices: 
       edges: []

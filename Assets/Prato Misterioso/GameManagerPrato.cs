@@ -2,18 +2,29 @@ using UnityEngine;
 
 public class GameManagerPrato : MonoBehaviour
 {
+    public static GameManagerPrato Instance;
+    private int remainingFoodItems;
     [SerializeField] private MinigameManager minigameManager;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        
+        Instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RegisterFoodItem()
     {
-        
+        remainingFoodItems++;
+    }
+
+    public void FoodItemRevealed()
+    {
+        remainingFoodItems--;
+        Debug.Log("Food item revealed! Remaining: " + remainingFoodItems);
+        if (remainingFoodItems <= 0)
+        {
+            // Wait for a second before ending the game
+            Invoke("CompleteMinigame", 1f);
+        }
     }
 
     public void CompleteMinigame()
