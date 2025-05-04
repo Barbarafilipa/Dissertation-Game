@@ -40,22 +40,38 @@ Porque é que ele ganhou um presente e eu não? #portrait:thought
     
     Isso mesmo! Cada um pode ter o seu momento e receber presentes. #portrait:speech_right
     
-    O importante é ambos estarem felizes, não achas?
     -> novas_escolhas
     
 === novas_escolhas ===
--> minigame_caixa_dos_sorrisos
+O importante é ambos estarem felizes, não achas?
+
++ [Acho que se ele ficar feliz também fico feliz por ele.]
+
+    Acho que se ele ficar feliz também fico feliz por ele. #portrait:speech_left
+    
+    Isso é muito bonito da tua parte! #portrait:speech_right
+    Ao apoiares o teu irmão, estás a crescer e partilhar alegria.
+    
+    -> minigame_caixa_dos_sorrisos
+    
++ [Ainda tenho um bocadinho de ciúmes, mas já consigo entender.]
+
+    Ainda tenho um bocadinho de ciúmes, mas já consigo entender. #portrait:speech_left
+    
+    É normal ainda te sentires assim, mas estás no caminho certo! #portrait:speech_right
+    Lembra-te de que também podes sentir alegria ao ver os outros felizes.
+    
+    -> minigame_caixa_dos_sorrisos
+
 
 === continue2 ===
-Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration
+Parabéns! Conseguiste encontrar muitos sorrisos ao teu redor! Agora a tua caixa está cheia de alegria para partilhares com quem mais gostas. #portrait:narration
 
-Vês? Experimentar não foi assim tão mau! #portrait:speech_right
+Agora já sabes, quando sentires ciúmes outra vez lembra-te: #portrait:speech_right
 
-Ainda não adoro, mas consegui comer um pouco. #portrait:speech_left
+É normal querer o que os outros têm, mas também é bonito aprender a ficar feliz por eles. 
 
-E isso já é um grande passo. O teu paladar pode mudar com o tempo! #portrait:speech_right
-
-Explorar novos sabores é uma aventura! Mesmo que ainda não adores, sabes que esses alimentos fazem bem à tua saúde e vão ajudar-te a ser ainda mais forte e saudável. #portrait:narration
+O teu coração ficou apertado com ciúmes, mas conseguiste abri-lo para entender os sentimentos dos outros. De cada vez que fazes isso, o teu coração cresce! #portrait:narration
 
 -> END
 
