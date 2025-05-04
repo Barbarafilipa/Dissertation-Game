@@ -1,48 +1,48 @@
-É hora de jantar, e os teus pais preparam um prato diferente. #portrait:narration
-Quando olhas para a comida sentes um desconforto na barriga e vontade de vomitar...
+É hora de jantar, e os teus pais preparam um prato diferente. #portrait:narration #animation:Child_smiling #animation:Mother_happy #show:Prato
+Quando olhas para a comida sentes um desconforto na barriga e vontade de vomitar... #animation:Child_disgusted #animation:Mother_serious
 
 -> minigame_puzzle_nojo
 
 === continue1 ===
-Parabéns, reconheceste o nojo! O nojo aparece quando algo parece estranho ou nos faz sentir desconfortáveis, como um cheiro mau. #portrait:narration
+Parabéns, reconheceste o nojo! O nojo aparece quando algo parece estranho ou nos faz sentir desconfortáveis, como um cheiro mau. #portrait:narration #hide:Prato
 
-Experimenta! É uma receita nova e faz bem à saúde. #portrait:speech_right 
+Experimenta! É uma receita nova e faz bem à saúde. #portrait:speech_right #animation:Mother_smiling
 
 -> main
 
 === main ===
 
-Será que quero experimentar? #portrait:thought
+Será que quero experimentar? #portrait:thought #animation:Child_serious 
 
 + [Não! Isso é nojento!]
 
-    Não! Isso é nojento! #portrait:speech_left
+    Não! Isso é nojento! #portrait:speech_left #animation:Child_verydisgusted #animation:Mother_serious
     
-    Se não experimentares nunca vais saber se gostas ou não. #portrait:speech_right
+    Se não experimentares nunca vais saber se gostas ou não. #portrait:speech_right 
     
-    Às vezes a melhor maneira de descobrir é dar uma oportunidade!
+    Às vezes a melhor maneira de descobrir é dar uma oportunidade! #animation:Mother_smiling
     -> main
     
 + [Até posso provar, mas enquanto como vou pensar que estou a comer outra coisa que gosto.]
 
-    Até posso provar, mas enquanto como vou pensar que estou a comer outra coisa que gosto. #portrait:speech_left
+    Até posso provar, mas enquanto como vou pensar que estou a comer outra coisa que gosto. #portrait:speech_left #animation:Child_serious #animation:Mother_serious
     
     Pensar noutra comida não vai mudar o sabor. #portrait:speech_right
-    Mas se pensares no que cada legume faz de bom vai ser mais fácil experimentar!
+    Mas se pensares no que cada legume faz de bom vai ser mais fácil experimentar! #animation:Mother_smiling
     A cenoura ajuda na visão, e os bróculos são ótimos para dar força aos ossos e para a saúde.
     -> main
     
 + [Se faz bem à saúde, eu posso tentar comer um pedaço.]
 
-    Se faz bem à saúde, eu posso tentar comer um pedaço. #portrait:speech_left
+    Se faz bem à saúde, eu posso tentar comer um pedaço. #portrait:speech_left #animation:Child_smiling
     
-    Boa! Vais ver que vais gostar! Consegues adivinhar o que tem? #portrait:speech_right
+    Boa! Vais ver que vais gostar! Consegues adivinhar o que tem? #portrait:speech_right #animation:Mother_happy
     -> minigame_prato_misterioso
 
 === continue2 ===
-Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration
+Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration #animation:Mother_happy
 
-Vês? Experimentar não foi assim tão mau! #portrait:speech_right
+Vês? Experimentar não foi assim tão mau! #portrait:speech_right #animation:Mother_smiling
 
 Ainda não adoro, mas consegui comer um pouco. #portrait:speech_left
 

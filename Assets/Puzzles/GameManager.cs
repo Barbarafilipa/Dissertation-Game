@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform piecePrefab;
 
     [SerializeField] private MinigameManager minigameManager;
+    [SerializeField] private Sprite emotionSprite;
 
     private List<Transform> pieces;
     private int size;
@@ -33,6 +34,8 @@ public class GameManager : MonoBehaviour
             for (int col = 0; col < size; col++)
             {
                 Transform piece = Instantiate(piecePrefab, gameTransform);
+                // Set the piece material to the emotion sprite
+                piece.GetComponent<RawImage>().texture = emotionSprite.texture;
                 pieces.Add(piece);
 
                 RectTransform rt = piece.GetComponent<RectTransform>();
