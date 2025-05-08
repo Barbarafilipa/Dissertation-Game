@@ -1,0 +1,880 @@
+fileFormatVersion: 2
+guid: 59956ffb9649a7f41a291e0d9e5429d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3098608280711813152
+    second: happy_sad_emojis_0
+  - first:
+      213: 3259032556806899727
+    second: happy_sad_emojis_1
+  - first:
+      213: -8559412480705571841
+    second: happy_sad_emojis_2
+  - first:
+      213: -6361639025600793496
+    second: happy_sad_emojis_3
+  - first:
+      213: 7509279414215403424
+    second: happy_sad_emojis_4
+  - first:
+      213: -5124051554689634164
+    second: happy_sad_emojis_5
+  - first:
+      213: 7677271999925894971
+    second: happy_sad_emojis_6
+  - first:
+      213: 6776031141057335028
+    second: happy_sad_emojis_7
+  - first:
+      213: 1060585739852836496
+    second: happy_sad_emojis_8
+  - first:
+      213: 18268982410569147
+    second: happy_sad_emojis_9
+  - first:
+      213: 8700930003156000515
+    second: happy_sad_emojis_10
+  - first:
+      213: -3904246300633958788
+    second: happy_sad_emojis_11
+  - first:
+      213: 958040474889929369
+    second: happy_sad_emojis_12
+  - first:
+      213: -5637418277709445145
+    second: happy_sad_emojis_13
+  - first:
+      213: 183344393464552803
+    second: happy_sad_emojis_14
+  - first:
+      213: 2286874177990649293
+    second: happy_sad_emojis_15
+  - first:
+      213: 6259878926658859848
+    second: happy_sad_emojis_16
+  - first:
+      213: -6811632368328497915
+    second: happy_sad_emojis_17
+  - first:
+      213: 385850584172251440
+    second: happy_sad_emojis_18
+  - first:
+      213: -5616680418094065599
+    second: happy_sad_emojis_19
+  - first:
+      213: -3991906140990240253
+    second: happy_sad_emojis_20
+  - first:
+      213: 5922553029191683867
+    second: happy_sad_emojis_21
+  - first:
+      213: 7697629526310796545
+    second: happy_sad_emojis_22
+  - first:
+      213: 8037785129040932964
+    second: happy_sad_emojis_23
+  - first:
+      213: -788083370533672977
+    second: happy_sad_emojis_24
+  - first:
+      213: -8706494258822459012
+    second: happy_sad_emojis_25
+  - first:
+      213: -2884304963050059374
+    second: happy_sad_emojis_26
+  - first:
+      213: -1493279229777082807
+    second: happy_sad_emojis_27
+  - first:
+      213: 670517940006245372
+    second: happy_sad_emojis_28
+  - first:
+      213: -6487381810585534237
+    second: happy_sad_emojis_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: happy_sad_emojis_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 353
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7a6129f288ff4d0800000000000000
+      internalID: -3098608280711813152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 353
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0888e3e7d86a3d20800000000000000
+      internalID: 3259032556806899727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 354
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3df71d2bbd63980800000000000000
+      internalID: -8559412480705571841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 354
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8647dc9f20be6b7a0800000000000000
+      internalID: -6361639025600793496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_4
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 354
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7667367d1563860800000000000000
+      internalID: 7509279414215403424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_5
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 354
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80bfe76246b3e8b0800000000000000
+      internalID: -5124051554689634164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fb2af35362b8a60800000000000000
+      internalID: 7677271999925894971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 272
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe05bdfb6c490e50800000000000000
+      internalID: 6776031141057335028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 272
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ee5c57c15f7be00800000000000000
+      internalID: 1060585739852836496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_9
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 272
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb56dfeea87e04000800000000000000
+      internalID: 18268982410569147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_10
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 272
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fd6a50db9efb870800000000000000
+      internalID: 8700930003156000515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 272
+        width: 78
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c767417dca451d9c0800000000000000
+      internalID: -3904246300633958788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 191
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992c24a6cb4ab4d00800000000000000
+      internalID: 958040474889929369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 191
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e785dad1fdd3c1b0800000000000000
+      internalID: -5637418277709445145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 191
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d930421ce5b8200800000000000000
+      internalID: 183344393464552803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 191
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc56521d2fb9cbf10800000000000000
+      internalID: 2286874177990649293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_16
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 191
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8437470b7be8fd650800000000000000
+      internalID: 6259878926658859848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_17
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 191
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5052a3953783871a0800000000000000
+      internalID: -6811632368328497915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 110
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039c6fddf01da5500800000000000000
+      internalID: 385850584172251440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_19
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 110
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1485c9e0bea8d02b0800000000000000
+      internalID: -5616680418094065599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_20
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 110
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a8399c386e998c0800000000000000
+      internalID: -3991906140990240253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 110
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f426cd992213250800000000000000
+      internalID: 5922553029191683867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_22
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 109
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d3058354973da60800000000000000
+      internalID: 7697629526310796545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 110
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460f6652df2fb8f60800000000000000
+      internalID: 8037785129040932964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 25
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7a2f5995a2015f0800000000000000
+      internalID: -788083370533672977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 25
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71d8efb9915c2780800000000000000
+      internalID: -8706494258822459012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 25
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2994185fae3e8f7d0800000000000000
+      internalID: -2884304963050059374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 25
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9460ba6c37ec64be0800000000000000
+      internalID: -1493279229777082807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_28
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 25
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3599d83882e4900800000000000000
+      internalID: 670517940006245372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_sad_emojis_29
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 25
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e008b96d9038f5a0800000000000000
+      internalID: -6487381810585534237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
