@@ -1,44 +1,49 @@
-O teu irmão acabou de ganhar um presente novo. #portrait:narration
-Ele está super feliz. Mas tu sentes um nó na barriga e fechas as mãos com força...
+O teu irmão acabou de ganhar um presente novo. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide
+Ele está super feliz. Mas tu sentes um nó na barriga e fechas as mãos com força... #animation:Child_jealousSide #animation:Brother_happySide #animation:Mother_smilingSide
 
 Eu também queria... #portrait:thought
 
 -> minigame_puzzle_ciume
 
 === continue1 ===
-Parabéns, reconheceste o ciúme! O ciúme aparece quando sentimos que alguém tem algo que nós também queríamos, como um presente, atenção ou carinho. #portrait:narration
+Parabéns, reconheceste o ciúme! O ciúme aparece quando sentimos que alguém tem algo que nós também queríamos, como um presente, atenção ou carinho. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift
 
 -> main
 
 === main ===
-Porque é que ele ganhou um presente e eu não? #portrait:thought
+Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Child_jealousSide #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift
 
 + [Vocês gostam mais dele do que de mim, ele é o preferido!]
 
-    Vocês gostam mais dele do que de mim, ele é o preferido! #portrait:speech_left
+    Vocês gostam mais dele do que de mim, ele é o preferido! #portrait:speech_left #animation:Child_jealous #animation:Brother_serious #animation:Mother_sad
     
-    Porque dizes isso? Vou-te contar um segredo, os pais gostam de todos os filhos da mesma forma e não há preferidos. #portrait:speech_right
+    Porque dizes isso? Vou-te contar um segredo. #portrait:speech_right #animation:Mother_sad
     
-    Hoje o teu irmão teve um presente porque estudou e teve uma boa nota no teste.
+    os pais gostam de todos os filhos da mesma forma e não há preferidos. 
     
-    Quando fores para a escola como o teu irmão e tiveres boas notas, também te podemos dar presentes.
+    Hoje o teu irmão teve um presente porque estudou e teve uma boa nota no teste. #animation:Mother_sad
     
+    Quando fores para a escola como o teu irmão e tiveres boas notas, também te podemos dar presentes. #animation:Mother_smiling
+     #animation:Brother_smiling
     -> main
     
 + [A sério? O meu irmão tem um presente e eu não? Mas vou fingir que não me importo, não vou mostrar os meus ciúmes.]
 
-    A sério? O meu irmão tem um presente e eu não? Mas vou fingir que não me importo, não vou mostrar os meus ciúmes. #portrait:speech_left
+    A sério? O meu irmão tem um presente e eu não? Mas vou fingir que não me importo, não vou mostrar os meus ciúmes. #portrait:speech_left #animation:Child_stubborn #animation:Brother_serious #animation:Mother_sad
     
-    Queres falar comigo sobre o presente do teu irmão? Acho que ficaste com um bocadinho de ciúmes #portrait:speech_right
+    Queres falar comigo sobre o presente do teu irmão? Acho que ficaste com um bocadinho de ciúmes #portrait:speech_right #animation:Mother_sad
+    
     Ficaste? Não faz mal. Às vezs sentimos isso quando alguém tem o que nós queríamos.
-    Mas devemos mostrar aos outros como nos sentimos para eles nos ajudarem a ficarmos mais felizes, não achas?
+    Mas devemos mostrar aos outros como nos sentimos para eles nos ajudarem a ficarmos mais felizes, não achas? #animation:Mother_smiling #animation:Brother_smiling
     -> main
     
 + [Hoje foi a vez do meu irmão receber um presente porque estudou muito e conseguiu uma boa nota, mas eu também recebo coisas noutras alturas.]
 
-    Hoje foi a vez do meu irmão receber um presente porque estudou muito e conseguiu uma boa nota, mas eu também recebo coisas noutras alturas. #portrait:speech_left
+    Hoje foi a vez do meu irmão receber um presente porque estudou muito e conseguiu uma boa nota. #portrait:speech_left #animation:Child_smiling #animation:Mother_smiling #animation:Brother_smiling
     
-    Isso mesmo! Cada um pode ter o seu momento e receber presentes. #portrait:speech_right
+    Mas eu também recebo coisas noutras alturas. 
+    
+    Isso mesmo! Cada um pode ter o seu momento e receber presentes. #portrait:speech_right #animation:Mother_happy
     
     -> novas_escolhas
     
@@ -65,9 +70,9 @@ O importante é ambos estarem felizes, não achas?
 
 
 === continue2 ===
-Parabéns! Conseguiste encontrar muitos sorrisos ao teu redor! Agora a tua caixa está cheia de alegria para partilhares com quem mais gostas. #portrait:narration
+Parabéns! Conseguiste encontrar muitos sorrisos ao teu redor! Agora a tua caixa está cheia de alegria para partilhares com quem mais gostas. #portrait:narration #animation:Mother_veryHappy #animation:Brother_happy
 
-Agora já sabes, quando sentires ciúmes outra vez lembra-te: #portrait:speech_right
+Agora já sabes, quando sentires ciúmes outra vez lembra-te: #portrait:speech_right #animation:Mother_smiling #animation:Brother_smiling
 
 É normal querer o que os outros têm, mas também é bonito aprender a ficar feliz por eles. 
 
