@@ -1,79 +1,121 @@
-O teu irmão acabou de ganhar um presente novo. #portrait:narration
-Ele está super feliz. Mas tu sentes um nó na barriga e fechas as mãos com força...
+Hoje é o dia do teste de matemática. #portrait:narration
+Sentes o teu coração a bater mais rápido, as mãos a suar e um nó na barriga...
 
-Eu também queria... #portrait:thought
-
--> minigame_puzzle_ciume
+-> minigame_puzzle_ansiedade
 
 === continue1 ===
-Parabéns, reconheceste o ciúme! O ciúme aparece quando sentimos que alguém tem algo que nós também queríamos, como um presente, atenção ou carinho. #portrait:narration
+Parabéns, reconheceste a ansiedade! A ansiedade aparece quando temos medo do que pode acontecer no futuro e não sabemos exatamente como vai ser. #portrait:narration
+
+Ei, estás pronto para o teste? #portrait:speech_right #speaker:Friend
 
 -> main
 
 === main ===
-Porque é que ele ganhou um presente e eu não? #portrait:thought
+E se eu errar tudo? #portrait:thought
 
-+ [Vocês gostam mais dele do que de mim, ele é o preferido!]
++ [Não, vou dizer à professora que estou doente para não fazer.]
 
-    Vocês gostam mais dele do que de mim, ele é o preferido! #portrait:speech_left
+    Não, vou dizer à professora que estou doente para não fazer. #portrait:speech_left
     
-    Porque dizes isso? Vou-te contar um segredo, os pais gostam de todos os filhos da mesma forma e não há preferidos. #portrait:speech_right
+    Mesmo que digas que estás doente, um dia vais ter que fazer o teste e a ansiedade vai ser maior ainda. #portrait:speech_right
     
-    Hoje o teu irmão teve um presente porque estudou e teve uma boa nota no teste.
-    
-    Quando fores para a escola como o teu irmão e tiveres boas notas, também te podemos dar presentes.
+    Fazer o teste agora pode ser difícil, mas depois não precisas de te preocupar mais com ele.
     
     -> main
     
-+ [A sério? O meu irmão tem um presente e eu não? Mas vou fingir que não me importo, não vou mostrar os meus ciúmes.]
++ [Estou ansioso, mas vou tentar fazer o teste.]
 
-    A sério? O meu irmão tem um presente e eu não? Mas vou fingir que não me importo, não vou mostrar os meus ciúmes. #portrait:speech_left
+    Estou ansioso, mas vou tentar fazer o teste. #portrait:speech_left
     
-    Queres falar comigo sobre o presente do teu irmão? Acho que ficaste com um bocadinho de ciúmes #portrait:speech_right
-    Ficaste? Não faz mal. Às vezs sentimos isso quando alguém tem o que nós queríamos.
-    Mas devemos mostrar aos outros como nos sentimos para eles nos ajudarem a ficarmos mais felizes, não achas?
-    -> main
+    Vou te contar um segredo, eu também estou nervoso para o teste. #portrait:speech_right
     
-+ [Hoje foi a vez do meu irmão receber um presente porque estudou muito e conseguiu uma boa nota, mas eu também recebo coisas noutras alturas.]
+    Mas às vezes não podemos evitar que isso aconteça.
+    
+    Temos que pensar de forma calma para conseguirmos lidar com a ansiedade.
+    -> minigame_cano_dos_pensamentos
+    
++ [Eu estudei muito, então vai correr bem.]
 
-    Hoje foi a vez do meu irmão receber um presente porque estudou muito e conseguiu uma boa nota, mas eu também recebo coisas noutras alturas. #portrait:speech_left
+    Eu estudei muito, então vai correr bem. #portrait:speech_left
     
-    Isso mesmo! Cada um pode ter o seu momento e receber presentes. #portrait:speech_right
+    Isso mesmo, tens que pensar que estudaste muito e que por isso vais saber responder a tudo. #portrait:speech_right
     
-    O importante é ambos estarem felizes, não achas?
-    -> novas_escolhas
-    
-=== novas_escolhas ===
-+ [Acho que se ele ficar feliz, também fico feliz por ele.]
-    
-    Acho que se ele ficar feliz, também fico feliz por ele. #portrait:speech_left
-    
-    Isso é muito bonito da tua parte! Ao apoiares o teu irmão, estás a crescer e partilhar alegria. #portrait:speech_right
-    -> minigame_caixa_dos_sorrisos
-
-+ [Ainda tenho um bocadinho de ciúmes, mas já consigo entender.]
-
-    Ainda tenho um bocadinho de ciúmes, mas já consigo entender. #portrait:speech_left
-    
-    É normal ainda te sentires assim, mas estás no caminho certo! Lembra-te de que também podes sentir alegria ao ver os outros felizes. #portrait:speech_right
-
-    -> minigame_caixa_dos_sorrisos
+    Um teste é apenas uma avaliação, se não correr bem, depois podes melhorar nos próximos.
+    -> minigame_cano_dos_pensamentos
 
 === continue2 ===
-Parabéns! Conseguiste encontrar muitos sorrisos ao teu redor! Agora a tua caixa está cheia de alegria para partilhares com quem mais gostas. #portrait:narration
+Parabéns! Encontraste o caminho positivo! Quando escolhemos ver as coisas de forma mais calma e positiva, ficamos mais tranquilos, mesmo quando sentimos ansiedade. #portrait:narration
 
-Agora já sabes, quando sentires ciúmes outra vez lembra-te: #portrait:speech_right
+Acho que já me sinto mais calmo. #portrait:speech_left
 
-É normal querer o que os outros têm, mas também é bonito aprender a ficar mais feliz por eles.
+Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #hide:Friend
 
-O teu coração ficou apertado com ciúmes, mas conseguiste abri-lo para entender os sentimentos dos outros. De cada vez que fazes isso, o teu coração cresce! #portrait:narration
+-> novas_escolhas
+
+=== novas_escolhas ===
+E agora? #portrait:thought
+
++ [Eu devia ter estudado mais! Vou falhar o teste todo!]
+    
+    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left
+    
+    Se continuares a pensar nas coisas negativas, a tua cabeça vai ficar cheia de preocupações. #portrait:speech_right #speaker:Teacher
+    
+    Precisas de te focar no que podes fazer para melhorar, para não perderes muito tempo do teste.
+    -> novas_escolhas
+
++ [Vou avançar esta e tentar outra primeiro.]
+
+    Vou avançar esta e tentar outra primeiro. #portrait:speech_left
+    
+    Às vezes mudar o que estamos a fazer ajuda-nos a tornar tudo mais tranquilo. #portrait:speech_right #speaker:Teacher
+    
+    Se uma pergunta é muito difícil, tentar outras mais fáceis é uma forma inteligente de pensar. 
+
+    -> minigame_ordem_inteligente
+    
++ [Vou fechar os olhos e respirar devagar.]
+
+    Vou fechar os olhos e respirar devagar. #portrait:speech_left
+    
+    Quando estamos nervoso, o nosso coração bate mais rápdo, mas com respirações profundas, conseguimos acalmar esse sentimento. #portrait:speech_right #speaker:Teacher
+    
+    Imagina que tens uma flor na mão e uma vela na outra.
+    
+    Agora cheira a flor bem devagar pelo nariz...
+    
+    E agora sopra a vela com calma pela boca...
+    
+    Outra vez! Cheira a flor...
+    
+    Sopra a vela...
+    
+    Muito bem! Quando respiras assim o teu corpo acalma e a ansiedade começa a ir embora.
+
+    -> continue4
+    
+=== continue3 ===
+Parabéns! Ao escolheres começar pelas perguntas mais fáceis conseguiste controlar a ansiedade durante o teste. Foi uma escolha inteligente! #portrait:narration
+
+-> continue4
+
+=== continue4 ===
+Boa! Consegui terminar! #portrait:speech_left
+
+Foi difícil, mas conseguiste controlar a ansiedade! #portrait:speech_right
+
+Mesmo sentindo ansiedade conseguiste fazer o teste. Ao acalmares o teu corpo e organizares os teus pensamentos consegues passar qualquer desafio! #portrait:narration
 
 -> END
 
-=== minigame_puzzle_ciume ===
-Qual é a emoção que o João está a sentir? #portrait:narration #minigame:PuzzleCiume
+=== minigame_puzzle_ansiedade ===
+Qual é a emoção que o João está a sentir? #portrait:narration #minigame:PuzzleAnsiedade
 -> continue1
 
-=== minigame_caixa_dos_sorrisos ===
-Minijogo Caixa dos Sorrisos #minigame:CaixaDosSorrisos
+=== minigame_cano_dos_pensamentos ===
+Minijogo Cano dos Pensamentos #minigame:CanoDosPensamentos
 -> continue2
+
+=== minigame_ordem_inteligente ===
+Minijogo Ordem Inteligente #minigame:OrdemInteligente
+-> continue3
