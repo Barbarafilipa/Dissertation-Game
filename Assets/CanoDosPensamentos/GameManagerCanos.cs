@@ -14,6 +14,11 @@ public class GameManagerCanos : MonoBehaviour
     {
         // Logic to complete the minigame
         Debug.Log("Minigame completed!");
+        Invoke("CloseMinigame", 2f);
+    }
+
+    public void CloseMinigame()
+    {
         minigameManager.CompleteMinigame();
     }
 }
