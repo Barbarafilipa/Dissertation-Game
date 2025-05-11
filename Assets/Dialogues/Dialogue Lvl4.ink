@@ -1,74 +1,74 @@
 Hoje é o dia do teste de matemática. #portrait:narration
-Sentes o teu coração a bater mais rápido, as mãos a suar e um nó na barriga...
+Sentes o teu coração a bater mais rápido, as mãos a suar e um nó na barriga... #animation:Child_anxious
 
 -> minigame_puzzle_ansiedade
 
 === continue1 ===
-Parabéns, reconheceste a ansiedade! A ansiedade aparece quando temos medo do que pode acontecer no futuro e não sabemos exatamente como vai ser. #portrait:narration
+Parabéns, reconheceste a ansiedade! A ansiedade aparece quando temos medo do que pode acontecer no futuro e não sabemos exatamente como vai ser. #portrait:narration #animation:Child_anxious 
 
-Ei, estás pronto para o teste? #portrait:speech_right #speaker:Friend
+Ei, estás pronto para o teste? #portrait:speech_right #speaker:Friend #animation:Child_serious #animation:Friend_happy
 
 -> main
 
 === main ===
-E se eu errar tudo? #portrait:thought
+E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend_serious
 
 + [Não, vou dizer à professora que estou doente para não fazer.]
 
-    Não, vou dizer à professora que estou doente para não fazer. #portrait:speech_left
+    Não, vou dizer à professora que estou doente para não fazer. #portrait:speech_left #animation:Friend_serious
     
-    Mesmo que digas que estás doente, um dia vais ter que fazer o teste e a ansiedade vai ser maior ainda. #portrait:speech_right
+    Mesmo que digas que estás doente, um dia vais ter que fazer o teste e a ansiedade vai ser maior ainda. #portrait:speech_right #animation:Child_veryAnxious
     
-    Fazer o teste agora pode ser difícil, mas depois não precisas de te preocupar mais com ele.
+    Fazer o teste agora pode ser difícil, mas depois não precisas de te preocupar mais com ele. #animation:Friend_smiling
     
     -> main
     
 + [Estou ansioso, mas vou tentar fazer o teste.]
 
-    Estou ansioso, mas vou tentar fazer o teste. #portrait:speech_left
+    Estou ansioso, mas vou tentar fazer o teste. #portrait:speech_left #animation:Child_worried #animation:Friend_veryHappy
     
-    Vou te contar um segredo, eu também estou nervoso para o teste. #portrait:speech_right
+    Vou te contar um segredo, eu também estou nervoso para o teste. #portrait:speech_right #animation:Child_serious #animation:Friend_smiling
     
     Mas às vezes não podemos evitar que isso aconteça.
     
-    Temos que pensar de forma calma para conseguirmos lidar com a ansiedade.
+    Temos que pensar de forma calma para conseguirmos lidar com a ansiedade. #animation:Child_smiling
     -> minigame_cano_dos_pensamentos
     
 + [Eu estudei muito, então vai correr bem.]
 
-    Eu estudei muito, então vai correr bem. #portrait:speech_left
+    Eu estudei muito, então vai correr bem. #portrait:speech_left #animation:Child_smiling #animation:Friend_veryHappy
     
-    Isso mesmo, tens que pensar que estudaste muito e que por isso vais saber responder a tudo. #portrait:speech_right
+    Isso mesmo, tens que pensar que estudaste muito e que por isso vais saber responder a tudo. #portrait:speech_right #animation:Friend_happy
     
-    Um teste é apenas uma avaliação, se não correr bem, depois podes melhorar nos próximos.
+    Um teste é apenas uma avaliação, se não correr bem, depois podes melhorar nos próximos. #animation:Friend_smiling
     -> minigame_cano_dos_pensamentos
 
 === continue2 ===
-Parabéns! Encontraste o caminho positivo! Quando escolhemos ver as coisas de forma mais calma e positiva, ficamos mais tranquilos, mesmo quando sentimos ansiedade. #portrait:narration
+Parabéns! Encontraste o caminho positivo! Quando escolhemos ver as coisas de forma mais calma e positiva, ficamos mais tranquilos, mesmo quando sentimos ansiedade. #portrait:narration #animation:Child_happy #animation:Friend_veryHappy
 
-Acho que já me sinto mais calmo. #portrait:speech_left
+Acho que já me sinto mais calmo. #portrait:speech_left #animation:Child_smiling #animation:Friend_smiling
 
-Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #hide:Friend
+Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #hide:Friend #animation:Child_serious
 
 -> novas_escolhas
 
 === novas_escolhas ===
-E agora? #portrait:thought
+E agora? #portrait:thought #animation:Child_anxious
 
 + [Eu devia ter estudado mais! Vou falhar o teste todo!]
     
-    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left
+    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left #animation:Child_veryAnxious
     
-    Se continuares a pensar nas coisas negativas, a tua cabeça vai ficar cheia de preocupações. #portrait:speech_right #speaker:Teacher
+    Se continuares a pensar nas coisas negativas, a tua cabeça vai ficar cheia de preocupações. #portrait:speech_right #speaker:Teacher #animation:Teacher_sad
     
-    Precisas de te focar no que podes fazer para melhorar, para não perderes muito tempo do teste.
+    Precisas de te focar no que podes fazer para melhorar, para não perderes muito tempo do teste.#animation:Teacher_serious
     -> novas_escolhas
 
 + [Vou avançar esta e tentar outra primeiro.]
 
-    Vou avançar esta e tentar outra primeiro. #portrait:speech_left
+    Vou avançar esta e tentar outra primeiro. #portrait:speech_left #animation:Child_smiling #animation:Teacher_veryHappy
     
-    Às vezes mudar o que estamos a fazer ajuda-nos a tornar tudo mais tranquilo. #portrait:speech_right #speaker:Teacher
+    Às vezes mudar o que estamos a fazer ajuda-nos a tornar tudo mais tranquilo. #portrait:speech_right #speaker:Teacher #animation:Teacher_smiling
     
     Se uma pergunta é muito difícil, tentar outras mais fáceis é uma forma inteligente de pensar. 
 
@@ -76,35 +76,35 @@ E agora? #portrait:thought
     
 + [Vou fechar os olhos e respirar devagar.]
 
-    Vou fechar os olhos e respirar devagar. #portrait:speech_left
+    Vou fechar os olhos e respirar devagar. #portrait:speech_left #animation:Child_smiling #animation:Teacher_veryHappy
     
-    Quando estamos nervoso, o nosso coração bate mais rápdo, mas com respirações profundas, conseguimos acalmar esse sentimento. #portrait:speech_right #speaker:Teacher
+    Quando estamos nervoso, o nosso coração bate mais rápdo, mas com respirações profundas, conseguimos acalmar esse sentimento. #portrait:speech_right #speaker:Teacher #animation:Teacher_smiling
     
-    Imagina que tens uma flor na mão e uma vela na outra.
+    Imagina que tens uma flor na mão e uma vela na outra. #show:Flower #show:Candle
     
-    Agora cheira a flor bem devagar pelo nariz...
+    Agora cheira a flor bem devagar pelo nariz... #hide:Candle
     
-    E agora sopra a vela com calma pela boca...
+    E agora sopra a vela com calma pela boca... #hide:Flower #show:Candle #animation:Child_happy #animation:Teacher_happy
     
-    Outra vez! Cheira a flor...
+    Outra vez! Cheira a flor... #show:Flower #hide:Candle #animation:Teacher_smiling
     
-    Sopra a vela...
+    Sopra a vela... #show:Candle #hide:Flower #animation:Child_happy #animation:Teacher_happy
     
-    Muito bem! Quando respiras assim o teu corpo acalma e a ansiedade começa a ir embora.
+    Muito bem! Quando respiras assim o teu corpo acalma e a ansiedade começa a ir embora. #animation:Child_veryHappy #hide:Candle #animation:Teacher_veryHappy
 
     -> continue4
     
 === continue3 ===
-Parabéns! Ao escolheres começar pelas perguntas mais fáceis conseguiste controlar a ansiedade durante o teste. Foi uma escolha inteligente! #portrait:narration
+Parabéns! Ao escolheres começar pelas perguntas mais fáceis conseguiste controlar a ansiedade durante o teste. Foi uma escolha inteligente! #portrait:narration #animation:Child_happy #animation:Teacher_happy
 
 -> continue4
 
 === continue4 ===
-Boa! Consegui terminar! #portrait:speech_left
+Boa! Consegui terminar! #portrait:speech_left #animation:Child_veryHappy #animation:Teacher_veryHappy
 
 Foi difícil, mas conseguiste controlar a ansiedade! #portrait:speech_right
 
-Mesmo sentindo ansiedade conseguiste fazer o teste. Ao acalmares o teu corpo e organizares os teus pensamentos consegues passar qualquer desafio! #portrait:narration
+Mesmo sentindo ansiedade conseguiste fazer o teste. Ao acalmares o teu corpo e organizares os teus pensamentos consegues passar qualquer desafio! #portrait:narration #animation:Child_happy #animation:Teacher_happy
 
 -> END
 

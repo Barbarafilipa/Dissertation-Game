@@ -35,6 +35,9 @@ TextureImporter:
   - first:
       213: -3189951205535195782
     second: teacher_10
+  - first:
+      213: -67530910576543600
+    second: teacher_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -322,10 +325,10 @@ TextureImporter:
       name: teacher_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 0
-        width: 292
-        height: 778
+        x: 1325
+        y: 864
+        width: 370
+        height: 752
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +347,10 @@ TextureImporter:
       name: teacher_9
       rect:
         serializedVersion: 2
-        x: 474
-        y: 44
-        width: 294
-        height: 734
+        x: 65
+        y: 0
+        width: 292
+        height: 778
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,6 +369,28 @@ TextureImporter:
       name: teacher_10
       rect:
         serializedVersion: 2
+        x: 474
+        y: 44
+        width: 294
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dde3797440bb3d0800000000000000
+      internalID: -3189951205535195782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teacher_11
+      rect:
+        serializedVersion: 2
         x: 935
         y: 12
         width: 292
@@ -378,8 +403,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7dde3797440bb3d0800000000000000
-      internalID: -3189951205535195782
+      spriteID: 098f9bf9ef4101ff0800000000000000
+      internalID: -67530910576543600
       vertices: []
       indices: 
       edges: []
