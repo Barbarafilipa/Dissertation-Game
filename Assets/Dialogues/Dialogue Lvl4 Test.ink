@@ -1,8 +1,8 @@
-Hoje é o dia do teste de matemática. #portrait:narration
-Sentes o teu coração a bater mais rápido, as mãos a suar e um nó na barriga...
+O professor pede para leres o texto que escreveste em voz alta para a turma. #portrait:narration
+Quando olhas à tua volta, sentes o rosto a aquecer... 
 
--> minigame_ordem_inteligente
+-> minigame_estrelas_da_confianca
 
-=== minigame_ordem_inteligente ===
-Minijogo Ordem Inteligente #minigame:OrdemInteligente
+=== minigame_estrelas_da_confianca ===
+Minijogo Estrelas da Confiança #minigame:EstrelasdaConfianca
 -> END
