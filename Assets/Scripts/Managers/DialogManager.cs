@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
@@ -212,11 +213,20 @@ public class DialogManager : MonoBehaviour
         Debug.Log("Playing animation: " + animationName + " for character: " + characterName);
     }
 
+    private void DealWithMask(GameObject uiElement, bool show)
+    {
+        uiElement.GetComponent<Mask>().enabled = show;
+    }
+
     private void ShowUiElement(string tagValue)
     {
         // Loop through all other UI elements and set the active state based on the tag value
         foreach (GameObject uiElement in otherUIElements)
         {
+            if(uiElement.name == "Mask" && tagValue == "Mask") {
+                DealWithMask(uiElement, true);
+                return;
+            }
             if (uiElement.name == tagValue)
             {
                 uiElement.SetActive(true);
@@ -231,6 +241,10 @@ public class DialogManager : MonoBehaviour
         // Loop through all other UI elements and set the active state based on the tag value
         foreach (GameObject uiElement in otherUIElements)
         {
+            if(uiElement.name == "Mask" && tagValue == "Mask") {
+                DealWithMask(uiElement, false);
+                return;
+            }
             if (uiElement.name == tagValue)
             {
                 uiElement.SetActive(false);

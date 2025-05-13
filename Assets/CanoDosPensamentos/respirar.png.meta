@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: f97c47b4bbf82d243880c33aefe20fe9
+guid: 2f54523e827b6ed45a6e60b2c963856a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1365539031471768751
-    second: candle_0
+      213: -4150448981807564066
+    second: respirar_0
+  - first:
+      213: -1466450784920109393
+    second: respirar_1
+  - first:
+      213: 357428109612668477
+    second: respirar_2
+  - first:
+      213: 3948447941947101388
+    second: respirar_3
+  - first:
+      213: 232406585383363955
+    second: respirar_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +84,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,23 +125,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: candle_0
+      name: respirar_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 5
-        width: 279
-        height: 606
+        x: 0
+        y: 19
+        width: 98
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa44ec1a38e53f210800000000000000
-      internalID: 1365539031471768751
+      spriteID: d36d332d8f6d5f400800000000000000
+      internalID: 357428109612668477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respirar_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 109
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375ac3dde8ca93300800000000000000
+      internalID: 232406585383363955
       vertices: []
       indices: 
       edges: []
@@ -138,7 +172,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 622afd893dbedb04f894cfea7ea0c0d0
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +182,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      candle_0: 1365539031471768751
+      respirar_2: 357428109612668477
+      respirar_4: 232406585383363955
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

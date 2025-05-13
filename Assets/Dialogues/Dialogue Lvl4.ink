@@ -1,23 +1,23 @@
 Hoje é o dia do teste de matemática. #portrait:narration
-Sentes o teu coração a bater mais rápido, as mãos a suar e um nó na barriga... #animation:Child_anxious
+Sentes o teu coração a bater mais rápido, as mãos a suar e um nó na barriga... #animation:Child_anxious #show:Heart
 
 -> minigame_puzzle_ansiedade
 
 === continue1 ===
-Parabéns, reconheceste a ansiedade! A ansiedade aparece quando temos medo do que pode acontecer no futuro e não sabemos exatamente como vai ser. #portrait:narration #animation:Child_anxious 
+Parabéns, reconheceste a ansiedade! A ansiedade aparece quando temos medo do que pode acontecer no futuro e não sabemos exatamente como vai ser. #portrait:narration #animation:Child_anxious #hide:Heart
 
 Ei, estás pronto para o teste? #portrait:speech_right #speaker:Friend #animation:Child_serious #animation:Friend_happy
 
 -> main
 
 === main ===
-E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend_serious
+E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend_serious #hide:Heart
 
 + [Não, vou dizer à professora que estou doente para não fazer.]
 
     Não, vou dizer à professora que estou doente para não fazer. #portrait:speech_left #animation:Friend_serious
     
-    Mesmo que digas que estás doente, um dia vais ter que fazer o teste e a ansiedade vai ser maior ainda. #portrait:speech_right #animation:Child_veryAnxious
+    Mesmo que digas que estás doente, um dia vais ter que fazer o teste e a ansiedade vai ser maior ainda. #portrait:speech_right #animation:Child_veryAnxious #show:Heart
     
     Fazer o teste agora pode ser difícil, mas depois não precisas de te preocupar mais com ele. #animation:Friend_smiling
     
@@ -48,16 +48,16 @@ Parabéns! Encontraste o caminho positivo! Quando escolhemos ver as coisas de fo
 
 Acho que já me sinto mais calmo. #portrait:speech_left #animation:Child_smiling #animation:Friend_smiling
 
-Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #hide:Friend #animation:Child_serious
+Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #show:Mask #hide:Friend #animation:Child_sit #animation:Child_serious
 
 -> novas_escolhas
 
 === novas_escolhas ===
-E agora? #portrait:thought #animation:Child_anxious
+E agora? #portrait:thought #animation:Child_anxious #hide:Heart
 
 + [Eu devia ter estudado mais! Vou falhar o teste todo!]
     
-    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left #animation:Child_veryAnxious
+    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left #animation:Child_veryAnxious #show:Heart
     
     Se continuares a pensar nas coisas negativas, a tua cabeça vai ficar cheia de preocupações. #portrait:speech_right #speaker:Teacher #animation:Teacher_sad
     
@@ -82,15 +82,15 @@ E agora? #portrait:thought #animation:Child_anxious
     
     Imagina que tens uma flor na mão e uma vela na outra. #show:Flower #show:Candle
     
-    Agora cheira a flor bem devagar pelo nariz... #hide:Candle
+    Agora cheira a flor bem devagar pelo nariz... #hide:Candle #show:Inspirar #hide:Expirar
     
-    E agora sopra a vela com calma pela boca... #hide:Flower #show:Candle #animation:Child_happy #animation:Teacher_happy
+    E agora sopra a vela com calma pela boca... #hide:Flower #show:Candle #animation:Child_happy #animation:Teacher_happy #hide:Inspirar #show:Expirar
     
-    Outra vez! Cheira a flor... #show:Flower #hide:Candle #animation:Teacher_smiling
+    Outra vez! Cheira a flor... #show:Flower #hide:Candle #animation:Teacher_smiling #show:Inspirar #hide:Expirar
     
-    Sopra a vela... #show:Candle #hide:Flower #animation:Child_happy #animation:Teacher_happy
+    Sopra a vela... #show:Candle #hide:Flower #animation:Child_happy #animation:Teacher_happy #hide:Inspirar #show:Expirar
     
-    Muito bem! Quando respiras assim o teu corpo acalma e a ansiedade começa a ir embora. #animation:Child_veryHappy #hide:Candle #animation:Teacher_veryHappy
+    Muito bem! Quando respiras assim o teu corpo acalma e a ansiedade começa a ir embora. #animation:Child_veryHappy #hide:Candle #animation:Teacher_veryHappy #hide:Inspirar #hide:Expirar
 
     -> continue4
     
