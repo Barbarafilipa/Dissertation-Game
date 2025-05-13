@@ -1,67 +1,65 @@
-Parabéns! Encontraste o caminho positivo! Quando escolhemos ver as coisas de forma mais calma e positiva, ficamos mais tranquilos, mesmo quando sentimos ansiedade. #portrait:narration #animation:Child_happy #animation:Friend_veryHappy
+Parabéns, reconheceste a raiva! A raiva aparece quando sentimos que fomos tratados de forma injusta ou quando não conseguimos fazer o que queremos. #portrait:narration
 
-Acho que já me sinto mais calmo. #portrait:speech_left #animation:Child_smiling #animation:Friend_smiling
+-> minigame_reciclagem_da_raiva
+    
+=== continue2 ===
+Parabéns! Aprendeste que, tal como reciclamos o lixo, também podemos reciclar os pensamentos maus e transformar a raiva em algo melhor. #portrait:narration 
 
-Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #show:Mask #show:PaperTest #hide:Friend #animation:Child_serious #animation:Child_sit
+Já me sinto melhor. Vou falar com ele. #portrait:speech_left
 
 -> novas_escolhas
 
 === novas_escolhas ===
-E agora? #portrait:thought #animation:Child_anxious #hide:Heart
+Ele já não quer jogar comigo... #portrait:speech_left
 
-+ [Eu devia ter estudado mais! Vou falhar o teste todo!]
+Às vezes as coisas não acontecem como esperávamos, e isso pode fazer-nos sentir tristes #portrait:narration
+
++ [Ele já não gosta de mim, é por isso que não quer jogar comigo...]
     
-    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left #animation:Child_veryAnxious #show:Heart
+    Ele já não gosta de mim, é por isso que não quer jogar comigo... #portrait:speech_left
     
-    Se continuares a pensar nas coisas negativas, a tua cabeça vai ficar cheia de preocupações. #portrait:speech_right #speaker:Teacher #animation:Teacher_sad
-    
-    Precisas de te focar no que podes fazer para melhorar, para não perderes muito tempo do teste.#animation:Teacher_serious
+    Quando estamos tristes, a nossa cabeça fica a girar só nos mesmos pensamentos. Mas pensar só nas coisas tristes não nos ajuda a entender o que aconteceu. Vamos tentar parar essa roda? #portrait:narration
+
     -> novas_escolhas
 
-+ [Vou avançar esta e tentar outra primeiro.]
++ [Nunca mais quero falar com ele!]
 
-    Vou avançar esta e tentar outra primeiro. #portrait:speech_left #animation:Child_smiling #animation:Teacher_veryHappy
+    Nunca mais quero falar com ele! #portrait:speech_left
     
-    Às vezes mudar o que estamos a fazer ajuda-nos a tornar tudo mais tranquilo. #portrait:speech_right #speaker:Teacher #animation:Teacher_smiling
+    Quando estamos tristes, às vezes queremos fugir ou ir embora. Mas isso é como esconder a tristeza debaixo do tapete. #portrait:narration
     
-    Se uma pergunta é muito difícil, tentar outras mais fáceis é uma forma inteligente de pensar. 
+    Pode parecer que está tudo bem, mas o problema não desaparece. Que tal falar com ele sobre como te sentes?
 
-    -> minigame_ordem_inteligente
+    -> novas_escolhas
     
-+ [Vou fechar os olhos e respirar devagar.]
++ [Vou-lhe dizer que fiquei magoado.]
 
-    Vou fechar os olhos e respirar devagar. #portrait:speech_left #animation:Child_smiling #animation:Teacher_veryHappy
+    Vou-lhe dizer que fiquei magoado. #portrait:speech_left
     
-    Quando estamos nervoso, o nosso coração bate mais rápdo, mas com respirações profundas, conseguimos acalmar esse sentimento. #portrait:speech_right #speaker:Teacher #animation:Teacher_smiling
-    
-    Imagina que tens uma flor na mão e uma vela na outra. #show:Flower #show:Candle
-    
-    Agora cheira a flor bem devagar pelo nariz... #hide:Candle #show:Inspirar #hide:Expirar
-    
-    E agora sopra a vela com calma pela boca... #hide:Flower #show:Candle #animation:Child_happy #animation:Teacher_happy #hide:Inspirar #show:Expirar
-    
-    Outra vez! Cheira a flor... #show:Flower #hide:Candle #animation:Teacher_smiling #show:Inspirar #hide:Expirar
-    
-    Sopra a vela... #show:Candle #hide:Flower #animation:Child_happy #animation:Teacher_happy #hide:Inspirar #show:Expirar
-    
-    Muito bem! Quando respiras assim o teu corpo acalma e a ansiedade começa a ir embora. #animation:Child_veryHappy #hide:Candle #animation:Teacher_veryHappy #hide:Inspirar #hide:Expirar
+    Falar sobre os sentimentos é uma boa maneira de resolver os problemas. Às vezes os nossos amigos não sabem como nos sentimos. #portrait:narration
 
-    -> continue4
+    -> minigame_reconstruir_amizade
     
 === continue3 ===
-Parabéns! Ao escolheres começar pelas perguntas mais fáceis conseguiste controlar a ansiedade durante o teste. Foi uma escolha inteligente! #portrait:narration #animation:Child_happy #animation:Teacher_happy
 
--> continue4
+Parabéns! Conseguiste reparar a amizade com o teu amigo. Quando ficamos triste às vezes é difícil falar, mas soubeste expressar os teus sentimentos e ultrapassaste o momento difícil. #portrait:narration 
 
-=== continue4 ===
-Boa! Consegui terminar! #portrait:speech_left #animation:Child_veryHappy #animation:Teacher_veryHappy
+Ei, eu fiquei triste porque não quiseste jogar comigo. #portrait:speech_left
 
-Foi difícil, mas conseguiste controlar a ansiedade! #portrait:speech_right
+Está tudo bem, mas queria que soubesses.
 
-Mesmo sentindo ansiedade conseguiste fazer o teste. Ao acalmares o teu corpo e organizares os teus pensamentos consegues passar qualquer desafio! #portrait:narration #animation:Child_happy #animation:Teacher_happy
+Desculpa, não queria magoar-te. #portrait:speech_right
+
+Se quiseres podemos jogar juntos agora.
+
+Com a raiva, aprendeste a pensar antes de agir, e com a tristeza, partilhaste o que sentias. Uma coversa honesta ajudou a resolver tudo e a tornar a amizade mais forte! #portrait:narration
 
 -> END
 
-=== minigame_ordem_inteligente ===
-Minijogo Ordem Inteligente #minigame:OrdemInteligente
+=== minigame_reciclagem_da_raiva ===
+Minijogo Reciclagem da Raiva #minigame:ReciclagemdaRaiva
+-> continue2
+
+=== minigame_reconstruir_amizade ===
+Minijogo Reconstruir a Amizade #minigame:ReconstruirAmizade
 -> continue3

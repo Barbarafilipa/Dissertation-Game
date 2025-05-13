@@ -1,25 +1,20 @@
 using UnityEngine;
 
-public class GameManagerPrato : MonoBehaviour
+public class GameManagerReciclagem : MonoBehaviour
 {
-    public static GameManagerPrato Instance;
-    private int remainingFoodItems;
+    public static GameManagerReciclagem Instance;
     [SerializeField] private MinigameManager minigameManager;
+    private int remainingThoughts = 10;
 
     void Awake()
     {
         Instance = this;
     }
 
-    public void RegisterFoodItem()
+    public void ThoughtRecycled()
     {
-        remainingFoodItems++;
-    }
-
-    public void FoodItemRevealed()
-    {
-        remainingFoodItems--;
-        if (remainingFoodItems <= 0)
+        remainingThoughts--;
+        if (remainingThoughts <= 0)
         {
             // Wait for a second before ending the game
             Invoke("CompleteMinigame", 1f);
@@ -29,6 +24,7 @@ public class GameManagerPrato : MonoBehaviour
     public void CompleteMinigame()
     {
         // Logic to complete the minigame
+        Debug.Log("Minigame completed!");
         minigameManager.CompleteMinigame();
     }
 }

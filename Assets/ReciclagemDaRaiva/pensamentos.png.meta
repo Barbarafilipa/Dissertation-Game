@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 964ddbfea5a90924cb30a8084a2d8816
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1696879538684666100
+    second: pensamentos_0
+  - first:
+      213: 7599029987018557111
+    second: pensamentos_1
+  - first:
+      213: 8188836563875955528
+    second: pensamentos_2
+  - first:
+      213: -7347861532320427200
+    second: pensamentos_3
+  - first:
+      213: 8214133282364489298
+    second: pensamentos_4
+  - first:
+      213: -4814088477236819720
+    second: pensamentos_5
+  - first:
+      213: -8064145006922113540
+    second: pensamentos_6
+  - first:
+      213: -6294944528698387465
+    second: pensamentos_7
+  - first:
+      213: -4236975810238580765
+    second: pensamentos_8
+  - first:
+      213: 6052891351865172365
+    second: pensamentos_9
+  - first:
+      213: 257800359336408358
+    second: pensamentos_10
+  - first:
+      213: 4008961709747910326
+    second: pensamentos_11
+  - first:
+      213: 8307995964355308636
+    second: pensamentos_12
+  - first:
+      213: 1885983011955764169
+    second: pensamentos_13
+  - first:
+      213: 184268188145644350
+    second: pensamentos_14
+  - first:
+      213: 4691349225940970936
+    second: pensamentos_15
+  - first:
+      213: 8969425120482126870
+    second: pensamentos_16
+  - first:
+      213: 5237717159381030766
+    second: pensamentos_17
+  - first:
+      213: 551592898484277071
+    second: pensamentos_18
+  - first:
+      213: -3867934555748549135
+    second: pensamentos_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pensamentos_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 291
+        width: 177
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0ade133f68c8710800000000000000
+      internalID: 1696879538684666100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pensamentos_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 308
+        width: 202
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b648c5038d257960800000000000000
+      internalID: 7599029987018557111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pensamentos_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 300
+        width: 203
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8438e81f77794a170800000000000000
+      internalID: 8188836563875955528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pensamentos_4
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 325
+        width: 235
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e7c0133b67ef170800000000000000
+      internalID: 8214133282364489298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pensamentos_5
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 304
+        width: 201
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f88ffc390ce03db0800000000000000
+      internalID: -4814088477236819720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pensamentos_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 32
+        width: 202
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625f6399f04e39300800000000000000
+      internalID: 257800359336408358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pensamentos_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 30
+        width: 200
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6baa34f61b2a730800000000000000
+      internalID: 4008961709747910326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pensamentos_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 53
+        width: 231
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ce6cadf4eeb4370800000000000000
+      internalID: 8307995964355308636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pensamentos_13
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 13
+        width: 174
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb6b089e8b5c2a10800000000000000
+      internalID: 1885983011955764169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pensamentos_14
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 53
+        width: 202
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3373d9d0f6ae8200800000000000000
+      internalID: 184268188145644350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8d362be35da847b4a906146e86387ac1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pensamentos_0: 1696879538684666100
+      pensamentos_1: 7599029987018557111
+      pensamentos_10: 257800359336408358
+      pensamentos_11: 4008961709747910326
+      pensamentos_12: 8307995964355308636
+      pensamentos_13: 1885983011955764169
+      pensamentos_14: 184268188145644350
+      pensamentos_2: 8188836563875955528
+      pensamentos_4: 8214133282364489298
+      pensamentos_5: -4814088477236819720
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
