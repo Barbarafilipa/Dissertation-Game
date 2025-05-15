@@ -6,7 +6,7 @@ Sentes o teu coração a bater mais rápido, as mãos a suar e um nó na barriga
 === continue1 ===
 Parabéns, reconheceste a ansiedade! A ansiedade aparece quando temos medo do que pode acontecer no futuro e não sabemos exatamente como vai ser. #portrait:narration #animation:Child_anxious #hide:Heart
 
-Ei, estás pronto para o teste? #portrait:speech_right #speaker:Friend #animation:Child_serious #animation:Friend_happy
+Ei, estás pronto para o teste? #portrait:speech_right_lvl4_friend #speaker:Friend #animation:Child_serious #animation:Friend_happy 
 
 -> main
 
@@ -17,7 +17,7 @@ E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend
 
     Não, vou dizer à professora que estou doente para não fazer. #portrait:speech_left #animation:Friend_serious
     
-    Mesmo que digas que estás doente, um dia vais ter que fazer o teste e a ansiedade vai ser maior ainda. #portrait:speech_right #animation:Child_veryAnxious #show:Heart
+    Mesmo que digas que estás doente, um dia vais ter que fazer o teste e a ansiedade vai ser maior ainda. #portrait:speech_right_lvl4_friend #animation:Child_veryAnxious #show:Heart
     
     Fazer o teste agora pode ser difícil, mas depois não precisas de te preocupar mais com ele. #animation:Friend_smiling
     
@@ -27,7 +27,7 @@ E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend
 
     Estou ansioso, mas vou tentar fazer o teste. #portrait:speech_left #animation:Child_worried #animation:Friend_veryHappy
     
-    Vou te contar um segredo, eu também estou nervoso para o teste. #portrait:speech_right #animation:Child_serious #animation:Friend_smiling
+    Vou te contar um segredo, eu também estou nervoso para o teste. #portrait:speech_right_lvl4_friend #animation:Child_serious #animation:Friend_smiling
     
     Mas às vezes não podemos evitar que isso aconteça.
     
@@ -38,7 +38,7 @@ E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend
 
     Eu estudei muito, então vai correr bem. #portrait:speech_left #animation:Child_smiling #animation:Friend_veryHappy
     
-    Isso mesmo, tens que pensar que estudaste muito e que por isso vais saber responder a tudo. #portrait:speech_right #animation:Friend_happy
+    Isso mesmo, tens que pensar que estudaste muito e que por isso vais saber responder a tudo. #portrait:speech_right_lvl4_friend #animation:Friend_happy
     
     Um teste é apenas uma avaliação, se não correr bem, depois podes melhorar nos próximos. #animation:Friend_smiling
     -> minigame_cano_dos_pensamentos
@@ -48,16 +48,16 @@ Parabéns! Encontraste o caminho positivo! Quando escolhemos ver as coisas de fo
 
 Acho que já me sinto mais calmo. #portrait:speech_left #animation:Child_smiling #animation:Friend_smiling
 
-Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #show:Mask #hide:Friend #animation:Child_sit #animation:Child_serious
+Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #show:Mask #show:PaperTest #hide:Friend #animation:Child_sit #animation:Child_serious
 
 -> novas_escolhas
 
 === novas_escolhas ===
-E agora? #portrait:thought #animation:Child_anxious #hide:Heart
+E agora? #portrait:thought_lvl4 #animation:Child_anxious #hide:Heart
 
 + [Eu devia ter estudado mais! Vou falhar o teste todo!]
     
-    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left #animation:Child_veryAnxious #show:Heart
+    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left_lvl4_child #animation:Child_veryAnxious #show:Heart
     
     Se continuares a pensar nas coisas negativas, a tua cabeça vai ficar cheia de preocupações. #portrait:speech_right #speaker:Teacher #animation:Teacher_sad
     
@@ -66,7 +66,7 @@ E agora? #portrait:thought #animation:Child_anxious #hide:Heart
 
 + [Vou avançar esta e tentar outra primeiro.]
 
-    Vou avançar esta e tentar outra primeiro. #portrait:speech_left #animation:Child_smiling #animation:Teacher_veryHappy
+    Vou avançar esta e tentar outra primeiro. #portrait:speech_left_lvl4_child #animation:Child_smiling #animation:Teacher_veryHappy
     
     Às vezes mudar o que estamos a fazer ajuda-nos a tornar tudo mais tranquilo. #portrait:speech_right #speaker:Teacher #animation:Teacher_smiling
     
@@ -76,7 +76,7 @@ E agora? #portrait:thought #animation:Child_anxious #hide:Heart
     
 + [Vou fechar os olhos e respirar devagar.]
 
-    Vou fechar os olhos e respirar devagar. #portrait:speech_left #animation:Child_smiling #animation:Teacher_veryHappy
+    Vou fechar os olhos e respirar devagar. #portrait:speech_left_lvl4_child #animation:Child_smiling #animation:Teacher_veryHappy
     
     Quando estamos nervoso, o nosso coração bate mais rápdo, mas com respirações profundas, conseguimos acalmar esse sentimento. #portrait:speech_right #speaker:Teacher #animation:Teacher_smiling
     
@@ -100,7 +100,7 @@ Parabéns! Ao escolheres começar pelas perguntas mais fáceis conseguiste contr
 -> continue4
 
 === continue4 ===
-Boa! Consegui terminar! #portrait:speech_left #animation:Child_veryHappy #animation:Teacher_veryHappy
+Boa! Consegui terminar! #portrait:speech_left_lvl4_child #animation:Child_veryHappy #animation:Teacher_veryHappy
 
 Foi difícil, mas conseguiste controlar a ansiedade! #portrait:speech_right
 

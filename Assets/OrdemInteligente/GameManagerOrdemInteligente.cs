@@ -7,6 +7,9 @@ public class GameManagerOrdemInteligente : MonoBehaviour
     [SerializeField] private MinigameManager minigameManager;
     private int remainingNumbers = 3;
 
+    public bool isFirstAnswered = false;
+    public bool isSecondAnswered = false;
+
     void Awake()
     {
         Instance = this;

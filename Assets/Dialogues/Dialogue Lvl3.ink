@@ -1,7 +1,7 @@
 O teu irmão acabou de ganhar um presente novo. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide
 Ele está super feliz. Mas tu sentes um nó na barriga e fechas as mãos com força... #animation:Child_jealousSide #animation:Brother_happySide #animation:Mother_smilingSide
 
-Eu também queria... #portrait:thought
+Eu também queria... #portrait:speech_left
 
 -> minigame_puzzle_ciume
 
@@ -19,7 +19,7 @@ Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Chi
     
     Porque dizes isso? Vou-te contar um segredo. #portrait:speech_right #animation:Mother_sad
     
-    os pais gostam de todos os filhos da mesma forma e não há preferidos. 
+    Os pais gostam de todos os filhos da mesma forma e não há preferidos. 
     
     Hoje o teu irmão teve um presente porque estudou e teve uma boa nota no teste. #animation:Mother_sad
     
@@ -76,7 +76,7 @@ Agora já sabes, quando sentires ciúmes outra vez lembra-te: #portrait:speech_r
 
 É normal querer o que os outros têm, mas também é bonito aprender a ficar feliz por eles. 
 
-O teu coração ficou apertado com ciúmes, mas conseguiste abri-lo para entender os sentimentos dos outros. De cada vez que fazes isso, o teu coração cresce! #portrait:narration
+O teu coração ficou apertado com ciúmes, mas conseguiste abri-lo para entender os sentimentos dos outros. De cada vez que fazes isso, o teu coração cresce! #portrait:narration #animation:Mother_veryHappy
 
 -> END
 
