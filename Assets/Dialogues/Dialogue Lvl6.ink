@@ -1,5 +1,8 @@
-É hora do intervalo. Estás a jogar à bola com o teu amigo, mas ele empurra-te e fica com a bola. #portrait:narration
-Começas a sentir o corpo a aquecer... 
+É hora do intervalo e estás a jogar à bola com o teu amigo. #portrait:narration #animation:Child_happySide #animation:Friend_happyRightSide
+
+Mas ele empurra-te e fica com a bola. #show:Timeline #animation:Child_serious #animation:Ball_idleFriend
+
+Começas a sentir o corpo a aquecer... #hide:Timeline #animation:Child_angry
 
 -> minigame_puzzle_raiva
 
@@ -9,11 +12,11 @@ Parabéns, reconheceste a raiva! A raiva aparece quando sentimos que fomos trata
 -> main
 
 === main ===
-Isti não é justo! #portrait:thought 
+Isto não é justo! #portrait:thought #animation:Child_angry #animation:Friend_serious
 
 + [Vou empurrá-lo também!]
 
-    Vou empurrá-lo também! #portrait:speech_left #animation:Friend_serious
+    Vou empurrá-lo também! #portrait:speech_left #animation:Child_veryAngry 
     
     Empurrar de volta só te vai deixar com mais raiva. Magoar os outros não resolve o problema e pode deixar os dois tristes. #portrait:narration
     
@@ -23,7 +26,7 @@ Isti não é justo! #portrait:thought
     
 + [Vou brincar com outro amigo.]
 
-    Vou brincar com outro amigo. #portrait:speech_left
+    Vou brincar com outro amigo. #portrait:speech_left #animation:Child_stubborn
     
     Sair sem dizer nada pode fazer o teu amigo pensar que não queres mais brincar com ele.  #portrait:narration
     
@@ -33,22 +36,25 @@ Isti não é justo! #portrait:thought
     
 + [Se calhar foi sem querer.]
 
-    Se calhar foi sem querer. #portrait:speech_left
+    Se calhar foi sem querer. #portrait:speech_left #animation:Child_seriousSide
     
-    Às vezes as coisas acontecem sem intenção. Pensar assim ajuda-te a acalmar e a resolver melhor o problema. Agora tenta falar com ele com calma. #portrait:narration
+    Às vezes as coisas acontecem sem intenção. Pensar assim ajuda-te a acalmar e a resolver melhor o problema. Agora tenta falar com ele com calma. #portrait:narration #animation:Child_smiling
     
     -> minigame_reciclagem_da_raiva
     
 
 === continue2 ===
-Parabéns! Aprendeste que, tal como reciclamos o lixo, também podemos reciclar os pensamentos maus e transformar a raiva em algo melhor. #portrait:narration 
+Parabéns! Aprendeste que, tal como reciclamos o lixo, também podemos reciclar os pensamentos maus e transformar a raiva em algo melhor. #portrait:narration #animation:Child_veryHappy 
 
-Já me sinto melhor. Vou falar com ele. #portrait:speech_left
+Já me sinto melhor. Vou falar com ele. #portrait:speech_left #animation:Child_smiling
 
 -> novas_escolhas
 
+Ei! #portrait:left #animation:Child_happy
+... #portrait:right #animation:Friend_seriousSide #animation:Child_worried
+
 === novas_escolhas ===
-Ele já não quer jogar comigo... #portrait:speech_left
+Ele já não quer jogar comigo... #portrait:speech_left #animation:Child_worried #animation:Friend_seriousSide
 
 Às vezes as coisas não acontecem como esperávamos, e isso pode fazer-nos sentir tristes #portrait:narration
 
@@ -62,7 +68,7 @@ Ele já não quer jogar comigo... #portrait:speech_left
 
 + [Nunca mais quero falar com ele!]
 
-    Nunca mais quero falar com ele! #portrait:speech_left
+    Nunca mais quero falar com ele! #portrait:speech_left #animation:Child_stubborn
     
     Quando estamos tristes, às vezes queremos fugir ou ir embora. Mas isso é como esconder a tristeza debaixo do tapete. #portrait:narration
     
@@ -74,23 +80,23 @@ Ele já não quer jogar comigo... #portrait:speech_left
 
     Vou-lhe dizer que fiquei magoado. #portrait:speech_left
     
-    Falar sobre os sentimentos é uma boa maneira de resolver os problemas. Às vezes os nossos amigos não sabem como nos sentimos. #portrait:narration
+    Falar sobre os sentimentos é uma boa maneira de resolver os problemas. Às vezes os nossos amigos não sabem como nos sentimos. #portrait:narration #animation:Child_smiling
 
     -> minigame_reconstruir_amizade
     
 === continue3 ===
 
-Parabéns! Conseguiste reparar a amizade com o teu amigo. Quando ficamos triste às vezes é difícil falar, mas soubeste expressar os teus sentimentos e ultrapassaste o momento difícil. #portrait:narration 
+Parabéns! Conseguiste reparar a amizade com o teu amigo. Quando ficamos triste às vezes é difícil falar, mas soubeste expressar os teus sentimentos e ultrapassaste o momento difícil. #portrait:narration #animation:Child_veryHappy #animation:Friend_smiling
 
-Ei, eu fiquei triste porque não quiseste jogar comigo. #portrait:speech_left
+Ei, eu fiquei triste porque não quiseste jogar comigo. #portrait:speech_left #animation:Child_smilingSide
 
 Está tudo bem, mas queria que soubesses.
 
 Desculpa, não queria magoar-te. #portrait:speech_right
 
-Se quiseres podemos jogar juntos agora.
+Se quiseres podemos jogar juntos agora. 
 
-Com a raiva, aprendeste a pensar antes de agir, e com a tristeza, partilhaste o que sentias. Uma coversa honesta ajudou a resolver tudo e a tornar a amizade mais forte! #portrait:narration
+Com a raiva, aprendeste a pensar antes de agir, e com a tristeza, partilhaste o que sentias. Uma coversa honesta ajudou a resolver tudo e a tornar a amizade mais forte! #portrait:narration #animation:Child_veryHappy #animation:Friend_veryHappy
 
 -> END
 

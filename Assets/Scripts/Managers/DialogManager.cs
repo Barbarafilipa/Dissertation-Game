@@ -7,6 +7,7 @@ using TMPro;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Playables;
 
 public class DialogManager : MonoBehaviour
 {
@@ -217,6 +218,11 @@ public class DialogManager : MonoBehaviour
     {
         uiElement.GetComponent<Mask>().enabled = show;
     }
+    private void DealWithTimeline(GameObject uiElement, bool show)
+    {
+        // Enable timeline component
+        uiElement.GetComponent<PlayableDirector>().enabled = show;
+    }
 
     private void ShowUiElement(string tagValue)
     {
@@ -225,6 +231,10 @@ public class DialogManager : MonoBehaviour
         {
             if(uiElement.name == "Mask" && tagValue == "Mask") {
                 DealWithMask(uiElement, true);
+                return;
+            }
+            if(uiElement.name == "Timeline" && tagValue == "Timeline") {
+                DealWithTimeline(uiElement, true);
                 return;
             }
             if (uiElement.name == tagValue)
@@ -243,6 +253,10 @@ public class DialogManager : MonoBehaviour
         {
             if(uiElement.name == "Mask" && tagValue == "Mask") {
                 DealWithMask(uiElement, false);
+                return;
+            }
+            if(uiElement.name == "Timeline" && tagValue == "Timeline") {
+                DealWithTimeline(uiElement, false);
                 return;
             }
             if (uiElement.name == tagValue)
