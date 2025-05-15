@@ -11,11 +11,11 @@ Podes começar a ler quando estiveres pronto. #portrait:speech_right
 -> main
 
 === main ===
-Estão todos a olhar para mim... E agora? #portrait:thought #animation:Child_ashamed
+Estão todos a olhar para mim...  E agora? #portrait:thought #animation:Child_ashamed
 
 + [Hoje não quero ler!]
 
-    Hoje não quero ler! #portrait:speech_left #animation:Child_stubborn #animation:Teacher_sad
+    Hoje não quero ler! #portrait:speech_left_lvl5_child #animation:Child_stubborn #animation:Teacher_sad
     
     Eu sei que pode parecer mais fácil não fazer isso agora, mas o que custa é o primeiro passo. #portrait:speech_right #animation:Child_veryAshamed #animation:Teacher_serious
     
@@ -27,7 +27,7 @@ Estão todos a olhar para mim... E agora? #portrait:thought #animation:Child_ash
     
 + [Se eu me enganar vão todos gozar comigo, já sei que vai ser terrível.]
 
-    Se eu me enganar vão todos gozar comigo, já sei que vai ser terrível. #portrait:speech_left #animation:Child_veryAshamed #animation:Teacher_sad
+    Se eu me enganar vão todos gozar comigo, já sei que vai ser terrível. #portrait:speech_left_lvl5_child #animation:Child_veryAshamed #animation:Teacher_sad
     
     Pensa na vergonha como uma bola de neve. #portrait:speech_right #animation:Teacher_smiling
     
@@ -39,7 +39,7 @@ Estão todos a olhar para mim... E agora? #portrait:thought #animation:Child_ash
     
 + [Mesmo que eu me engane, não faz mal, os meus colegas também se enganam.]
 
-    Mesmo que eu me engane, não faz mal, os meus colegas também se enganam. #portrait:speech_left #animation:Child_smilingSide #animation:Teacher_veryHappy
+    Mesmo que eu me engane, não faz mal, os meus colegas também se enganam. #portrait:speech_left_lvl5_child #animation:Child_smilingSide #animation:Teacher_veryHappy
     
     Isso mesmo! Imagina que estás a aprender a andar de bicicleta. #portrait:speech_right #animation:Child_smiling #animation:Teacher_smiling
     
@@ -58,13 +58,15 @@ Parabéns! Cada estrela positiva ajudou a tua confiança a crescer. Agora és um
 === novas_escolhas ===
 Agora com confiança lês o teu texto para a turma. #portrait:narration #animation:Child_happySide #animation:Teacher_smiling #show:Lines #show:FriendsHappy #hide:Friends
 
-Consegui! Senti-me bem a ler! #portrait:speech_left #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:Lines #hide:Notebook
+Consegui! Senti-me bem a ler! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:Lines #hide:Notebook
 
 Isso é alegria. E os teus colegas também gostaram do teu texto! #portrait:speech_right #animation:Child_happy #animation:Teacher_smiling
 
+Hum... O que devo fazer? #portrait:thought
+
 + [Vou tentar não sorrir para não acharem que sou convencido.]
     
-    Vou tentar não sorrir para não acharem que sou convencido. #portrait:speech_left #animation:Child_serious #animation:Teacher_sad
+    Vou tentar não sorrir para não acharem que sou convencido. #portrait:speech_left_lvl5_child #animation:Child_serious #animation:Teacher_sad
     
     Quando mostramos aos outros como estamos felizes, estamos a partilhar algo bom. #portrait:speech_right #animation:Teacher_smiling
     
@@ -73,7 +75,7 @@ Isso é alegria. E os teus colegas também gostaram do teu texto! #portrait:spee
 
 + [Eu gostei e quero fazer mais vezes!]
 
-    Eu gostei e quero fazer mais vezes! #portrait:speech_left #animation:Child_veryHappy #animation:Teacher_veryHappy
+    Eu gostei e quero fazer mais vezes! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy
     
     Ainda bem! A alegria cresce quando repetimos algo bom. #portrait:speech_right #animation:Child_happy #animation:Teacher_smiling
 
