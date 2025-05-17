@@ -1,17 +1,18 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class MonsterReveal : MonoBehaviour
 {
-    public RectTransform flashlightMask; // The dark panel with transparent hole
-    public GameObject furniture;         // Real object to reveal
-    public float revealRadius = 80f;     // Match your transparent hole's size
+    public RectTransform flashlightMask; // UI element with transparent hole
+    public GameObject furniture;         // Object to reveal
+    public float revealRadius = 80f;
 
     private RectTransform myRect;
+    private Canvas rootCanvas;
 
     void Start()
     {
         myRect = GetComponent<RectTransform>();
+        rootCanvas = GetComponentInParent<Canvas>();
         GameManagerLanterna.Instance.RegisterMonster();
     }
 
@@ -19,11 +20,11 @@ public class MonsterReveal : MonoBehaviour
     {
         if (furniture.activeSelf) return;
 
-        // Get positions in the same local UI space
-        Vector2 flashlightPos = flashlightMask.anchoredPosition;
-        Vector2 monsterPos = myRect.anchoredPosition;
+        // Convert both positions to screen space
+        Vector2 flashlightScreenPos = RectTransformUtility.WorldToScreenPoint(null, flashlightMask.position);
+        Vector2 monsterScreenPos = RectTransformUtility.WorldToScreenPoint(null, myRect.position);
 
-        float distance = Vector2.Distance(flashlightPos, monsterPos);
+        float distance = Vector2.Distance(flashlightScreenPos, monsterScreenPos);
 
         if (distance < revealRadius)
         {

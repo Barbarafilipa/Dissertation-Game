@@ -48,15 +48,17 @@ Parabéns! Aprendeste que, tal como reciclamos o lixo, também podemos reciclar 
 
 Já me sinto melhor. Vou falar com ele. #portrait:speech_left #animation:Child_smiling
 
--> novas_escolhas
+Ei! #portrait:speech_left #animation:Child_happy
+... #portrait:speech_right_lvl6_friend #animation:Friend_seriousSide #animation:Child_worried
 
-Ei! #portrait:left #animation:Child_happy
-... #portrait:right #animation:Friend_seriousSide #animation:Child_worried
+-> novas_escolhas
 
 === novas_escolhas ===
 Ele já não quer jogar comigo... #portrait:speech_left #animation:Child_worried #animation:Friend_seriousSide
 
 Às vezes as coisas não acontecem como esperávamos, e isso pode fazer-nos sentir tristes #portrait:narration
+
+E agora? #portrait:thought
 
 + [Ele já não gosta de mim, é por isso que não quer jogar comigo...]
     
@@ -92,7 +94,7 @@ Ei, eu fiquei triste porque não quiseste jogar comigo. #portrait:speech_left #a
 
 Está tudo bem, mas queria que soubesses.
 
-Desculpa, não queria magoar-te. #portrait:speech_right
+Desculpa, não queria magoar-te. #portrait:speech_right_lvl6_friend
 
 Se quiseres podemos jogar juntos agora. 
 

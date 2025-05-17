@@ -8,6 +8,7 @@ using Ink.Runtime;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.Playables;
+using UnityEngine.InputSystem;
 
 public class DialogManager : MonoBehaviour
 {
@@ -78,14 +79,14 @@ public class DialogManager : MonoBehaviour
             return;
         }
     
-        // handle continuing to the next line in the dialogue when button is pressed
-        if ( Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began )
+        if (Touchscreen.current == null) return;
+
+        if (Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
         {
             if (IsTouchOverUI())
             {
                 return;
             }
-            //Debug.Log("Touch detected, continuing story.");
             ContinueStory();
         }
     }
@@ -94,7 +95,7 @@ public class DialogManager : MonoBehaviour
     {
         PointerEventData pointerData = new PointerEventData(EventSystem.current)
         {
-            position = Input.GetTouch(0).position
+            position = Touchscreen.current.primaryTouch.position.ReadValue()
         };
 
         List<RaycastResult> results = new List<RaycastResult>();

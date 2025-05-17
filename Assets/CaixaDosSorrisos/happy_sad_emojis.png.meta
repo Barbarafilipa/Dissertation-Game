@@ -196,6 +196,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -872,7 +885,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      happy_sad_emojis_0: -3098608280711813152
+      happy_sad_emojis_1: 3259032556806899727
+      happy_sad_emojis_10: 8700930003156000515
+      happy_sad_emojis_11: -3904246300633958788
+      happy_sad_emojis_12: 958040474889929369
+      happy_sad_emojis_13: -5637418277709445145
+      happy_sad_emojis_14: 183344393464552803
+      happy_sad_emojis_15: 2286874177990649293
+      happy_sad_emojis_16: 6259878926658859848
+      happy_sad_emojis_17: -6811632368328497915
+      happy_sad_emojis_18: 385850584172251440
+      happy_sad_emojis_19: -5616680418094065599
+      happy_sad_emojis_2: -8559412480705571841
+      happy_sad_emojis_20: -3991906140990240253
+      happy_sad_emojis_21: 5922553029191683867
+      happy_sad_emojis_22: 7697629526310796545
+      happy_sad_emojis_23: 8037785129040932964
+      happy_sad_emojis_24: -788083370533672977
+      happy_sad_emojis_25: -8706494258822459012
+      happy_sad_emojis_26: -2884304963050059374
+      happy_sad_emojis_27: -1493279229777082807
+      happy_sad_emojis_28: 670517940006245372
+      happy_sad_emojis_29: -6487381810585534237
+      happy_sad_emojis_3: -6361639025600793496
+      happy_sad_emojis_4: 7509279414215403424
+      happy_sad_emojis_5: -5124051554689634164
+      happy_sad_emojis_6: 7677271999925894971
+      happy_sad_emojis_7: 6776031141057335028
+      happy_sad_emojis_8: 1060585739852836496
+      happy_sad_emojis_9: 18268982410569147
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
