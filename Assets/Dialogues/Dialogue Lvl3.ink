@@ -50,6 +50,8 @@ Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Chi
 === novas_escolhas ===
 O importante é ambos estarem felizes, não achas?
 
+Hum... #portrait:thought
+
 + [Acho que se ele ficar feliz também fico feliz por ele.]
 
     Acho que se ele ficar feliz também fico feliz por ele. #portrait:speech_left
