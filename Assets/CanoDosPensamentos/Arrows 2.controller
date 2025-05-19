@@ -24,7 +24,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -4470707719458157226}
+  m_DefaultState: {fileID: 2914534881019920597}
 --- !u!1102 &-4470707719458157226
 AnimatorState:
   serializedVersion: 6
@@ -57,7 +57,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Arrows 1
+  m_Name: Arrows 2
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
