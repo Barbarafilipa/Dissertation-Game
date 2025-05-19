@@ -4,9 +4,9 @@ Quando olhas à tua volta, sentes o rosto a aquecer... #animation:Child_ashamed
 -> minigame_puzzle_vergonha
 
 === continue1 ===
-Parabéns, reconheceste a vergonha! A vergonha aparece quando sentimos que os outros estão a reparar em nós de forma negativa ou que nos vão julgar. #portrait:narration #animation:Teacher_smiling
+Parabéns, reconheceste a vergonha! A vergonha aparece quando sentimos que os outros estão a reparar em nós de forma negativa ou que nos vão julgar. #portrait:narration #animation:Teacher_smiling #sticker:Vergonha #show:Vergonha
 
-Podes começar a ler quando estiveres pronto. #portrait:speech_right
+Podes começar a ler quando estiveres pronto. #portrait:speech_right #hide:Vergonha
 
 -> main
 
@@ -51,12 +51,12 @@ Estão todos a olhar para mim...  E agora? #portrait:thought #animation:Child_as
     
 
 === continue2 ===
-Parabéns! Cada estrela positiva ajudou a tua confiança a crescer. Agora és uma super estrela pronto para mais desafios! #portrait:narration 
+Parabéns! Cada estrela positiva ajudou a tua confiança a crescer. Agora és uma super estrela pronto para mais desafios! #portrait:narration #sticker:SuperEstrela #show:SuperEstrela
 
 -> novas_escolhas
 
 === novas_escolhas ===
-Agora com confiança lês o teu texto para a turma. #portrait:narration #animation:Child_happySide #animation:Teacher_smiling #show:Lines #show:FriendsHappy #hide:Friends
+Agora com confiança lês o teu texto para a turma. #portrait:narration #animation:Child_happySide #animation:Teacher_smiling #show:Lines #show:FriendsHappy #hide:Friends #hide:SuperEstrela
 
 Consegui! Senti-me bem a ler! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:Lines #hide:Notebook
 
@@ -83,7 +83,7 @@ Hum... O que devo fazer? #portrait:thought
     
 === continue4 ===
 
-Lembras-te do que sentiste no início? Agora terminaste com um sorriso! A vergonha foi embora e a alegria ficou. #portrait:narration #animation:Child_happy #animation:Teacher_smiling
+Lembras-te do que sentiste no início? Agora terminaste com um sorriso! A vergonha foi embora e a alegria ficou. #portrait:narration #animation:Child_happy #animation:Teacher_smiling #sticker:SorrisoBrilhante #show:SorrisoBrilhante
 
 -> END
 

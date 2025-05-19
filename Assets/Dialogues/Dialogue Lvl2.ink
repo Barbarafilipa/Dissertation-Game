@@ -4,9 +4,9 @@ Quando olhas para a comida sentes um desconforto na barriga e vontade de vomitar
 -> minigame_puzzle_nojo
 
 === continue1 ===
-Parabéns, reconheceste o nojo! O nojo aparece quando algo parece estranho ou nos faz sentir desconfortáveis, como um cheiro mau. #portrait:narration #hide:Prato
+Parabéns, reconheceste o nojo! O nojo aparece quando algo parece estranho ou nos faz sentir desconfortáveis, como um cheiro mau. #portrait:narration #hide:Prato #sticker:Nojo #show:Nojo
 
-Experimenta! É uma receita nova e faz bem à saúde. #portrait:speech_right #animation:Mother_smiling
+Experimenta! É uma receita nova e faz bem à saúde. #portrait:speech_right #animation:Mother_smiling #hide:Nojo
 
 -> main
 
@@ -40,15 +40,15 @@ Será que quero experimentar? #portrait:thought #animation:Child_serious
     -> minigame_prato_misterioso
 
 === continue2 ===
-Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration #animation:Mother_happy
+Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration #animation:Mother_happy #sticker:ChefDeCozinha #show:ChefDeCozinha
 
-Vês? Experimentar não foi assim tão mau! #portrait:speech_right #animation:Mother_smiling
+Vês? Experimentar não foi assim tão mau! #portrait:speech_right #animation:Mother_smiling #hide:ChefDeCozinha
 
 Ainda não adoro, mas consegui comer um pouco. #portrait:speech_left
 
 E isso já é um grande passo. O teu paladar pode mudar com o tempo! #portrait:speech_right
 
-Explorar novos sabores é uma aventura! Mesmo que ainda não adores, sabes que esses alimentos fazem bem à tua saúde e vão ajudar-te a ser ainda mais forte e saudável. #portrait:narration
+Explorar novos sabores é uma aventura! Mesmo que ainda não adores, sabes que esses alimentos fazem bem à tua saúde e vão ajudar-te a ser ainda mais forte e saudável. #portrait:narration #sticker:ExploradorDeSabores #show:ExploradorDeSabores
 
 -> END
 

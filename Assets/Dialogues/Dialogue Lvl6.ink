@@ -7,12 +7,12 @@ Começas a sentir o corpo a aquecer... #hide:Timeline #animation:Child_angry
 -> minigame_puzzle_raiva
 
 === continue1 ===
-Parabéns, reconheceste a raiva! A raiva aparece quando sentimos que fomos tratados de forma injusta ou quando não conseguimos fazer o que queremos. #portrait:narration
+Parabéns, reconheceste a raiva! A raiva aparece quando sentimos que fomos tratados de forma injusta ou quando não conseguimos fazer o que queremos. #portrait:narration #sticker:Raiva #show:Raiva
 
 -> main
 
 === main ===
-Isto não é justo! #portrait:thought #animation:Child_angry #animation:Friend_serious
+Isto não é justo! #portrait:thought #animation:Child_angry #animation:Friend_serious #hide:Raiva
 
 + [Vou empurrá-lo também!]
 
@@ -44,9 +44,9 @@ Isto não é justo! #portrait:thought #animation:Child_angry #animation:Friend_s
     
 
 === continue2 ===
-Parabéns! Aprendeste que, tal como reciclamos o lixo, também podemos reciclar os pensamentos maus e transformar a raiva em algo melhor. #portrait:narration #animation:Child_veryHappy 
+Parabéns! Aprendeste que, tal como reciclamos o lixo, também podemos reciclar os pensamentos maus e transformar a raiva em algo melhor. #portrait:narration #animation:Child_veryHappy #sticker:ReciclagemDaRaiva #show:ReciclagemDaRaiva
 
-Já me sinto melhor. Vou falar com ele. #portrait:speech_left #animation:Child_smiling
+Já me sinto melhor. Vou falar com ele. #portrait:speech_left #animation:Child_smiling #hide:ReciclagemDaRaiva
 
 Ei! #portrait:speech_left #animation:Child_happy
 ... #portrait:speech_right_lvl6_friend #animation:Friend_seriousSide #animation:Child_worried
@@ -88,9 +88,9 @@ E agora? #portrait:thought
     
 === continue3 ===
 
-Parabéns! Conseguiste reparar a amizade com o teu amigo. Quando ficamos triste às vezes é difícil falar, mas soubeste expressar os teus sentimentos e ultrapassaste o momento difícil. #portrait:narration #animation:Child_veryHappy #animation:Friend_smiling
+Parabéns! Conseguiste reparar a amizade com o teu amigo. Quando ficamos triste às vezes é difícil falar, mas soubeste expressar os teus sentimentos e ultrapassaste o momento difícil. #portrait:narration #animation:Child_veryHappy #animation:Friend_smiling #sticker:MuroDaAmizade #show:MuroDaAmizade
 
-Ei, eu fiquei triste porque não quiseste jogar comigo. #portrait:speech_left #animation:Child_smilingSide
+Ei, eu fiquei triste porque não quiseste jogar comigo. #portrait:speech_left #animation:Child_smilingSide #hide:MuroDaAmizade
 
 Está tudo bem, mas queria que soubesses.
 
@@ -98,7 +98,7 @@ Desculpa, não queria magoar-te. #portrait:speech_right_lvl6_friend
 
 Se quiseres podemos jogar juntos agora. 
 
-Com a raiva, aprendeste a pensar antes de agir, e com a tristeza, partilhaste o que sentias. Uma coversa honesta ajudou a resolver tudo e a tornar a amizade mais forte! #portrait:narration #animation:Child_veryHappy #animation:Friend_veryHappy
+Com a raiva, aprendeste a pensar antes de agir, e com a tristeza, partilhaste o que sentias. Uma coversa honesta ajudou a resolver tudo e a tornar a amizade mais forte! #portrait:narration #animation:Child_veryHappy #animation:Friend_veryHappy #sticker:ConversaHonesta #show:ConversaHonesta
 
 -> END
 

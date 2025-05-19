@@ -4,9 +4,9 @@ Sentes o teu coração a bater mais rápido, as mãos a suar e um nó na barriga
 -> minigame_puzzle_ansiedade
 
 === continue1 ===
-Parabéns, reconheceste a ansiedade! A ansiedade aparece quando temos medo do que pode acontecer no futuro e não sabemos exatamente como vai ser. #portrait:narration #animation:Child_anxious #hide:Heart
+Parabéns, reconheceste a ansiedade! A ansiedade aparece quando temos medo do que pode acontecer no futuro e não sabemos exatamente como vai ser. #portrait:narration #animation:Child_anxious #hide:Heart #sticker:Ansiedade #show:Ansiedade
 
-Ei, estás pronto para o teste? #portrait:speech_right_lvl4_friend #speaker:Friend #animation:Child_serious #animation:Friend_happy 
+Ei, estás pronto para o teste? #portrait:speech_right_lvl4_friend #speaker:Friend #animation:Child_serious #animation:Friend_happy #hide:Ansiedade
 
 -> main
 
@@ -44,9 +44,9 @@ E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend
     -> minigame_cano_dos_pensamentos
 
 === continue2 ===
-Parabéns! Encontraste o caminho positivo! Quando escolhemos ver as coisas de forma mais calma e positiva, ficamos mais tranquilos, mesmo quando sentimos ansiedade. #portrait:narration #animation:Child_happy #animation:Friend_veryHappy
+Parabéns! Encontraste o caminho positivo! Quando escolhemos ver as coisas de forma mais calma e positiva, ficamos mais tranquilos, mesmo quando sentimos ansiedade. #portrait:narration #animation:Child_happy #animation:Friend_veryHappy #sticker:PensamentoPositivo #show:PensamentoPositivo
 
-Acho que já me sinto mais calmo. #portrait:speech_left #animation:Child_smiling #animation:Friend_smiling
+Acho que já me sinto mais calmo. #portrait:speech_left #animation:Child_smiling #animation:Friend_smiling #hide:PensamentoPositivo
 
 Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #show:Mask #show:PaperTest #hide:Friend #animation:Child_sit #animation:Child_serious
 
@@ -90,21 +90,21 @@ E agora? #portrait:thought_lvl4 #animation:Child_anxious #hide:Heart
     
     Sopra a vela... #show:Candle #hide:Flower #animation:Child_happy #animation:Teacher_happy #hide:Inspirar #show:Expirar
     
-    Muito bem! Quando respiras assim o teu corpo acalma e a ansiedade começa a ir embora. #animation:Child_veryHappy #hide:Candle #animation:Teacher_veryHappy #hide:Inspirar #hide:Expirar
+    Muito bem! Quando respiras assim o teu corpo acalma e a ansiedade começa a ir embora. #animation:Child_veryHappy #hide:Candle #animation:Teacher_veryHappy #hide:Inspirar #hide:Expirar #sticker:RespiracaoTranquila #show:RespiracaoTranquila
 
     -> continue4
     
 === continue3 ===
-Parabéns! Ao escolheres começar pelas perguntas mais fáceis conseguiste controlar a ansiedade durante o teste. Foi uma escolha inteligente! #portrait:narration #animation:Child_happy #animation:Teacher_happy
+Parabéns! Ao escolheres começar pelas perguntas mais fáceis conseguiste controlar a ansiedade durante o teste. Foi uma escolha inteligente! #portrait:narration #animation:Child_happy #animation:Teacher_happy #sticker:EscolhaInteligente #show:EscolhaInteligente
 
 -> continue4
 
 === continue4 ===
-Boa! Consegui terminar! #portrait:speech_left_lvl4_child #animation:Child_veryHappy #animation:Teacher_veryHappy
+Boa! Consegui terminar! #portrait:speech_left_lvl4_child #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:RespiracaoTranquila #hide:EscolhaInteligente
 
 Foi difícil, mas conseguiste controlar a ansiedade! #portrait:speech_right
 
-Mesmo sentindo ansiedade conseguiste fazer o teste. Ao acalmares o teu corpo e organizares os teus pensamentos consegues passar qualquer desafio! #portrait:narration #animation:Child_happy #animation:Teacher_happy
+Mesmo sentindo ansiedade conseguiste fazer o teste. Ao acalmares o teu corpo e organizares os teus pensamentos consegues passar qualquer desafio! #portrait:narration #animation:Child_happy #animation:Teacher_happy #sticker:DesafioSuperado #show:DesafioSuperado
 
 -> END
 

@@ -6,12 +6,12 @@ Eu também queria... #portrait:speech_left
 -> minigame_puzzle_ciume
 
 === continue1 ===
-Parabéns, reconheceste o ciúme! O ciúme aparece quando sentimos que alguém tem algo que nós também queríamos, como um presente, atenção ou carinho. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift
+Parabéns, reconheceste o ciúme! O ciúme aparece quando sentimos que alguém tem algo que nós também queríamos, como um presente, atenção ou carinho. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift #sticker:Ciume #show:Ciume
 
 -> main
 
 === main ===
-Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Child_jealousSide #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift
+Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Child_jealousSide #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift #hide:Ciume
 
 + [Vocês gostam mais dele do que de mim, ele é o preferido!]
 
@@ -70,13 +70,13 @@ O importante é ambos estarem felizes, não achas?
 
 
 === continue2 ===
-Parabéns! Conseguiste encontrar muitos sorrisos ao teu redor! Agora a tua caixa está cheia de alegria para partilhares com quem mais gostas. #portrait:narration #animation:Mother_veryHappy #animation:Brother_happy
+Parabéns! Conseguiste encontrar muitos sorrisos ao teu redor! Agora a tua caixa está cheia de alegria para partilhares com quem mais gostas. #portrait:narration #animation:Mother_veryHappy #animation:Brother_happy #sticker:CaixaDaAlegria #show:CaixaDaAlegria
 
-Agora já sabes, quando sentires ciúmes outra vez lembra-te: #portrait:speech_right #animation:Mother_smiling #animation:Brother_smiling
+Agora já sabes, quando sentires ciúmes outra vez lembra-te: #portrait:speech_right #animation:Mother_smiling #animation:Brother_smiling #hide:CaixaDaAlegria
 
 É normal querer o que os outros têm, mas também é bonito aprender a ficar feliz por eles. 
 
-O teu coração ficou apertado com ciúmes, mas conseguiste abri-lo para entender os sentimentos dos outros. De cada vez que fazes isso, o teu coração cresce! #portrait:narration #animation:Mother_veryHappy
+O teu coração ficou apertado com ciúmes, mas conseguiste abri-lo para entender os sentimentos dos outros. De cada vez que fazes isso, o teu coração cresce! #portrait:narration #animation:Mother_veryHappy #sticker:CoracaoGrande #show:CoracaoGrande
 
 -> END
 

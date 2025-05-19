@@ -16,8 +16,9 @@ public class DialogManager : MonoBehaviour
     [Header("Ink JSON")]
     [SerializeField] private TextAsset inkJSON;
 
-    [Header("Minigames")]
+    [Header("Managers")]
     [SerializeField] private MinigameManager minigameManager;
+    [SerializeField] private RewardManager rewardManager;
 
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
@@ -45,6 +46,7 @@ public class DialogManager : MonoBehaviour
     private const string SHOW_TAG = "show";
     private const string HIDE_TAG = "hide";
     private const string MINIGAME_TAG = "minigame";
+    private const string STICKER_TAG = "sticker";
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -177,6 +179,10 @@ public class DialogManager : MonoBehaviour
                     break;
                 case MINIGAME_TAG:
                     PlayMinigame(tagValue);
+                    break;
+                case STICKER_TAG:
+                    rewardManager.RewardSticker(tagValue);
+                    Debug.Log("Sticker rewarded: " + tagValue);
                     break;
                 default:
                     Debug.LogWarning("Tag came in but is not currently being handled: " + tag);
