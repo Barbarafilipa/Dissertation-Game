@@ -13,6 +13,17 @@ public class GameInitializer : MonoBehaviour
             PlayerPrefs.Save();
         }
 
-        // You can add more initial setup here in the future
+        if (!PlayerPrefs.HasKey("Character") || string.IsNullOrEmpty(PlayerPrefs.GetString("Character")))
+        {
+            PlayerPrefs.SetString("Character", "Boy");
+            PlayerPrefs.Save();
+        }
+
+        // Initialize character info
+        if (!PlayerPrefs.HasKey("Name") || string.IsNullOrEmpty(PlayerPrefs.GetString("Name")))
+        {
+            PlayerPrefs.SetString("Name", PlayerPrefs.GetString("Character") == "Boy" ? "João" : "Maria");
+            PlayerPrefs.Save();
+        }
     }
 }

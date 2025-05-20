@@ -88,7 +88,7 @@ E agora? #portrait:thought_lvl6
     
 === continue3 ===
 
-Parabéns! Conseguiste reparar a amizade com o teu amigo. Quando ficamos triste às vezes é difícil falar, mas soubeste expressar os teus sentimentos e ultrapassaste o momento difícil. #portrait:narration #animation:Child_veryHappy #animation:Friend_smiling #sticker:MuroDaAmizade #show:MuroDaAmizade
+Parabéns! Conseguiste reparar a amizade com o teu amigo. Quando ficamos tristes às vezes é difícil falar, mas soubeste expressar os teus sentimentos e ultrapassaste o momento difícil. #portrait:narration #animation:Child_veryHappy #animation:Friend_smiling #sticker:MuroDaAmizade #show:MuroDaAmizade
 
 Ei, eu fiquei triste porque não quiseste jogar comigo. #portrait:speech_left_lvl6 #animation:Child_smilingSide #hide:MuroDaAmizade
 
@@ -98,7 +98,7 @@ Desculpa, não queria magoar-te. #portrait:speech_right_lvl6_friend
 
 Se quiseres podemos jogar juntos agora. 
 
-Com a raiva, aprendeste a pensar antes de agir, e com a tristeza, partilhaste o que sentias. Uma coversa honesta ajudou a resolver tudo e a tornar a amizade mais forte! #portrait:narration #animation:Child_veryHappy #animation:Friend_veryHappy #sticker:ConversaHonesta #show:ConversaHonesta
+Com a raiva, aprendeste a pensar antes de agir, e com a tristeza, partilhaste o que sentias. Uma conversa honesta ajudou a resolver tudo e a tornar a amizade mais forte! #portrait:narration #animation:Child_veryHappy #animation:Friend_veryHappy #sticker:ConversaHonesta #show:ConversaHonesta
 
 -> END
 

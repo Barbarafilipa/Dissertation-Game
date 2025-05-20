@@ -31,7 +31,7 @@ public class StarSpawner : MonoBehaviour
         Sprite imageToSpawn = starPrefabs[randomIndex];
         starPrefab.GetComponent<Image>().sprite = imageToSpawn;
 
-        if(randomIndex < 6) // Assuming first 5 are happy stars
+        if(randomIndex < 5) // Assuming first 5 are happy stars
         {
             starPrefab.GetComponent<StarClick>().starType = StarClick.StarType.Happy;
         }
