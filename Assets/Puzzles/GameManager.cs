@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -69,6 +70,8 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        SetCharacterName();
+
         pieces = new List<Transform>();
         size = 3;
 
@@ -79,7 +82,7 @@ public class GameManager : MonoBehaviour
             StartCoroutine(WaitShuffle(0.5f));
         }
 
-        CreateGamePieces(0.01f); 
+        CreateGamePieces(0.01f);
     }
 
     public void SwapPieces(Piece a, Piece b)
@@ -101,7 +104,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!shuffling && CheckCompletion()) {
+        if (!shuffling && CheckCompletion())
+        {
             // Wait 2 seconds before completing the minigame
             StartCoroutine(WaitComplete(2f));
             //minigameManager.CompleteMinigame();
@@ -116,9 +120,10 @@ public class GameManager : MonoBehaviour
 
     private bool CheckCompletion()
     {
-        for (int i=0; i<pieces.Count; i++)
+        for (int i = 0; i < pieces.Count; i++)
         {
-            if (pieces[i].name != $"{i}") {
+            if (pieces[i].name != $"{i}")
+            {
                 return false;
             }
         }
@@ -155,4 +160,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void SetCharacterName()
+    {
+        string characterName = PlayerPrefs.HasKey("Name") ? PlayerPrefs.GetString("Name") : "João";
+        string character = PlayerPrefs.HasKey("Character") ? PlayerPrefs.GetString("Character") : "Boy";
+        
+        // Get child in parent
+        Transform characterNameTransform = gameTransform.parent.Find("Text (TMP)");
+        if (characterNameTransform != null)
+        {
+            TextMeshProUGUI textMeshPro = characterNameTransform.GetComponent<TextMeshProUGUI>();
+            if (textMeshPro != null)
+            {
+                string boyText = $"Qual é a emoção que o {characterName} está a sentir?";
+                string girlText = $"Qual é a emoção que a {characterName} está a sentir?";
+                textMeshPro.text = character == "Boy" ? boyText : girlText;
+            }
+        }
+    }
 }

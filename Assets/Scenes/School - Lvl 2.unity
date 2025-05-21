@@ -3992,9 +3992,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4900000, guid: 4cd51c3f5978b1f45b4707c2020436ee, type: 3}
     - target: {fileID: 5740080887726670077, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}
+      propertyPath: boyAnimator
+      value: 
+      objectReference: {fileID: 9100000, guid: b48aa7638b665064691bbbe3258893e6, type: 2}
+    - target: {fileID: 5740080887726670077, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 1049796237}
+    - target: {fileID: 5740080887726670077, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}
+      propertyPath: girlAnimator
+      value: 
+      objectReference: {fileID: 9100000, guid: 60a82cd9a32ecb24dbf068a63d5edb23, type: 2}
     - target: {fileID: 5740080887726670077, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}
       propertyPath: dialoguePanel
       value: 

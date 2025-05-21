@@ -9,6 +9,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.Playables;
 using UnityEngine.InputSystem;
+using UnityEditor.Animations;
 
 public class DialogManager : MonoBehaviour
 {
@@ -32,6 +33,8 @@ public class DialogManager : MonoBehaviour
 
     [Header("Characters")]
     [SerializeField] private GameObject[] characters;
+    [SerializeField] private AnimatorController boyAnimator;
+    [SerializeField] private AnimatorController girlAnimator;
 
     [Header("Other UI Elements")]
     [SerializeField] private GameObject[] otherUIElements;
@@ -51,6 +54,7 @@ public class DialogManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        SetCharacter();
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
 
@@ -114,7 +118,32 @@ public class DialogManager : MonoBehaviour
         return false;
     }
 
-    public void EnterDialogueMode(TextAsset inkJSON) {
+    private void SetCharacter()
+    {
+        GameObject child = null;
+        foreach (GameObject character in characters)
+        {
+            if (character.name == "Child")
+            {
+                child = character;
+                break;
+            }
+        }
+
+        if (!PlayerPrefs.HasKey("Character") || PlayerPrefs.GetString("Character") == "Boy")
+        {
+            // Change child animator to boyAnimator
+            child.GetComponent<Animator>().runtimeAnimatorController = boyAnimator;
+        }
+        else if (PlayerPrefs.GetString("Character") == "Girl")
+        {
+            // Change child animator to girlAnimator
+            child.GetComponent<Animator>().runtimeAnimatorController = girlAnimator;
+        }
+    }
+
+    public void EnterDialogueMode(TextAsset inkJSON)
+    {
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
