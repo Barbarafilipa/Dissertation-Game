@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
 public class CadernetaManager : MonoBehaviour
 {
@@ -34,6 +35,9 @@ public class CadernetaManager : MonoBehaviour
     }
     private void Start()
     {
+        placedStickers = stickerData.GetPlacedStickers(); // Get the list of placed stickers from StickerData
+        Debug.Log("Placed stickers: " + string.Join(", ", placedStickers));
+
         // Initialize the dictionary from the serialized list
         stickerSprites = new Dictionary<string, Sprite>();
         foreach (StickerSprite mapping in stickerSpriteMappings)
@@ -57,7 +61,7 @@ public class CadernetaManager : MonoBehaviour
                 int slotIndex = placedStickers.IndexOf(stickerName);
                 if (slotIndex < stickerSlots.Count)
                 {
-                    PlaceSticker(stickerSprites[stickerName], stickerSlots[slotIndex]);
+                    PlaceSticker(stickerSprites[stickerName], stickerName, stickerSlots[slotIndex]);
                 }
             }
         }
@@ -82,6 +86,10 @@ public class CadernetaManager : MonoBehaviour
             {
                 GameObject sticker = Instantiate(stickerPrefab, stickerInventoryParent);
                 sticker.GetComponent<Image>().sprite = stickerSprites[stickerName];
+                sticker.name = stickerName; // Set the name of the sticker object
+
+                int slotIndex = stickerSprites.Keys.ToList().IndexOf(stickerName);
+                sticker.GetComponent<DragSelo>().correspondingSlot = stickerSlots[slotIndex].GetComponent<RectTransform>();
                 stickerInventory.Add(sticker);
             }
         }
@@ -116,7 +124,7 @@ public class CadernetaManager : MonoBehaviour
         }
     }
 
-    public void PlaceSticker(Sprite selo, GameObject correspondingSlot)
+    public void PlaceSticker(Sprite selo, string stickerName, GameObject correspondingSlot)
     {
         // Set the sprite of the empty slot
         correspondingSlot.transform.Find("Selo").GetComponent<Image>().sprite = selo;
@@ -129,5 +137,8 @@ public class CadernetaManager : MonoBehaviour
         explicacao.SetActive(true); // Show the explanation
         number.SetActive(false); // Hide the number
         desconhecido.SetActive(false); // Hide the unknown
+
+        stickerData.PlaceSticker(stickerName); // Update the sticker data
+        Debug.Log("CADERNETA - Sticker placed: " + stickerName);
     }
 }

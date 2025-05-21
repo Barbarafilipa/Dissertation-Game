@@ -2679,11 +2679,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688924705}
   m_CullTransparentMesh: 1
---- !u!224 &726182709 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-  m_PrefabInstance: {fileID: 2922108428608781360}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &739912057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5650,8 +5645,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 726182709}
+  m_Children: []
   m_Father: {fileID: 1905821319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -6242,45 +6236,45 @@ MonoBehaviour:
   stickerSpriteMappings:
   - stickerName: Medo
     sprite: {fileID: 7645463351489041854, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: "Lanterna M\xE1gica"
+  - stickerName: LanternaMagica
     sprite: {fileID: 3793464798100719388, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Medalha da Coragem
+  - stickerName: MedalhaDaCoragem
     sprite: {fileID: 1896162405989395229, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
   - stickerName: Nojo
     sprite: {fileID: 22850133145526110, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Chef de Cozinha
+  - stickerName: ChefDeCozinha
     sprite: {fileID: -3216484889810018229, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Explorador de Sabores
+  - stickerName: ExploradorDeSabores
     sprite: {fileID: -6520711162549522664, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: "Ci\xFAme"
+  - stickerName: Ciume
     sprite: {fileID: -8968452747289640063, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Caixa da Alegria
+  - stickerName: CaixaDaAlegria
     sprite: {fileID: 3185882847695351976, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: "Cora\xE7\xE3o Grande"
+  - stickerName: CoracaoGrande
     sprite: {fileID: 3864981814720312443, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
   - stickerName: Ansiedade
     sprite: {fileID: -8151820711240001721, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Pensamento Positivo
+  - stickerName: PensamentoPositivo
     sprite: {fileID: 7250464157714658101, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Escolha Inteligente
+  - stickerName: EscolhaInteligente
     sprite: {fileID: -463089534670945224, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: "Respira\xE7\xE3o Tranquila"
+  - stickerName: RespiracaoTranquila
     sprite: {fileID: 5087805038948767388, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Desafio Superado
+  - stickerName: DesafioSuperado
     sprite: {fileID: 4054597401478816922, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
   - stickerName: Vergonha
     sprite: {fileID: -1709573102936735927, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Super Estrela
+  - stickerName: SuperEstrela
     sprite: {fileID: -8466925146852628133, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Sorriso Brilhante
+  - stickerName: SorrisoBrilhante
     sprite: {fileID: -2336906784612002143, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
   - stickerName: Raiva
     sprite: {fileID: 2848369228447655073, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Reciclagem da Raiva
+  - stickerName: ReciclagemDaRaiva
     sprite: {fileID: -789274351466622327, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Muro da Amizade
+  - stickerName: MuroDaAmizade
     sprite: {fileID: -5848668503181688027, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
-  - stickerName: Conversa Honesta
+  - stickerName: ConversaHonesta
     sprite: {fileID: -224225574003568126, guid: 7fd7bdb56a68f554e8a303e53548313c, type: 3}
 --- !u!1 &1719936219
 GameObject:
@@ -7209,107 +7203,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ee0ba43c8613f4d9d55a0d7fd21ef5, type: 3}
---- !u!1001 &2922108428608781360
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1507982524}
-    m_Modifications:
-    - target: {fileID: 2402548551513097575, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_Name
-      value: Selo
-      objectReference: {fileID: 0}
-    - target: {fileID: 4279411975476330205, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: correspondingSlot
-      value: 
-      objectReference: {fileID: 5423153182970267547}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 225
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -112.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750402682363199568, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ce824b440377610448ae7daf3a0ad87b, type: 3}
 --- !u!1001 &5423153182970267545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7410,11 +7303,6 @@ PrefabInstance:
 --- !u!224 &5423153182970267546 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5099570999724999552, guid: 640040f581021a04f901d3f4fee20c60, type: 3}
-  m_PrefabInstance: {fileID: 5423153182970267545}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &5423153182970267547 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5498908983315655547, guid: 640040f581021a04f901d3f4fee20c60, type: 3}
   m_PrefabInstance: {fileID: 5423153182970267545}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807

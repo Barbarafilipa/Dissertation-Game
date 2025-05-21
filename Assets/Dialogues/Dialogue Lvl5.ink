@@ -1,10 +1,10 @@
-O professor pede para leres o texto que escreveste em voz alta para a turma. #portrait:narration #animation:Child_serious #animation:Teacher_smiling
-Quando olhas à tua volta, sentes o rosto a aquecer... #animation:Child_ashamed
+O professor pede para leres o texto que escreveste em voz alta para a turma. #portrait:narration #animation:Child_serious #animation:Teacher_smiling #audio:narrator_lvl5_01
+Quando olhas à tua volta, sentes o rosto a aquecer... #animation:Child_ashamed #audio:narrator_lvl5_02
 
 -> minigame_puzzle_vergonha
 
 === continue1 ===
-Parabéns, reconheceste a vergonha! A vergonha aparece quando sentimos que os outros estão a reparar em nós de forma negativa ou que nos vão julgar. #portrait:narration #animation:Teacher_smiling #sticker:Vergonha #show:Vergonha
+Parabéns, reconheceste a vergonha! A vergonha aparece quando sentimos que os outros estão a reparar em nós de forma negativa ou que nos vão julgar. #portrait:narration #animation:Teacher_smiling #sticker:Vergonha #show:Vergonha #audio:narrator_lvl5_03
 
 Podes começar a ler quando estiveres pronto. #portrait:speech_right_lvl5 #hide:Vergonha
 
@@ -51,12 +51,12 @@ Estão todos a olhar para mim...  E agora? #portrait:thought_lvl5 #animation:Chi
     
 
 === continue2 ===
-Parabéns! Cada estrela positiva ajudou a tua confiança a crescer. Agora és uma super estrela pronto para mais desafios! #portrait:narration #sticker:SuperEstrela #show:SuperEstrela
+Parabéns! Cada estrela positiva ajudou a tua confiança a crescer. Agora és uma super estrela pronto para mais desafios! #portrait:narration #sticker:SuperEstrela #show:SuperEstrela #audio:narrator_lvl5_04
 
 -> novas_escolhas
 
 === novas_escolhas ===
-Agora com confiança lês o teu texto para a turma. #portrait:narration #animation:Child_happySide #animation:Teacher_smiling #show:Lines #show:FriendsHappy #hide:Friends #hide:SuperEstrela
+Agora com confiança lês o teu texto para a turma. #portrait:narration #animation:Child_happySide #animation:Teacher_smiling #show:Lines #show:FriendsHappy #hide:Friends #hide:SuperEstrela #audio:narrator_lvl5_05
 
 Consegui! Senti-me bem a ler! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:Lines #hide:Notebook
 
@@ -83,7 +83,7 @@ Hum... O que devo fazer? #portrait:thought_lvl5
     
 === continue4 ===
 
-Lembras-te do que sentiste no início? Agora terminaste com um sorriso! A vergonha foi embora e a alegria ficou. #portrait:narration #animation:Child_happy #animation:Teacher_smiling #sticker:SorrisoBrilhante #show:SorrisoBrilhante
+Lembras-te do que sentiste no início? Agora terminaste com um sorriso! A vergonha foi embora e a alegria ficou. #portrait:narration #animation:Child_happy #animation:Teacher_smiling #sticker:SorrisoBrilhante #show:SorrisoBrilhante #audio:narrator_lvl5_06
 
 -> END
 

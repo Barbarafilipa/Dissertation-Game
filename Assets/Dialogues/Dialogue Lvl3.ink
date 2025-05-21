@@ -1,12 +1,12 @@
-O teu irmão acabou de ganhar um presente novo. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide
-Ele está super feliz. Mas tu sentes um nó na barriga e fechas as mãos com força... #animation:Child_jealousSide #animation:Brother_happySide #animation:Mother_smilingSide
+O teu irmão acabou de ganhar um presente novo. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide #audio:narrator_lvl3_01
+Ele está super feliz. Mas tu sentes um nó na barriga e fechas as mãos com força... #animation:Child_jealousSide #animation:Brother_happySide #animation:Mother_smilingSide #audio:narrator_lvl3_02
 
 Eu também queria... #portrait:speech_left
 
 -> minigame_puzzle_ciume
 
 === continue1 ===
-Parabéns, reconheceste o ciúme! O ciúme aparece quando sentimos que alguém tem algo que nós também queríamos, como um presente, atenção ou carinho. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift #sticker:Ciume #show:Ciume
+Parabéns, reconheceste o ciúme! O ciúme aparece quando sentimos que alguém tem algo que nós também queríamos, como um presente, atenção ou carinho. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift #sticker:Ciume #show:Ciume #audio:narrator_lvl3_03
 
 -> main
 
@@ -72,13 +72,13 @@ Hum... #portrait:thought
 
 
 === continue2 ===
-Parabéns! Conseguiste encontrar muitos sorrisos ao teu redor! Agora a tua caixa está cheia de alegria para partilhares com quem mais gostas. #portrait:narration #animation:Mother_veryHappy #animation:Brother_happy #sticker:CaixaDaAlegria #show:CaixaDaAlegria
+Parabéns! Conseguiste encontrar muitos sorrisos ao teu redor! Agora a tua caixa está cheia de alegria para partilhares com quem mais gostas. #portrait:narration #animation:Mother_veryHappy #animation:Brother_happy #sticker:CaixaDaAlegria #show:CaixaDaAlegria #audio:narrator_lvl3_04
 
 Agora já sabes, quando sentires ciúmes outra vez lembra-te: #portrait:speech_right #animation:Mother_smiling #animation:Brother_smiling #hide:CaixaDaAlegria
 
 É normal querer o que os outros têm, mas também é bonito aprender a ficar feliz por eles. 
 
-O teu coração ficou apertado com ciúmes, mas conseguiste abri-lo para entender os sentimentos dos outros. De cada vez que fazes isso, o teu coração cresce! #portrait:narration #animation:Mother_veryHappy #sticker:CoracaoGrande #show:CoracaoGrande
+O teu coração ficou apertado com ciúmes, mas conseguiste abri-lo para entender os sentimentos dos outros. De cada vez que fazes isso, o teu coração cresce! #portrait:narration #animation:Mother_veryHappy #sticker:CoracaoGrande #show:CoracaoGrande #audio:narrator_lvl3_05
 
 -> END
 

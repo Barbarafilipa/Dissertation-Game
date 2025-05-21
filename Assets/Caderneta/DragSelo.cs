@@ -32,12 +32,10 @@ public class DragSelo : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         if (correspondingSlot != null && correspondingSlot.gameObject && RectTransformUtility.RectangleContainsScreenPoint(correspondingSlot, eventData.position, eventData.pressEventCamera))
         {
             Sprite selo = gameObject.GetComponent<Image>().sprite;
-            // Get parent object of the empty slot
-            GameObject slot = correspondingSlot.gameObject.transform.parent.gameObject;
-            
-            CadernetaManager.instance.PlaceSticker(selo, slot); // Call the method to place the sticker
 
-            gameObject.SetActive(false); // Hide the dragged item
+            CadernetaManager.instance.PlaceSticker(selo, gameObject.name, correspondingSlot.gameObject); // Call the method to place the sticker
+
+            Destroy(gameObject); // Destroy the sticker after placing it
             return;
         }
         transform.SetParent(originalParent); // Return to original parent

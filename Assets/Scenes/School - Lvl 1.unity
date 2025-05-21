@@ -1073,6 +1073,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325795010}
   m_CullTransparentMesh: 1
+--- !u!1 &326577333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326577334}
+  - component: {fileID: 326577335}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &326577334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326577333}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8508690313045470956}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &326577335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326577333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254b5587a92486f47b2b0ecb695660f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - name: narrator_lvl4_01
+    clip: {fileID: 8300000, guid: f0dfeaa9da6f79e4ebda5ed6affdeccc, type: 3}
+  - name: narrator_lvl4_02
+    clip: {fileID: 8300000, guid: 79204af17752ef442aa857e1939b4542, type: 3}
+  - name: narrator_lvl4_03
+    clip: {fileID: 8300000, guid: fdaafc5d6e378ae418ea310fff3283b5, type: 3}
+  - name: narrator_lvl4_04
+    clip: {fileID: 8300000, guid: b8e425b3613ff55408623ee0e0222d82, type: 3}
+  - name: narrator_lvl4_05
+    clip: {fileID: 8300000, guid: 7d37f2f6fff60734f9ec2171df08ca78, type: 3}
+  - name: narrator_lvl4_06
+    clip: {fileID: 8300000, guid: a032b1611c591ea4faef850e77d3fe31, type: 3}
+  - name: narrator_lvl4_07
+    clip: {fileID: 8300000, guid: 0ce5bff8bd4b8534198eea95c50c3f1a, type: 3}
 --- !u!1 &336745527
 GameObject:
   m_ObjectHideFlags: 0
@@ -11632,27 +11691,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.09900001
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.9517778
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.09900001
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0.9517778
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 213.2
+      value: 141.3661
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 49.80005
+      value: 92.0551
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11684,11 +11743,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 116
+      value: 4.1000977
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -31
+      value: -2.0999756
       objectReference: {fileID: 0}
     - target: {fileID: 1600665959883720843, guid: bcf780087ba10674096367594ee10827, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12261,7 +12320,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 982829365375438841, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 326577334}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}
 --- !u!114 &8508690313045470955 stripped
@@ -12275,6 +12337,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0395d4b5a0507dd4abad6eaa61863845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &8508690313045470956 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 982829365375438841, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}
+  m_PrefabInstance: {fileID: 8508690313045470954}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

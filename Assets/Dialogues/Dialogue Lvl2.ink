@@ -1,10 +1,10 @@
-É hora de jantar, e os teus pais preparam um prato diferente. #portrait:narration #animation:Child_smiling #animation:Mother_happy #show:Prato
-Quando olhas para a comida sentes um desconforto na barriga e vontade de vomitar... #animation:Child_disgusted #animation:Mother_serious
+É hora de jantar, e os teus pais preparam um prato diferente. #portrait:narration #animation:Child_smiling #animation:Mother_happy #show:Prato #audio:narrator_lvl2_01
+Quando olhas para a comida sentes um desconforto na barriga e vontade de vomitar... #animation:Child_disgusted #animation:Mother_serious #audio:narrator_lvl2_02
 
 -> minigame_puzzle_nojo
 
 === continue1 ===
-Parabéns, reconheceste o nojo! O nojo aparece quando algo parece estranho ou nos faz sentir desconfortáveis, como um cheiro mau. #portrait:narration #hide:Prato #sticker:Nojo #show:Nojo
+Parabéns, reconheceste o nojo! O nojo aparece quando algo parece estranho ou nos faz sentir desconfortáveis, como um cheiro mau. #portrait:narration #hide:Prato #sticker:Nojo #show:Nojo #audio:narrator_lvl2_03
 
 Experimenta! É uma receita nova e faz bem à saúde. #portrait:speech_right #animation:Mother_smiling #hide:Nojo
 
@@ -40,7 +40,7 @@ Será que quero experimentar? #portrait:thought #animation:Child_serious
     -> minigame_prato_misterioso
 
 === continue2 ===
-Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration #animation:Mother_happy #sticker:ChefDeCozinha #show:ChefDeCozinha
+Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration #animation:Mother_happy #sticker:ChefDeCozinha #show:ChefDeCozinha #audio:narrator_lvl2_04
 
 Vês? Experimentar não foi assim tão mau! #portrait:speech_right #animation:Mother_smiling #hide:ChefDeCozinha
 
@@ -48,7 +48,7 @@ Ainda não adoro, mas consegui comer um pouco. #portrait:speech_left
 
 E isso já é um grande passo. O teu paladar pode mudar com o tempo! #portrait:speech_right
 
-Explorar novos sabores é uma aventura! Mesmo que ainda não adores, sabes que esses alimentos fazem bem à tua saúde e vão ajudar-te a ser ainda mais forte e saudável. #portrait:narration #sticker:ExploradorDeSabores #show:ExploradorDeSabores
+Explorar novos sabores é uma aventura! Mesmo que ainda não adores, sabes que esses alimentos fazem bem à tua saúde e vão ajudar-te a ser ainda mais forte e saudável. #portrait:narration #sticker:ExploradorDeSabores #show:ExploradorDeSabores #audio:narrator_lvl2_05
 
 -> END
 

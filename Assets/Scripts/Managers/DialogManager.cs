@@ -50,6 +50,7 @@ public class DialogManager : MonoBehaviour
     private const string HIDE_TAG = "hide";
     private const string MINIGAME_TAG = "minigame";
     private const string STICKER_TAG = "sticker";
+    private const string AUDIO_TAG = "audio";
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -211,7 +212,9 @@ public class DialogManager : MonoBehaviour
                     break;
                 case STICKER_TAG:
                     rewardManager.RewardSticker(tagValue);
-                    Debug.Log("Sticker rewarded: " + tagValue);
+                    break;
+                case AUDIO_TAG:
+                    AudioManager.Instance.PlayAudio(tagValue);
                     break;
                 default:
                     Debug.LogWarning("Tag came in but is not currently being handled: " + tag);

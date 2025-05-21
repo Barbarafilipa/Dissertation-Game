@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class GameInitializer : MonoBehaviour
 {
+    [Header("Game Data")]
+    [SerializeField] private StickerData gameData;
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
+
+        gameData.LoadStickers();
 
         // Unlock Level 1 by default, if not already done
         if (!PlayerPrefs.HasKey("Level_1"))
