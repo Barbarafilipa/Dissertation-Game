@@ -1047,6 +1047,34 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4ac58ec542c2ac34a8a0fd98ea8bd460, type: 3}
   - name: narrator_lvl5_06
     clip: {fileID: 8300000, guid: c153ae6692c050e4faa374e991628a01, type: 3}
+  - name: teacher_lvl5_01
+    clip: {fileID: 8300000, guid: 57c123851002f7341a2f1da3f4251c4c, type: 3}
+  - name: teacher_lvl5_02
+    clip: {fileID: 8300000, guid: 4500a5dd0e569b649a53f468d99b94b7, type: 3}
+  - name: teacher_lvl5_03
+    clip: {fileID: 8300000, guid: 4ed2f33e8efa5af4198f8016aaf106aa, type: 3}
+  - name: teacher_lvl5_04
+    clip: {fileID: 8300000, guid: 1a8f972d6413dfc4595d7fa276b84e19, type: 3}
+  - name: teacher_lvl5_05
+    clip: {fileID: 8300000, guid: b8ef644b69594b543b3a9389bd34761e, type: 3}
+  - name: teacher_lvl5_06
+    clip: {fileID: 8300000, guid: ec4100208cb344746ba09aebe0fb4763, type: 3}
+  - name: teacher_lvl5_07
+    clip: {fileID: 8300000, guid: ecae3491a56096c4485656865dab80bf, type: 3}
+  - name: teacher_lvl5_08
+    clip: {fileID: 8300000, guid: b42ce116cc2896549912ca5b8267b339, type: 3}
+  - name: teacher_lvl5_09
+    clip: {fileID: 8300000, guid: e5afc58e7fca3a547ace23422f838522, type: 3}
+  - name: teacher_lvl5_10
+    clip: {fileID: 8300000, guid: 6e43cae178935d048aed8cfdac0d3078, type: 3}
+  - name: teacher_lvl5_11
+    clip: {fileID: 8300000, guid: 153caad3f3a3436488e81df06500701c, type: 3}
+  - name: teacher_lvl5_12
+    clip: {fileID: 8300000, guid: 8d919863c972dae45a617721232fa6a9, type: 3}
+  - name: teacher_lvl5_13
+    clip: {fileID: 8300000, guid: 50254ac7e51b65541b737669e1aee76c, type: 3}
+  - name: teacher_lvl5_14
+    clip: {fileID: 8300000, guid: dc82ecda6bb01fc4f943737edabc4a1e, type: 3}
 --- !u!1 &789510116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8745469006881963647, guid: d2f678f5b59365342b18ca6957a4ca98, type: 3}

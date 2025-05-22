@@ -94,9 +94,9 @@ Ei, eu fiquei triste porque não quiseste jogar comigo. #portrait:speech_left_lv
 
 Está tudo bem, mas queria que soubesses.
 
-Desculpa, não queria magoar-te. #portrait:speech_right_lvl6_friend
+Desculpa, não queria magoar-te. #portrait:speech_right_lvl6_friend #audio:friend_lvl6_01
 
-Se quiseres podemos jogar juntos agora. 
+Se quiseres podemos jogar juntos agora. #audio:friend_lvl6_02
 
 Com a raiva, aprendeste a pensar antes de agir, e com a tristeza, partilhaste o que sentias. Uma conversa honesta ajudou a resolver tudo e a tornar a amizade mais forte! #portrait:narration #animation:Child_veryHappy #animation:Friend_veryHappy #sticker:ConversaHonesta #show:ConversaHonesta #audio:narrator_lvl6_17
 

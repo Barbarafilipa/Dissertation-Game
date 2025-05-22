@@ -1751,6 +1751,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: e6198e726939c9c4ea7785b85ba11eaf, type: 3}
   - name: narrator_lvl6_17
     clip: {fileID: 8300000, guid: c808879f6e1169a40830e38654bea22f, type: 3}
+  - name: friend_lvl6_01
+    clip: {fileID: 8300000, guid: df3b2b95029539a4d9295529496e7a63, type: 3}
+  - name: friend_lvl6_02
+    clip: {fileID: 8300000, guid: 5ca333e1d254fdf4897edbf3f3252076, type: 3}
 --- !u!1 &706100071
 GameObject:
   m_ObjectHideFlags: 0

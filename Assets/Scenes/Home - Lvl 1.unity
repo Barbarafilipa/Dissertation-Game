@@ -2319,6 +2319,20 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 177c5a317ee6c6e4cb4f59661e758278, type: 3}
   - name: narrator_lvl1_05
     clip: {fileID: 8300000, guid: 29a2bfdc83ba2364b94baf80d374d2c7, type: 3}
+  - name: narrator_lvl1_05
+    clip: {fileID: 8300000, guid: 29a2bfdc83ba2364b94baf80d374d2c7, type: 3}
+  - name: mother_lvl1_01
+    clip: {fileID: 8300000, guid: 1ea730642dc986545a11f6a9fa31a91c, type: 3}
+  - name: mother_lvl1_02
+    clip: {fileID: 8300000, guid: 71acc9f99bfa9f146be6a74e53ce899c, type: 3}
+  - name: mother_lvl1_03
+    clip: {fileID: 8300000, guid: 6637f78a0815cd84594900bafbaf638a, type: 3}
+  - name: mother_lvl1_04
+    clip: {fileID: 8300000, guid: c4e830722ff34144986125ccad8358a8, type: 3}
+  - name: mother_lvl1_05
+    clip: {fileID: 8300000, guid: 5888a77b93672e54c89d2b7bfa6263ea, type: 3}
+  - name: mother_lvl1_06
+    clip: {fileID: 8300000, guid: 3bd57b7e897eabe4b879fb1a1a5b3f4c, type: 3}
 --- !u!114 &1541303918 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5740080887726670077, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}

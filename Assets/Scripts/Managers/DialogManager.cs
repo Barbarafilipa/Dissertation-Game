@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.Playables;
 using UnityEngine.InputSystem;
-using UnityEditor.Animations;
+
 
 public class DialogManager : MonoBehaviour
 {
@@ -33,8 +33,8 @@ public class DialogManager : MonoBehaviour
 
     [Header("Characters")]
     [SerializeField] private GameObject[] characters;
-    [SerializeField] private AnimatorController boyAnimator;
-    [SerializeField] private AnimatorController girlAnimator;
+    [SerializeField] private RuntimeAnimatorController boyAnimator;
+    [SerializeField] private RuntimeAnimatorController girlAnimator;
 
     [Header("Other UI Elements")]
     [SerializeField] private GameObject[] otherUIElements;

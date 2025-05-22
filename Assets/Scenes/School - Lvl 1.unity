@@ -1132,6 +1132,46 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: a032b1611c591ea4faef850e77d3fe31, type: 3}
   - name: narrator_lvl4_07
     clip: {fileID: 8300000, guid: 0ce5bff8bd4b8534198eea95c50c3f1a, type: 3}
+  - name: friend_lvl4_01
+    clip: {fileID: 8300000, guid: a50d898123910384bbb49ce30c6df1bd, type: 3}
+  - name: friend_lvl4_02
+    clip: {fileID: 8300000, guid: f5fa5a174d3370d4ca3bc70dad1e252d, type: 3}
+  - name: friend_lvl4_03
+    clip: {fileID: 8300000, guid: 0cc5f8290aefb27468639c5f49e2d97b, type: 3}
+  - name: friend_lvl4_04
+    clip: {fileID: 8300000, guid: 4fcdbcb38fe1d8c4eb5095b7d0aa8581, type: 3}
+  - name: friend_lvl4_05
+    clip: {fileID: 8300000, guid: c10d9fcc69b992243a5c87c8cc78e74f, type: 3}
+  - name: friend_lvl4_06
+    clip: {fileID: 8300000, guid: 51bd03b9af596ec47b17b3414f16ef20, type: 3}
+  - name: friend_lvl4_07
+    clip: {fileID: 8300000, guid: 67d575fa08d8294488dec97301da5249, type: 3}
+  - name: friend_lvl4_08
+    clip: {fileID: 8300000, guid: 94329ce3e31166547ac6ffbc01a9fe12, type: 3}
+  - name: teacher_lvl4_01
+    clip: {fileID: 8300000, guid: ab4f0a14b0fe7284b8277423811a46af, type: 3}
+  - name: teacher_lvl4_02
+    clip: {fileID: 8300000, guid: d5e7dfc18536b954c94df5a83784b539, type: 3}
+  - name: teacher_lvl4_03
+    clip: {fileID: 8300000, guid: 53db0a7bbd4c8d148a223e4ff37ac879, type: 3}
+  - name: teacher_lvl4_04
+    clip: {fileID: 8300000, guid: bcf144ed77c8dc741a82cbd613453859, type: 3}
+  - name: teacher_lvl4_05
+    clip: {fileID: 8300000, guid: ceb6b8b0e73df114cbe7a678ba911635, type: 3}
+  - name: teacher_lvl4_06
+    clip: {fileID: 8300000, guid: a40404a9f22722c4cbcd1e1eca2a5dab, type: 3}
+  - name: teacher_lvl4_07
+    clip: {fileID: 8300000, guid: 498fc04a7ced1db4788658cb46d729b3, type: 3}
+  - name: teacher_lvl4_08
+    clip: {fileID: 8300000, guid: b06c4ab0394cf374796edbed3caff1c5, type: 3}
+  - name: teacher_lvl4_09
+    clip: {fileID: 8300000, guid: 36fa1caa299db5c42a4c17c4f98b0b38, type: 3}
+  - name: teacher_lvl4_10
+    clip: {fileID: 8300000, guid: 347cd47e2429f004c8c57e220a202c3e, type: 3}
+  - name: teacher_lvl4_11
+    clip: {fileID: 8300000, guid: cf05a44f2061927448eb9093d5980010, type: 3}
+  - name: teacher_lvl4_12
+    clip: {fileID: 8300000, guid: c02e02177abd6444b88114be7401d837, type: 3}
 --- !u!1 &336745527
 GameObject:
   m_ObjectHideFlags: 0
