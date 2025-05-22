@@ -887,6 +887,24 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: f2ee8d15c5f71a14888deb1a6dc72a06, type: 3}
   - name: mother_lvl3_15
     clip: {fileID: 8300000, guid: f2ee8d15c5f71a14888deb1a6dc72a06, type: 3}
+  - name: child_lvl3_01
+    clip: {fileID: 8300000, guid: d96f24b96b47b5d4d843d9357cedfa81, type: 3}
+  - name: child_lvl3_02
+    clip: {fileID: 8300000, guid: b9de655a9f6af144dbb77ce81b0624e4, type: 3}
+  - name: child_lvl3_03
+    clip: {fileID: 8300000, guid: 2eefa385076e8b14a94da7fbc7eae1a7, type: 3}
+  - name: child_lvl3_04
+    clip: {fileID: 8300000, guid: cdddbcd8a93787447a66c65706f0eaf2, type: 3}
+  - name: child_lvl3_05
+    clip: {fileID: 8300000, guid: 8c5136641e361be4c9432089587c8f86, type: 3}
+  - name: child_lvl3_06
+    clip: {fileID: 8300000, guid: 1c22bc27f71227c4f881374cb629d636, type: 3}
+  - name: child_lvl3_07
+    clip: {fileID: 8300000, guid: 599df6c5959e9ee4e85bed573b7ef5d9, type: 3}
+  - name: child_lvl3_08
+    clip: {fileID: 8300000, guid: 51d697581a302f141a9a0b0c617c419b, type: 3}
+  - name: child_lvl3_09
+    clip: {fileID: 8300000, guid: f3270d9842ad40b4586ef07849030f0d, type: 3}
 --- !u!1 &1045950328
 GameObject:
   m_ObjectHideFlags: 0

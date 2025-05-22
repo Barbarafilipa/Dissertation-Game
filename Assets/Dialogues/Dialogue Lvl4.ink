@@ -11,11 +11,11 @@ Ei, estás pronto para o teste? #portrait:speech_right_lvl4_friend #speaker:Frie
 -> main
 
 === main ===
-E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend_serious #hide:Heart
+E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend_serious #hide:Heart #audio:child_lvl4_01
 
-+ [Não, vou dizer à professora que estou doente para não fazer.]
++ [Não, vou dizer à professora que estou doente para não fazer. $audio:child_lvl4_02]
 
-    Não, vou dizer à professora que estou doente para não fazer. #portrait:speech_left #animation:Friend_serious
+    Não, vou dizer à professora que estou doente para não fazer. #portrait:speech_left #animation:Friend_serious #audio:child_lvl4_02
     
     Mesmo que digas que estás doente, um dia vais ter que fazer o teste e a ansiedade vai ser maior ainda. #portrait:speech_right_lvl4_friend #animation:Child_veryAnxious #show:Heart #audio:friend_lvl4_02
     
@@ -23,9 +23,9 @@ E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend
     
     -> main
     
-+ [Estou ansioso, mas vou tentar fazer o teste.]
++ [Estou ansioso, mas vou tentar fazer o teste. $audio:child_lvl4_03]
 
-    Estou ansioso, mas vou tentar fazer o teste. #portrait:speech_left #animation:Child_worried #animation:Friend_veryHappy
+    Estou ansioso, mas vou tentar fazer o teste. #portrait:speech_left #animation:Child_worried #animation:Friend_veryHappy #audio:child_lvl4_03
     
     Vou te contar um segredo, eu também estou nervoso para o teste. #portrait:speech_right_lvl4_friend #animation:Child_serious #animation:Friend_smiling #audio:friend_lvl4_04
     
@@ -34,9 +34,9 @@ E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend
     Temos que pensar de forma calma para conseguirmos lidar com a ansiedade. #animation:Child_smiling #audio:friend_lvl4_06
     -> minigame_cano_dos_pensamentos
     
-+ [Eu estudei muito, então vai correr bem.]
++ [Eu estudei muito, então vai correr bem. $audio:child_lvl4_04]
 
-    Eu estudei muito, então vai correr bem. #portrait:speech_left #animation:Child_smiling #animation:Friend_veryHappy
+    Eu estudei muito, então vai correr bem. #portrait:speech_left #animation:Child_smiling #animation:Friend_veryHappy #audio:child_lvl4_04
     
     Isso mesmo, tens que pensar que estudaste muito e que por isso vais saber responder a tudo. #portrait:speech_right_lvl4_friend #animation:Friend_happy #audio:friend_lvl4_07
     
@@ -46,27 +46,27 @@ E se eu errar tudo? #portrait:thought #animation:Child_anxious #animation:Friend
 === continue2 ===
 Parabéns! Encontraste o caminho positivo! Quando escolhemos ver as coisas de forma mais calma e positiva, ficamos mais tranquilos, mesmo quando sentimos ansiedade. #portrait:narration #animation:Child_happy #animation:Friend_veryHappy #sticker:PensamentoPositivo #show:PensamentoPositivo #audio:narrator_lvl4_04
 
-Acho que já me sinto mais calmo. #portrait:speech_left #animation:Child_smiling #animation:Friend_smiling #hide:PensamentoPositivo
+Acho que já me sinto mais calmo. #portrait:speech_left #animation:Child_smiling #animation:Friend_smiling #hide:PensamentoPositivo #audio:child_lvl4_05
 
 Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #portrait:narration #show:Mask #show:PaperTest #hide:Friend #animation:Child_sit #animation:Child_serious #audio:narrator_lvl4_05
 
 -> novas_escolhas
 
 === novas_escolhas ===
-E agora? #portrait:thought_lvl4 #animation:Child_anxious #hide:Heart
+E agora? #portrait:thought_lvl4 #animation:Child_anxious #hide:Heart #audio:child_lvl4_06
 
-+ [Eu devia ter estudado mais! Vou falhar o teste todo!]
++ [Eu devia ter estudado mais! Vou falhar o teste todo! $audio:child_lvl4_07]
     
-    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left_lvl4_child #animation:Child_veryAnxious #show:Heart
+    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left_lvl4_child #animation:Child_veryAnxious #show:Heart #audio:child_lvl4_07
     
     Se continuares a pensar nas coisas negativas, a tua cabeça vai ficar cheia de preocupações. #portrait:speech_right #speaker:Teacher #animation:Teacher_sad #audio:teacher_lvl4_01
     
     Precisas de te focar no que podes fazer para melhorar, para não perderes muito tempo do teste.#animation:Teacher_serious #audio:teacher_lvl4_02
     -> novas_escolhas
 
-+ [Vou avançar esta e tentar outra primeiro.]
++ [Vou avançar esta e tentar outra primeiro. $audio:child_lvl4_08]
 
-    Vou avançar esta e tentar outra primeiro. #portrait:speech_left_lvl4_child #animation:Child_smiling #animation:Teacher_veryHappy
+    Vou avançar esta e tentar outra primeiro. #portrait:speech_left_lvl4_child #animation:Child_smiling #animation:Teacher_veryHappy #audio:child_lvl4_08
     
     Às vezes mudar o que estamos a fazer ajuda-nos a tornar tudo mais tranquilo. #portrait:speech_right #speaker:Teacher #animation:Teacher_smiling #audio:teacher_lvl4_03
     
@@ -74,9 +74,9 @@ E agora? #portrait:thought_lvl4 #animation:Child_anxious #hide:Heart
 
     -> minigame_ordem_inteligente
     
-+ [Vou fechar os olhos e respirar devagar.]
++ [Vou fechar os olhos e respirar devagar. $audio:child_lvl4_09]
 
-    Vou fechar os olhos e respirar devagar. #portrait:speech_left_lvl4_child #animation:Child_smiling #animation:Teacher_veryHappy
+    Vou fechar os olhos e respirar devagar. #portrait:speech_left_lvl4_child #animation:Child_smiling #animation:Teacher_veryHappy #audio:child_lvl4_09
     
     Quando estamos nervosos, o nosso coração bate mais rápido, mas com respirações profundas, conseguimos acalmar esse sentimento. #portrait:speech_right #speaker:Teacher #animation:Teacher_smiling #audio:teacher_lvl4_05
     
@@ -100,7 +100,7 @@ Parabéns! Ao escolheres começar pelas perguntas mais fáceis conseguiste contr
 -> continue4
 
 === continue4 ===
-Boa! Consegui terminar! #portrait:speech_left_lvl4_child #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:RespiracaoTranquila #hide:EscolhaInteligente
+Boa! Consegui terminar! #portrait:speech_left_lvl4_child #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:RespiracaoTranquila #hide:EscolhaInteligente #audio:child_lvl4_10
 
 Foi difícil, mas conseguiste controlar a ansiedade! #portrait:speech_right #audio:teacher_lvl4_12
 

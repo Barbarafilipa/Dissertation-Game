@@ -58,4 +58,13 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning($"Audio clip with name '{clipName}' not found.");
         }
     }
+
+    public void StopAudio()
+    {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+            Debug.Log("Audio stopped.");
+        }
+    }
 }

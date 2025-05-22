@@ -11,19 +11,22 @@ Está tudo bem? #portrait:speech_right #speaker:Mother #animation:Mother_smiling
 -> main
 
 === main ===
-E se tiver um monstro no meu quarto? #portrait:thought #animation:Child_afraid #animation:Mother_serious
+E se tiver um monstro no meu quarto? #portrait:thought #animation:Child_afraid #animation:Mother_serious #audio:child_lvl1_01
 
-+ [Não quero apagar a luz, posso dormir com ela acesa?]
-    Não quero apagar a luz, posso dormir com ela acesa? #portrait:speech_left #animation:Child_worried
++ [Não quero apagar a luz, posso dormir com ela acesa? $audio:child_lvl1_02]
+
+    Não quero apagar a luz, posso dormir com ela acesa? #portrait:speech_left #animation:Child_worried #audio:child_lvl1_02
     Tens a certeza? #portrait:speech_right #audio:mother_lvl1_02
     -> main
-+ [E se ele estiver escondido e só sair quando eu fechar os olhos?]
-    E se ele estiver escondido e só sair quando eu fechar os olhos? #portrait:speech_left #animation:Child_worried
++ [E se ele estiver escondido e só sair quando eu fechar os olhos? $audio:child_lvl1_03]
+
+    E se ele estiver escondido e só sair quando eu fechar os olhos? #portrait:speech_left #animation:Child_worried #audio:child_lvl1_03
     Assim não vais conseguir dormir. #portrait:speech_right #audio:mother_lvl1_03
     -> main
     
-+ [Estou com medo, mas sei que é a minha imaginação.]
-    Estou com medo, mas sei que é a minha imaginação. #portrait:speech_left #animation:Child_serious
++ [Estou com medo, mas sei que é a minha imaginação. $audio:child_lvl1_04] 
+
+    Estou com medo, mas sei que é a minha imaginação. #portrait:speech_left #animation:Child_serious #audio:child_lvl1_04
     Vamos ver o que é. #portrait:speech_right #audio:mother_lvl1_04
     -> minigame_lanterna_da_coragem
 

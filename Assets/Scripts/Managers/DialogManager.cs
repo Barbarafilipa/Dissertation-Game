@@ -90,6 +90,8 @@ public class DialogManager : MonoBehaviour
 
         if (Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
         {
+            // Stop any audio that is currently playing
+            AudioManager.Instance.StopAudio();
             if (IsTouchOverUI())
             {
                 return;
@@ -110,7 +112,7 @@ public class DialogManager : MonoBehaviour
 
         foreach (RaycastResult result in results)
         {
-            if (result.gameObject.name == "ExitButton") // Replace "ExitButton" with your button's name
+            if (result.gameObject.name == "ExitButton" || result.gameObject.name == "AudioButton") // Replace "ExitButton" with your button's name
             {
                 return true;
             }
@@ -332,11 +334,26 @@ public class DialogManager : MonoBehaviour
 
         int index = 0;
         // enable and initialize the choices up to the amount of choices for this line of dialogue
-        foreach(Choice choice in currentChoices)
+        foreach (Choice choice in currentChoices)
         {
+            string[] splitText = choice.text.Split('$');
+            Debug.Log("Split text: " + string.Join(", ", splitText));
+
             choices[index].gameObject.SetActive(true);
-            choicesText[index].text = choice.text;
+            choicesText[index].text = splitText[0];
             index++;
+
+            string audioTag = splitText[1];
+            audioTag = audioTag.Split(':')[1];
+
+            // Tags for the choice
+            Debug.Log("Audio tag: " + audioTag);
+            
+            // Find child object with the name AudioButton
+            GameObject audioButton = choices[index - 1].gameObject.transform.GetChild(1).gameObject;
+            // Remove the existing listener to avoid multiple calls
+            audioButton.GetComponent<Button>().onClick.RemoveAllListeners();
+            audioButton.GetComponent<Button>().onClick.AddListener(() => AudioManager.Instance.PlayAudio(audioTag));
         }
 
         // go through the remaining choices the UI supports and make sure they're hidden

@@ -1,7 +1,7 @@
-O teu irmão acabou de ganhar um presente novo. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide #audio:narrator_lvl3_01
+Estás na sala com a tua família e o teu irmão acabou de ganhar um presente novo. #portrait:narration #animation:Brother_smilingSide #animation:Mother_smilingSide #audio:narrator_lvl3_01
 Ele está super feliz. Mas tu sentes um nó na barriga e fechas as mãos com força... #animation:Child_jealousSide #animation:Brother_happySide #animation:Mother_smilingSide #audio:narrator_lvl3_02
 
-Eu também queria... #portrait:speech_left
+Eu também queria... #portrait:speech_left #audio:child_lvl3_01
 
 -> minigame_puzzle_ciume
 
@@ -11,11 +11,11 @@ Parabéns, reconheceste o ciúme! O ciúme aparece quando sentimos que alguém t
 -> main
 
 === main ===
-Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Child_jealousSide #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift #hide:Ciume
+Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Child_jealousSide #animation:Brother_smilingSide #animation:Mother_smilingSide #hide:Gift #hide:Ciume #audio:child_lvl3_02
 
-+ [Vocês gostam mais dele do que de mim, ele é o preferido!]
++ [Vocês gostam mais dele do que de mim, ele é o preferido! $audio:child_lvl3_03]
 
-    Vocês gostam mais dele do que de mim, ele é o preferido! #portrait:speech_left #animation:Child_jealous #animation:Brother_serious #animation:Mother_sad
+    Vocês gostam mais dele do que de mim, ele é o preferido! #portrait:speech_left #animation:Child_jealous #animation:Brother_serious #animation:Mother_sad #audio:child_lvl3_03
     
     Porque dizes isso? Vou-te contar um segredo. #portrait:speech_right #animation:Mother_sad #audio:mother_lvl3_01
     
@@ -26,9 +26,9 @@ Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Chi
     Quando fores para a escola como o teu irmão e tiveres boas notas, também te podemos dar presentes. #animation:Mother_smiling #animation:Brother_smiling #audio:mother_lvl3_04
     -> main
     
-+ [A sério? O meu irmão tem um presente e eu não? Vou fingir que não me importo, não vou mostrar ciúmes.]
++ [A sério? O meu irmão tem um presente e eu não? Vou fingir que não me importo, não vou mostrar ciúmes. $audio:child_lvl3_04]
 
-    A sério? O meu irmão tem um presente e eu não? Vou fingir que não me importo, não vou mostrar ciúmes. #portrait:speech_left #animation:Child_stubborn #animation:Brother_serious #animation:Mother_sad
+    A sério? O meu irmão tem um presente e eu não? Vou fingir que não me importo, não vou mostrar ciúmes. #portrait:speech_left #animation:Child_stubborn #animation:Brother_serious #animation:Mother_sad #audio:child_lvl3_04
     
     Queres falar comigo sobre o presente do teu irmão? Acho que ficaste com um bocadinho de ciúmes. #portrait:speech_right #animation:Mother_sad #audio:mother_lvl3_05
     
@@ -37,11 +37,11 @@ Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Chi
     Mas devemos mostrar aos outros como nos sentimos para eles nos ajudarem a ficarmos mais felizes, não achas? #animation:Mother_smiling #animation:Brother_smiling #audio:mother_lvl3_07
     -> main
     
-+ [Hoje o presente foi para o meu irmão, porque estudou muito e teve boa nota.]
++ [Hoje o presente foi para o meu irmão, porque estudou muito e teve boa nota. $audio:child_lvl3_05]
 
-    Hoje o presente foi para o meu irmão, porque estudou muito e teve boa nota. #portrait:speech_left #animation:Child_smiling #animation:Mother_smiling #animation:Brother_smiling 
+    Hoje o presente foi para o meu irmão, porque estudou muito e teve boa nota. #portrait:speech_left #animation:Child_smiling #animation:Mother_smiling #animation:Brother_smiling #audio:child_lvl3_05
     
-    Mas eu também recebo coisas noutras alturas.
+    Mas eu também recebo coisas noutras alturas. #audio:child_lvl3_06
     
     Isso mesmo! Cada um pode ter o seu momento e receber presentes. #portrait:speech_right #animation:Mother_happy #audio:mother_lvl3_08
     
@@ -50,20 +50,20 @@ Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Chi
 === novas_escolhas ===
 O importante é ambos estarem felizes, não achas? #audio:mother_lvl3_09
 
-Hum... #portrait:thought
+Hum... #portrait:thought #audio:child_lvl3_07
 
-+ [Acho que se ele ficar feliz também fico feliz por ele.]
++ [Acho que se ele ficar feliz também fico feliz por ele. $audio:child_lvl3_08]
 
-    Acho que se ele ficar feliz também fico feliz por ele. #portrait:speech_left
+    Acho que se ele ficar feliz também fico feliz por ele. #portrait:speech_left #audio:child_lvl3_08
     
     Isso é muito bonito da tua parte! #portrait:speech_right #audio:mother_lvl3_10
     Ao apoiares o teu irmão, estás a crescer e partilhar alegria. #audio:mother_lvl3_11
     
     -> minigame_caixa_dos_sorrisos
     
-+ [Ainda tenho um bocadinho de ciúmes, mas já consigo entender.]
++ [Ainda tenho um bocadinho de ciúmes, mas já consigo entender. $audio:child_lvl3_09]
 
-    Ainda tenho um bocadinho de ciúmes, mas já consigo entender. #portrait:speech_left
+    Ainda tenho um bocadinho de ciúmes, mas já consigo entender. #portrait:speech_left #audio:child_lvl3_09
     
     É normal ainda te sentires assim, mas estás no caminho certo! #portrait:speech_right #audio:mother_lvl3_12
     Lembra-te de que também podes sentir alegria ao ver os outros felizes. #audio:mother_lvl3_13

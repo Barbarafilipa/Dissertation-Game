@@ -11,11 +11,11 @@ Podes começar a ler quando estiveres pronto. #portrait:speech_right_lvl5 #hide:
 -> main
 
 === main ===
-Estão todos a olhar para mim...  E agora? #portrait:thought_lvl5 #animation:Child_ashamed
+Estão todos a olhar para mim...  E agora? #portrait:thought_lvl5 #animation:Child_ashamed #audio:child_lvl5_01
 
-+ [Hoje não quero ler!]
++ [Hoje não quero ler! $audio:child_lvl5_02]
 
-    Hoje não quero ler! #portrait:speech_left_lvl5_child #animation:Child_stubborn #animation:Teacher_sad
+    Hoje não quero ler! #portrait:speech_left_lvl5_child #animation:Child_stubborn #animation:Teacher_sad #audio:child_lvl5_02
     
     Eu sei que pode parecer mais fácil não fazer isso agora, mas o que custa é o primeiro passo. #portrait:speech_right_lvl5 #animation:Child_veryAshamed #animation:Teacher_serious #audio:teacher_lvl5_02
     
@@ -25,9 +25,9 @@ Estão todos a olhar para mim...  E agora? #portrait:thought_lvl5 #animation:Chi
     
     -> main
     
-+ [Se eu me enganar vão todos gozar comigo, vai ser terrível.]
++ [Se eu me enganar vão todos gozar comigo, vai ser terrível. $audio:child_lvl5_03]
 
-    Se eu me enganar vão todos gozar comigo, vai ser terrível. #portrait:speech_left_lvl5_child #animation:Child_veryAshamed #animation:Teacher_sad
+    Se eu me enganar vão todos gozar comigo, vai ser terrível. #portrait:speech_left_lvl5_child #animation:Child_veryAshamed #animation:Teacher_sad #audio:child_lvl5_03
     
     Pensa na vergonha como uma bola de neve. #portrait:speech_right_lvl5 #animation:Teacher_smiling #audio:teacher_lvl5_05
     
@@ -37,9 +37,9 @@ Estão todos a olhar para mim...  E agora? #portrait:thought_lvl5 #animation:Chi
     
     -> main
     
-+ [Se eu me enganar, não faz mal, os meus colegas também se enganam.]
++ [Se eu me enganar, não faz mal, os meus colegas também se enganam. $audio:child_lvl5_04]
 
-    Se eu me enganar, não faz mal, os meus colegas também se enganam. #portrait:speech_left_lvl5_child #animation:Child_smilingSide #animation:Teacher_veryHappy
+    Se eu me enganar, não faz mal, os meus colegas também se enganam. #portrait:speech_left_lvl5_child #animation:Child_smilingSide #animation:Teacher_veryHappy #audio:child_lvl5_04
     
     Isso mesmo! Imagina que estás a aprender a andar de bicicleta. #portrait:speech_right_lvl5 #animation:Child_smiling #animation:Teacher_smiling #audio:teacher_lvl5_08
     
@@ -58,24 +58,24 @@ Parabéns! Cada estrela positiva ajudou a tua confiança a crescer. Agora és um
 === novas_escolhas ===
 Agora com confiança lês o teu texto para a turma. #portrait:narration #animation:Child_happySide #animation:Teacher_smiling #show:Lines #show:FriendsHappy #hide:Friends #hide:SuperEstrela #audio:narrator_lvl5_05
 
-Consegui! Senti-me bem a ler! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:Lines #hide:Notebook
+Consegui! Senti-me bem a ler! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:Lines #hide:Notebook #audio:child_lvl5_05
 
 Isso é alegria. E os teus colegas também gostaram do teu texto! #portrait:speech_right_lvl5 #animation:Child_happy #animation:Teacher_smiling #audio:teacher_lvl5_11
 
-Hum... O que devo fazer? #portrait:thought_lvl5
+Hum... O que devo fazer? #portrait:thought_lvl5 #audio:child_lvl5_06
 
-+ [Vou tentar não sorrir para não acharem que sou convencido.]
++ [Vou tentar não sorrir para não acharem que sou convencido. $audio:child_lvl5_07]
     
-    Vou tentar não sorrir para não acharem que sou convencido. #portrait:speech_left_lvl5_child #animation:Child_serious #animation:Teacher_sad
+    Vou tentar não sorrir para não acharem que sou convencido. #portrait:speech_left_lvl5_child #animation:Child_serious #animation:Teacher_sad #audio:child_lvl5_07
     
     Quando mostramos aos outros como estamos felizes, estamos a partilhar algo bom. #portrait:speech_right_lvl5 #animation:Teacher_smiling #audio:teacher_lvl5_12
     
     Não precisas de esconder um sorriso. É natural e bonito de se ver! #audio:teacher_lvl5_13
     -> novas_escolhas
 
-+ [Eu gostei e quero fazer mais vezes!]
++ [Eu gostei e quero fazer mais vezes! $audio:child_lvl5_08]
 
-    Eu gostei e quero fazer mais vezes! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy
+    Eu gostei e quero fazer mais vezes! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy #audio:child_lvl5_08
     
     Ainda bem! A alegria cresce quando repetimos algo bom. #portrait:speech_right_lvl5 #animation:Child_happy #animation:Teacher_smiling #audio:teacher_lvl5_14
 
