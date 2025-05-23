@@ -71,6 +71,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         SetCharacterName();
+        SetHelpButton();
 
         pieces = new List<Transform>();
         size = 3;
@@ -164,7 +165,7 @@ public class GameManager : MonoBehaviour
     {
         string characterName = PlayerPrefs.HasKey("Name") ? PlayerPrefs.GetString("Name") : "João";
         string character = PlayerPrefs.HasKey("Character") ? PlayerPrefs.GetString("Character") : "Boy";
-        
+
         // Get child in parent
         Transform characterNameTransform = gameTransform.parent.Find("Text (TMP)");
         if (characterNameTransform != null)
@@ -175,6 +176,34 @@ public class GameManager : MonoBehaviour
                 string boyText = $"Qual é a emoção que o {characterName} está a sentir?";
                 string girlText = $"Qual é a emoção que a {characterName} está a sentir?";
                 textMeshPro.text = character == "Boy" ? boyText : girlText;
+            }
+        }
+    }
+    
+    private void SetHelpButton()
+    {
+        Transform helpButtonTransform = gameTransform.parent.Find("Help");
+        Transform helpImageTransform = gameTransform.parent.Find("Help Image");
+        if (helpButtonTransform != null)
+        {
+            Button helpButton = helpButtonTransform.GetComponent<Button>();
+            if (helpButton != null)
+            {
+                // Toggle the visibility of the help image
+                helpButton.onClick.AddListener(() =>
+                {
+                    if (helpImageTransform != null)
+                    {
+                        if (helpImageTransform.gameObject.activeSelf)
+                        {
+                            helpImageTransform.gameObject.SetActive(false);
+                        }
+                        else
+                        {
+                            helpImageTransform.gameObject.SetActive(true);
+                        }
+                    }
+                });
             }
         }
     }
