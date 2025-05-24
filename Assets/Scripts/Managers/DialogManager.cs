@@ -26,6 +26,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
 
     [SerializeField] private Animator portraitAnimator;
+    [SerializeField] private GameObject confettis;
 
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
@@ -161,6 +162,8 @@ public class DialogManager : MonoBehaviour
             // set text for the current dialogue line
             dialogueText.text = currentStory.Continue();
 
+            CheckIfIsEndOfDialogue();
+
             // display choices, if any, for this dialogue line
             DisplayChoices();
 
@@ -173,6 +176,20 @@ public class DialogManager : MonoBehaviour
             PlayerPrefs.SetInt(currentLevelName, 1); // Save the level as completed
             PlayerPrefs.Save();
             ExitLevel();
+        }
+    }
+
+    private void CheckIfIsEndOfDialogue()
+    {
+        if (!currentStory.canContinue && currentStory.currentChoices.Count == 0)
+        {
+            Debug.Log("Last line of dialogue reached.");
+            // Find the GameObject in the scene named Confettis
+            
+            if (confettis != null)
+            {
+                confettis.SetActive(true);
+            }
         }
     }
 

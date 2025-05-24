@@ -35,6 +35,7 @@ public class Drag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
             // If the dragged item is dropped on the target slot
             gameObject.SetActive(false);
             GameManagerReciclagem.Instance.ThoughtRecycled(); // Notify the game manager
+            Debug.Log("Dropped on target slot");
         }
         else
         {
