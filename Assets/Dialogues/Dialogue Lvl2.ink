@@ -1,27 +1,29 @@
-É hora de jantar, e os teus pais preparam um prato diferente. #portrait:narration #animation:Child_smiling #animation:Mother_happy #show:Prato #audio:narrator_lvl2_01
+É hora de jantar, e os teus pais preparam um prato diferente. #portrait:narration #animation:Child_smiling #animation:Mother_happy #show:PratoEstragado #audio:narrator_lvl2_01
 Quando olhas para a comida sentes um desconforto na barriga e vontade de vomitar... #animation:Child_disgusted #animation:Mother_serious #audio:narrator_lvl2_02
 
 -> minigame_puzzle_nojo
 
 === continue1 ===
-Parabéns, reconheceste o nojo! O nojo aparece quando algo parece estranho ou nos faz sentir desconfortáveis, como um cheiro mau. #portrait:narration #hide:Prato #sticker:Nojo #show:Nojo #audio:narrator_lvl2_03
+Parabéns, reconheceste o nojo! O nojo aparece quando algo parece estranho ou nos faz sentir desconfortáveis, como um cheiro mau. #portrait:narration #hide:PratoEstragado #sticker:Nojo #show:Nojo #audio:narrator_lvl2_03
 
-Experimenta! #portrait:speech_right #animation:Mother_smiling #hide:Nojo #audio:mother_lvl2_01
+Experimenta! #portrait:speech_right #animation:Mother_smiling #hide:Nojo #audio:mother_lvl2_01 #show:PratoEstragado
+
+Será que quero experimentar? #portrait:thought #audio:child_lvl2_03 #hide:PratoEstragado
 
 + [Tenho vontade de vomitar, que nojo! $audio:child_lvl2_01]
 
-    Tenho vontade de vomitar, que nojo! #portrait:speech_left #audio:child_lvl2_01
+    Tenho vontade de vomitar, que nojo! #portrait:speech_left #audio:child_lvl2_01 #show:PratoEstragado
     -> other
 
 + [Parece estragado, acho que não devia comer isso! $audio:child_lvl2_02]
 
-    Parece estragado, acho que não devia comer isso! #portrait:speech_left #audio:child_lvl2_02
+    Parece estragado, acho que não devia comer isso! #portrait:speech_left #audio:child_lvl2_02 #show:PratoEstragado
     -> other
     
 === other ===
 Tens razão, acho que esta comida não está boa. #portrait:speech_right #audio:mother_lvl2_02
 
-O nojo estava a tentar proteger-te. #audio:mother_lvl2_03
+O nojo estava a tentar proteger-te. #audio:mother_lvl2_03 #hide:PratoEstragado
 
 Ele ajuda-nos a afastar coisas que podem fazer-nos mal, como comida estragada. #audio:mother_lvl2_04
 
@@ -29,15 +31,15 @@ Ele ajuda-nos a afastar coisas que podem fazer-nos mal, como comida estragada. #
 
 === main ===
 
-Tens aqui um prato novo. #portrait:speech_right #audio:mother_lvl2_05
+Tens aqui um prato novo. #portrait:speech_right #audio:mother_lvl2_05 #show:Prato
 
 Experimenta para veres se gostas, faz bem à saúde. #audio:mother_lvl2_06
 
-Será que quero experimentar? #portrait:thought #animation:Child_serious #audio:child_lvl2_03
+Será que quero experimentar? #portrait:thought #animation:Child_serious #audio:child_lvl2_03 #hide:Prato
 
 + [Não! Isso é nojento! $audio:child_lvl2_04]
 
-    Não! Isso é nojento! #portrait:speech_left #animation:Child_verydisgusted #animation:Mother_serious #audio:child_lvl2_04
+    Não! Isso é nojento! #portrait:speech_left #animation:Child_verydisgusted #animation:Mother_serious #audio:child_lvl2_04 #show:Prato
     
     Quando vemos algo estragado, que cheira ou sabe mal, sentimos nojo. #portrait:speech_right #audio:mother_lvl2_07
     
@@ -52,7 +54,7 @@ Será que quero experimentar? #portrait:thought #animation:Child_serious #audio:
     
 + [Até posso provar, mas enquanto como vou pensar que estou a comer outra coisa que gosto. $audio:child_lvl2_05]
 
-    Até posso provar, mas enquanto como vou pensar que estou a comer outra coisa que gosto. #portrait:speech_left #animation:Child_serious #animation:Mother_serious #audio:child_lvl2_05
+    Até posso provar, mas enquanto como vou pensar que estou a comer outra coisa que gosto. #portrait:speech_left #animation:Child_serious #animation:Mother_serious #audio:child_lvl2_05 #show:Prato
     
     Pensar noutra comida não vai mudar o sabor. #portrait:speech_right #audio:mother_lvl2_12
     Mas se pensares no que cada legume faz de bom vai ser mais fácil experimentar! #animation:Mother_smiling #audio:mother_lvl2_13
@@ -61,13 +63,13 @@ Será que quero experimentar? #portrait:thought #animation:Child_serious #audio:
     
 + [Se faz bem à saúde, eu posso tentar comer um pedaço. $audio:child_lvl2_06]
 
-    Se faz bem à saúde, eu posso tentar comer um pedaço. #portrait:speech_left #animation:Child_smiling #audio:child_lvl2_06
+    Se faz bem à saúde, eu posso tentar comer um pedaço. #portrait:speech_left #animation:Child_smiling #audio:child_lvl2_06 #show:Prato
     
     Boa! Vais ver que vais gostar! Consegues adivinhar o que tem? #portrait:speech_right #animation:Mother_happy #audio:mother_lvl2_15
     -> minigame_prato_misterioso
 
 === continue2 ===
-Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration #animation:Mother_happy #sticker:ChefDeCozinha #show:ChefDeCozinha #audio:narrator_lvl2_04
+Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration #animation:Mother_happy #sticker:ChefDeCozinha #show:ChefDeCozinha #audio:narrator_lvl2_04 #hide:Prato
 
 Vês? Experimentar não foi assim tão mau! #portrait:speech_right #animation:Mother_smiling #hide:ChefDeCozinha #audio:mother_lvl2_16
 
