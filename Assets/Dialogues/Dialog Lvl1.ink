@@ -4,9 +4,9 @@ O quarto parece cheio de sombras estranhas e barulhos esquisitos… #show:Darkne
 -> minigame_puzzle_medo
 
 === continue1 ===
-Parabéns, reconheceste o medo! O medo aparece quando achamos que algo nos pode fazer mal, mesmo que não seja de verdade. #portrait:narration #sticker:Medo #show:Medo #audio:narrator_lvl1_03
+Parabéns, reconheceste o medo! O medo aparece quando achamos que algo nos pode fazer mal, mesmo que não seja de verdade. #portrait:narration #sticker:Medo #show:Medo #audio:narrator_lvl1_03 #show:Mensagem
 
-Está tudo bem? #portrait:speech_right #speaker:Mother #animation:Mother_smiling #hide:Darkness #hide:Monsters #hide:Medo #audio:mother_lvl1_01
+Está tudo bem? #portrait:speech_right #speaker:Mother #animation:Mother_smiling #hide:Darkness #hide:Monsters #hide:Medo #audio:mother_lvl1_01 #hide:Mensagem
 
 -> main
 

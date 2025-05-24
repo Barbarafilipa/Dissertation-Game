@@ -10,6 +10,12 @@ public class GameInitializer : MonoBehaviour
 
         gameData.LoadStickers();
 
+        if (!PlayerPrefs.HasKey("GameCompleted"))
+        {
+            PlayerPrefs.SetInt("GameCompleted", 0);
+            PlayerPrefs.Save();
+        }
+
         // Unlock Level 1 by default, if not already done
         if (!PlayerPrefs.HasKey("Level_1"))
         {

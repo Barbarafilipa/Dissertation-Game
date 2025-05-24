@@ -68,7 +68,7 @@ public class DialogManager : MonoBehaviour
             choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
             index++;
         }
-        
+
         EnterDialogueMode(inkJSON);
     }
 
@@ -76,7 +76,7 @@ public class DialogManager : MonoBehaviour
     private void Update()
     {
         // return right away if dialogue isn't playing
-        if(!dialogueIsPlaying || isExitingLevel)
+        if (!dialogueIsPlaying || isExitingLevel)
         {
             return;
         }
@@ -86,7 +86,7 @@ public class DialogManager : MonoBehaviour
         {
             return;
         }
-    
+
         if (Touchscreen.current == null) return;
 
         if (Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
@@ -157,7 +157,7 @@ public class DialogManager : MonoBehaviour
 
     private void ContinueStory()
     {
-        if(currentStory.canContinue)
+        if (currentStory.canContinue)
         {
             // set text for the current dialogue line
             dialogueText.text = currentStory.Continue();
@@ -173,8 +173,6 @@ public class DialogManager : MonoBehaviour
         else
         {
             // If the story has ended, exit the level
-            PlayerPrefs.SetInt(currentLevelName, 1); // Save the level as completed
-            PlayerPrefs.Save();
             ExitLevel();
         }
     }
@@ -185,11 +183,13 @@ public class DialogManager : MonoBehaviour
         {
             Debug.Log("Last line of dialogue reached.");
             // Find the GameObject in the scene named Confettis
-            
+
             if (confettis != null)
             {
                 confettis.SetActive(true);
             }
+
+            SaveCompletedLevel(); // Save the level as completed
         }
     }
 
@@ -287,11 +287,13 @@ public class DialogManager : MonoBehaviour
         // Loop through all other UI elements and set the active state based on the tag value
         foreach (GameObject uiElement in otherUIElements)
         {
-            if(uiElement.name == "Mask" && tagValue == "Mask") {
+            if (uiElement.name == "Mask" && tagValue == "Mask")
+            {
                 DealWithMask(uiElement, true);
                 return;
             }
-            if(uiElement.name == "Timeline" && tagValue == "Timeline") {
+            if (uiElement.name == "Timeline" && tagValue == "Timeline")
+            {
                 DealWithTimeline(uiElement, true);
                 return;
             }
@@ -309,11 +311,13 @@ public class DialogManager : MonoBehaviour
         // Loop through all other UI elements and set the active state based on the tag value
         foreach (GameObject uiElement in otherUIElements)
         {
-            if(uiElement.name == "Mask" && tagValue == "Mask") {
+            if (uiElement.name == "Mask" && tagValue == "Mask")
+            {
                 DealWithMask(uiElement, false);
                 return;
             }
-            if(uiElement.name == "Timeline" && tagValue == "Timeline") {
+            if (uiElement.name == "Timeline" && tagValue == "Timeline")
+            {
                 DealWithTimeline(uiElement, false);
                 return;
             }
@@ -365,7 +369,7 @@ public class DialogManager : MonoBehaviour
 
             // Tags for the choice
             //Debug.Log("Audio tag: " + audioTag);
-            
+
             // Find child object with the name AudioButton
             GameObject audioButton = choices[index - 1].gameObject.transform.GetChild(1).gameObject;
             // Remove the existing listener to avoid multiple calls
@@ -374,7 +378,7 @@ public class DialogManager : MonoBehaviour
         }
 
         // go through the remaining choices the UI supports and make sure they're hidden
-        for (int i=index; i<choices.Length; i++)
+        for (int i = index; i < choices.Length; i++)
         {
             choices[i].gameObject.SetActive(false);
         }
@@ -410,5 +414,12 @@ public class DialogManager : MonoBehaviour
         isExitingLevel = true; // Set the flag to indicate exiting the level
 
         SceneManager.LoadScene("Levels"); // Example: Load the main menu scene
+    }
+    
+    private void SaveCompletedLevel()
+    {
+        // Save the current level as completed
+        PlayerPrefs.SetInt(currentLevelName, 1);
+        PlayerPrefs.Save();
     }
 }
