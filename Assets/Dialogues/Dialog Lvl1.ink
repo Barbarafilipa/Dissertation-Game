@@ -24,8 +24,7 @@ E se tiver um monstro no meu quarto? #portrait:thought #animation:Child_afraid #
     Assim não vais conseguir dormir. #portrait:speech_right #audio:mother_lvl1_03
     -> main
     
-+ [Estou com medo, mas sei que é a minha imaginação. $audio:child_lvl1_04] 
-
++ [Estou com medo, mas sei que é a minha imaginação. $audio:child_lvl1_04]
     Estou com medo, mas sei que é a minha imaginação. #portrait:speech_left #animation:Child_serious #audio:child_lvl1_04
     Vamos ver o que é. #portrait:speech_right #audio:mother_lvl1_04
     -> minigame_lanterna_da_coragem

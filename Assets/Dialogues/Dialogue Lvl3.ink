@@ -32,7 +32,7 @@ Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Chi
     
     Queres falar comigo sobre o presente do teu irmão? Acho que ficaste com um bocadinho de ciúmes. #portrait:speech_right #animation:Mother_sad #audio:mother_lvl3_05
     
-    Ficaste? Não faz mal. Às vezes sentimos isso quando alguém tem o que nós queríamo. #audio:mother_lvl3_06
+    Ficaste? Não faz mal. Às vezes sentimos isso quando alguém tem o que nós queríamos. #audio:mother_lvl3_06
     
     Mas devemos mostrar aos outros como nos sentimos para eles nos ajudarem a ficarmos mais felizes, não achas? #animation:Mother_smiling #animation:Brother_smiling #audio:mother_lvl3_07
     -> main

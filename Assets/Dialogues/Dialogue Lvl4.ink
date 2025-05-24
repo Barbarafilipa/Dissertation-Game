@@ -1,4 +1,4 @@
-Hoje é o dia do teste de matemática. #portrait:narration #audio:narrator_lvl4_01
+Hoje é o dia do teste de matemática e estás na sala de aula à espera para começar. #portrait:narration #audio:narrator_lvl4_01
 Sentes o teu coração a bater mais rápido, as mãos a suar e um nó na barriga... #animation:Child_anxious #show:Heart #audio:narrator_lvl4_02
 
 -> minigame_puzzle_ansiedade

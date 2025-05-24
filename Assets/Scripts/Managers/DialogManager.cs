@@ -215,7 +215,7 @@ public class DialogManager : MonoBehaviour
                     break;
                 case PORTRAIT_TAG:
                     portraitAnimator.Play(tagValue);
-                    Debug.Log("Playing animation: " + tagValue);
+                    //Debug.Log("Playing animation: " + tagValue);
                     break;
                 case ANIMATION_TAG:
                     HandleCharacterAnimation(tagValue);
@@ -269,7 +269,7 @@ public class DialogManager : MonoBehaviour
             return;
         }
         character.GetComponent<Animator>().Play(animationName);
-        Debug.Log("Playing animation: " + animationName + " for character: " + characterName);
+        //Debug.Log("Playing animation: " + animationName + " for character: " + characterName);
     }
 
     private void DealWithMask(GameObject uiElement, bool show)
@@ -354,7 +354,7 @@ public class DialogManager : MonoBehaviour
         foreach (Choice choice in currentChoices)
         {
             string[] splitText = choice.text.Split('$');
-            Debug.Log("Split text: " + string.Join(", ", splitText));
+            //Debug.Log("Split text: " + string.Join(", ", splitText));
 
             choices[index].gameObject.SetActive(true);
             choicesText[index].text = splitText[0];
@@ -364,7 +364,7 @@ public class DialogManager : MonoBehaviour
             audioTag = audioTag.Split(':')[1];
 
             // Tags for the choice
-            Debug.Log("Audio tag: " + audioTag);
+            //Debug.Log("Audio tag: " + audioTag);
             
             // Find child object with the name AudioButton
             GameObject audioButton = choices[index - 1].gameObject.transform.GetChild(1).gameObject;
@@ -388,6 +388,7 @@ public class DialogManager : MonoBehaviour
 
     private void PlayMinigame(string tagValue)
     {
+        //Debug.Log("Playing minigame with tag: " + tagValue);
         minigameManager.StartMinigame(tagValue);
         dialogueIsPlaying = false; // pause dialogue
         dialoguePanel.SetActive(false);
@@ -397,6 +398,8 @@ public class DialogManager : MonoBehaviour
     {
         dialoguePanel.SetActive(true);
         dialogueIsPlaying = true;
+
+        //Debug.Log("Resuming dialogue after minigame.");
 
         ContinueStory(); // Resume the story after the minigame
     }

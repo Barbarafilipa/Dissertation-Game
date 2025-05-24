@@ -12,5 +12,10 @@ public class MyAnimationHandler : MonoBehaviour
     {
         animator.enabled = false;
     }
+
+    public void DisableHand()
+    {
+        gameObject.SetActive(false);
+    }
 }
 

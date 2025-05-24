@@ -3,7 +3,7 @@ using UnityEngine;
 public class GameManagerLanterna : MonoBehaviour
 {
     public static GameManagerLanterna Instance;
-    private int remainingMonsters;
+    private int remainingMonsters = 4;
     [SerializeField] private MinigameManager minigameManager;
 
     void Awake()
@@ -23,13 +23,13 @@ public class GameManagerLanterna : MonoBehaviour
         if (remainingMonsters <= 0)
         {
             // Wait for a second before ending the game
-            Invoke("EndGame", 1f);
+            Invoke("EndGame", 2f);
         }
     }
 
     void EndGame()
     {
-        Debug.Log("You were brave! Game Over!");
+        //Debug.Log("You were brave! Game Over!");
         minigameManager.CompleteMinigame();
     }
 }

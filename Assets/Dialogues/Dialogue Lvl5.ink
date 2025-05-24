@@ -1,4 +1,4 @@
-O professor pede para leres o texto que escreveste em voz alta para a turma. #portrait:narration #animation:Child_serious #animation:Teacher_smiling #audio:narrator_lvl5_01
+Estás na sala de aula e o professor pede para leres o texto que escreveste em voz alta para a turma. #portrait:narration #animation:Child_serious #animation:Teacher_smiling #audio:narrator_lvl5_01
 Quando olhas à tua volta, sentes o rosto a aquecer... #animation:Child_ashamed #audio:narrator_lvl5_02
 
 -> minigame_puzzle_vergonha
@@ -53,14 +53,15 @@ Estão todos a olhar para mim...  E agora? #portrait:thought_lvl5 #animation:Chi
 === continue2 ===
 Parabéns! Cada estrela positiva ajudou a tua confiança a crescer. Agora és uma super estrela pronto para mais desafios! #portrait:narration #sticker:SuperEstrela #show:SuperEstrela #audio:narrator_lvl5_04
 
--> novas_escolhas
-
-=== novas_escolhas ===
 Agora com confiança lês o teu texto para a turma. #portrait:narration #animation:Child_happySide #animation:Teacher_smiling #show:Lines #show:FriendsHappy #hide:Friends #hide:SuperEstrela #audio:narrator_lvl5_05
 
 Consegui! Senti-me bem a ler! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy #hide:Lines #hide:Notebook #audio:child_lvl5_05
 
 Isso é alegria. E os teus colegas também gostaram do teu texto! #portrait:speech_right_lvl5 #animation:Child_happy #animation:Teacher_smiling #audio:teacher_lvl5_11
+
+-> novas_escolhas
+
+=== novas_escolhas ===
 
 Hum... O que devo fazer? #portrait:thought_lvl5 #audio:child_lvl5_06
 

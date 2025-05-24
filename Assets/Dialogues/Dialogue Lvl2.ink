@@ -27,13 +27,13 @@ O nojo estava a tentar proteger-te. #audio:mother_lvl2_03 #hide:PratoEstragado
 
 Ele ajuda-nos a afastar coisas que podem fazer-nos mal, como comida estragada. #audio:mother_lvl2_04
 
--> main
-
-=== main ===
-
 Tens aqui um prato novo. #portrait:speech_right #audio:mother_lvl2_05 #show:Prato
 
 Experimenta para veres se gostas, faz bem à saúde. #audio:mother_lvl2_06
+
+-> main
+
+=== main ===
 
 Será que quero experimentar? #portrait:thought #animation:Child_serious #audio:child_lvl2_03 #hide:Prato
 

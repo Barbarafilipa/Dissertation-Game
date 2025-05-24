@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &163114387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8725683936513058041, guid: 22c2ef999fbcaa641a736d51187a3d57, type: 3}
+  m_PrefabInstance: {fileID: 506393579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &186408353
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +414,10 @@ PrefabInstance:
     - target: {fileID: 8725683936513058041, guid: 22c2ef999fbcaa641a736d51187a3d57, type: 3}
       propertyPath: m_Name
       value: Confettis
+      objectReference: {fileID: 0}
+    - target: {fileID: 8725683936513058041, guid: 22c2ef999fbcaa641a736d51187a3d57, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1061,9 +1070,9 @@ MonoBehaviour:
   - name: mother_lvl3_13
     clip: {fileID: 8300000, guid: ed3034e915870fd4e8f809599da545fa, type: 3}
   - name: mother_lvl3_14
-    clip: {fileID: 8300000, guid: f2ee8d15c5f71a14888deb1a6dc72a06, type: 3}
+    clip: {fileID: 8300000, guid: ff930cc22a5849246b6021d0ac483920, type: 3}
   - name: mother_lvl3_15
-    clip: {fileID: 8300000, guid: f2ee8d15c5f71a14888deb1a6dc72a06, type: 3}
+    clip: {fileID: 8300000, guid: 0e32ddc39c8d4ab44b6c65bfb1fb0639, type: 3}
   - name: child_lvl3_01
     clip: {fileID: 8300000, guid: d96f24b96b47b5d4d843d9357cedfa81, type: 3}
   - name: child_lvl3_02
@@ -3811,6 +3820,10 @@ PrefabInstance:
       propertyPath: inkJSON
       value: 
       objectReference: {fileID: 4900000, guid: 63ad3bdaf306c64468353345e2852273, type: 3}
+    - target: {fileID: 5740080887726670077, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}
+      propertyPath: confettis
+      value: 
+      objectReference: {fileID: 163114387}
     - target: {fileID: 5740080887726670077, guid: 631f242c0f945ba418d0ca719a974a29, type: 3}
       propertyPath: boyAnimator
       value: 

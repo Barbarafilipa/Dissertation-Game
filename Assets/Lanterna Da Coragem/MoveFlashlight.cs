@@ -4,14 +4,15 @@ using UnityEngine.EventSystems;
 
 public class MoveFlashlight : MonoBehaviour
 {
-    // Update is called once per frame
+    [SerializeField] private Camera uiCamera; // Reference to the canvas's camera
+
     void Update()
     {
         Vector2 mousePos;
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
             transform.parent.GetComponent<RectTransform>(),
             Touchscreen.current.position.ReadValue(),
-            null,
+            uiCamera, // ← Pass the correct camera here
             out mousePos
         );
         transform.localPosition = mousePos;

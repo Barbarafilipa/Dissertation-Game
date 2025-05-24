@@ -13,16 +13,16 @@ public class MonsterReveal : MonoBehaviour
     {
         myRect = GetComponent<RectTransform>();
         rootCanvas = GetComponentInParent<Canvas>();
-        GameManagerLanterna.Instance.RegisterMonster();
     }
 
     void Update()
     {
         if (furniture.activeSelf) return;
 
-        // Convert both positions to screen space
-        Vector2 flashlightScreenPos = RectTransformUtility.WorldToScreenPoint(null, flashlightMask.position);
-        Vector2 monsterScreenPos = RectTransformUtility.WorldToScreenPoint(null, myRect.position);
+        Camera cam = rootCanvas.worldCamera; // Get the correct camera
+
+        Vector2 flashlightScreenPos = RectTransformUtility.WorldToScreenPoint(cam, flashlightMask.position);
+        Vector2 monsterScreenPos = RectTransformUtility.WorldToScreenPoint(cam, myRect.position);
 
         float distance = Vector2.Distance(flashlightScreenPos, monsterScreenPos);
 
@@ -33,4 +33,5 @@ public class MonsterReveal : MonoBehaviour
             GameManagerLanterna.Instance.MonsterRevealed();
         }
     }
+
 }

@@ -51,12 +51,13 @@ Já me sinto melhor. Vou falar com ele. #portrait:speech_left_lvl6 #animation:Ch
 Ei! #portrait:speech_left_lvl6 #animation:Child_happy #audio:child_lvl6_06
 ... #portrait:speech_right_lvl6_friend #animation:Friend_seriousSide #animation:Child_worried
 
--> novas_escolhas
-
-=== novas_escolhas ===
 Ele já não quer jogar comigo... #portrait:speech_left_lvl6 #animation:Child_worried #animation:Friend_seriousSide #audio:child_lvl6_07
 
 Às vezes as coisas não acontecem como esperávamos, e isso pode fazer-nos sentir tristes. #portrait:narration #audio:narrator_lvl6_11
+
+-> novas_escolhas
+
+=== novas_escolhas ===
 
 E agora? #portrait:thought_lvl6 #audio:child_lvl6_08
 
