@@ -37,6 +37,13 @@ Experimenta para veres se gostas, faz bem à saúde. #audio:mother_lvl2_06
 
 Será que quero experimentar? #portrait:thought #animation:Child_serious #audio:child_lvl2_03 #hide:Prato
 
++ [Se faz bem à saúde, eu posso tentar comer um pedaço. $audio:child_lvl2_06]
+
+    Se faz bem à saúde, eu posso tentar comer um pedaço. #portrait:speech_left #animation:Child_smiling #audio:child_lvl2_06 #show:Prato
+    
+    Boa! Vais ver que vais gostar! Consegues adivinhar o que tem? #portrait:speech_right #animation:Mother_happy #audio:mother_lvl2_15
+    -> minigame_prato_misterioso
+
 + [Não! Isso é nojento! $audio:child_lvl2_04]
 
     Não! Isso é nojento! #portrait:speech_left #animation:Child_verydisgusted #animation:Mother_serious #audio:child_lvl2_04 #show:Prato
@@ -60,13 +67,6 @@ Será que quero experimentar? #portrait:thought #animation:Child_serious #audio:
     Mas se pensares no que cada legume faz de bom vai ser mais fácil experimentar! #animation:Mother_smiling #audio:mother_lvl2_13
     A cenoura ajuda na visão, e os brócolos são ótimos para dar força aos ossos e para a saúde. #audio:mother_lvl2_14
     -> main
-    
-+ [Se faz bem à saúde, eu posso tentar comer um pedaço. $audio:child_lvl2_06]
-
-    Se faz bem à saúde, eu posso tentar comer um pedaço. #portrait:speech_left #animation:Child_smiling #audio:child_lvl2_06 #show:Prato
-    
-    Boa! Vais ver que vais gostar! Consegues adivinhar o que tem? #portrait:speech_right #animation:Mother_happy #audio:mother_lvl2_15
-    -> minigame_prato_misterioso
 
 === continue2 ===
 Parabéns! Aprendeste a reconhecer os ingredientes no teu prato e a experimentar novos sabores. Estás no caminho certo para ser um verdadeiro chef! #portrait:narration #animation:Mother_happy #sticker:ChefDeCozinha #show:ChefDeCozinha #audio:narrator_lvl2_04 #hide:Prato

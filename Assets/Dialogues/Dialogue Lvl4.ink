@@ -55,15 +55,6 @@ Agora o teste começa. Olhas para a primeira pergunta e não sabes responder. #p
 === novas_escolhas ===
 E agora? #portrait:thought_lvl4 #animation:Child_anxious #hide:Heart #audio:child_lvl4_06
 
-+ [Eu devia ter estudado mais! Vou falhar o teste todo! $audio:child_lvl4_07]
-    
-    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left_lvl4_child #animation:Child_veryAnxious #show:Heart #audio:child_lvl4_07
-    
-    Se continuares a pensar nas coisas negativas, a tua cabeça vai ficar cheia de preocupações. #portrait:speech_right #speaker:Teacher #animation:Teacher_sad #audio:teacher_lvl4_01
-    
-    Precisas de te focar no que podes fazer para melhorar, para não perderes muito tempo do teste.#animation:Teacher_serious #audio:teacher_lvl4_02
-    -> novas_escolhas
-
 + [Vou avançar esta e tentar outra primeiro. $audio:child_lvl4_08]
 
     Vou avançar esta e tentar outra primeiro. #portrait:speech_left_lvl4_child #animation:Child_smiling #animation:Teacher_veryHappy #audio:child_lvl4_08
@@ -73,6 +64,15 @@ E agora? #portrait:thought_lvl4 #animation:Child_anxious #hide:Heart #audio:chil
     Se uma pergunta é muito difícil, tentar outras mais fáceis é uma forma inteligente de pensar. #audio:teacher_lvl4_04
 
     -> minigame_ordem_inteligente
+
++ [Eu devia ter estudado mais! Vou falhar o teste todo! $audio:child_lvl4_07]
+    
+    Eu devia ter estudado mais! Vou falhar o teste todo! #portrait:speech_left_lvl4_child #animation:Child_veryAnxious #show:Heart #audio:child_lvl4_07
+    
+    Se continuares a pensar nas coisas negativas, a tua cabeça vai ficar cheia de preocupações. #portrait:speech_right #speaker:Teacher #animation:Teacher_sad #audio:teacher_lvl4_01
+    
+    Precisas de te focar no que podes fazer para melhorar, para não perderes muito tempo do teste.#animation:Teacher_serious #audio:teacher_lvl4_02
+    -> novas_escolhas
     
 + [Vou fechar os olhos e respirar devagar. $audio:child_lvl4_09]
 

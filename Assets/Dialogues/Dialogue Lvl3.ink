@@ -26,6 +26,16 @@ Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Chi
     Quando fores para a escola como o teu irmão e tiveres boas notas, também te podemos dar presentes. #animation:Mother_smiling #animation:Brother_smiling #audio:mother_lvl3_04
     -> main
     
++ [Hoje o presente foi para o meu irmão, porque estudou muito e teve boa nota. $audio:child_lvl3_05]
+
+    Hoje o presente foi para o meu irmão, porque estudou muito e teve boa nota. #portrait:speech_left #animation:Child_smiling #animation:Mother_smiling #animation:Brother_smiling #audio:child_lvl3_05
+    
+    Mas eu também recebo coisas noutras alturas. #audio:child_lvl3_06
+    
+    Isso mesmo! Cada um pode ter o seu momento e receber presentes. #portrait:speech_right #animation:Mother_happy #audio:mother_lvl3_08
+    
+    -> novas_escolhas
+    
 + [A sério? O meu irmão tem um presente e eu não? Vou fingir que não me importo, não vou mostrar ciúmes. $audio:child_lvl3_04]
 
     A sério? O meu irmão tem um presente e eu não? Vou fingir que não me importo, não vou mostrar ciúmes. #portrait:speech_left #animation:Child_stubborn #animation:Brother_serious #animation:Mother_sad #audio:child_lvl3_04
@@ -36,16 +46,6 @@ Porque é que ele ganhou um presente e eu não? #portrait:thought #animation:Chi
     
     Mas devemos mostrar aos outros como nos sentimos para eles nos ajudarem a ficarmos mais felizes, não achas? #animation:Mother_smiling #animation:Brother_smiling #audio:mother_lvl3_07
     -> main
-    
-+ [Hoje o presente foi para o meu irmão, porque estudou muito e teve boa nota. $audio:child_lvl3_05]
-
-    Hoje o presente foi para o meu irmão, porque estudou muito e teve boa nota. #portrait:speech_left #animation:Child_smiling #animation:Mother_smiling #animation:Brother_smiling #audio:child_lvl3_05
-    
-    Mas eu também recebo coisas noutras alturas. #audio:child_lvl3_06
-    
-    Isso mesmo! Cada um pode ter o seu momento e receber presentes. #portrait:speech_right #animation:Mother_happy #audio:mother_lvl3_08
-    
-    -> novas_escolhas
     
 === novas_escolhas ===
 O importante é ambos estarem felizes, não achas? #audio:mother_lvl3_09

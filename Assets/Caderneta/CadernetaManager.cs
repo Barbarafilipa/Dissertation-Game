@@ -58,7 +58,8 @@ public class CadernetaManager : MonoBehaviour
             if (stickerSprites.ContainsKey(stickerName))
             {
                 // Update the corresponding slot with the sticker sprite
-                int slotIndex = placedStickers.IndexOf(stickerName);
+                // Find the index of the sticker in the stickerSprites dictionary
+                int slotIndex = stickerSprites.Keys.ToList().IndexOf(stickerName);
                 if (slotIndex < stickerSlots.Count)
                 {
                     PlaceSticker(stickerSprites[stickerName], stickerName, stickerSlots[slotIndex]);

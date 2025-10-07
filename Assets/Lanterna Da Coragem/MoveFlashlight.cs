@@ -4,17 +4,45 @@ using UnityEngine.EventSystems;
 
 public class MoveFlashlight : MonoBehaviour
 {
-    [SerializeField] private Camera uiCamera; // Reference to the canvas's camera
+    [SerializeField] private Camera uiCamera; // Can be null if using Screen Space - Overlay
+
+    private RectTransform parentRectTransform;
+    private RectTransform flashlightRect;
+
+    void Start()
+    {
+        flashlightRect = GetComponent<RectTransform>();
+        parentRectTransform = transform.parent.GetComponent<RectTransform>();
+
+        // Start flashlight in the center
+        flashlightRect.localPosition = Vector2.zero;
+    }
 
     void Update()
     {
-        Vector2 mousePos;
+        Vector2 pointerPosition;
+
+        if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.isPressed)
+        {
+            pointerPosition = Touchscreen.current.primaryTouch.position.ReadValue();
+        }
+        else if (Mouse.current != null && Mouse.current.leftButton.isPressed)
+        {
+            pointerPosition = Mouse.current.position.ReadValue();
+        }
+        else
+        {
+            return; // Don't move if there's no active touch/click
+        }
+
+        Vector2 localPoint;
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
-            transform.parent.GetComponent<RectTransform>(),
-            Touchscreen.current.position.ReadValue(),
-            uiCamera, // ← Pass the correct camera here
-            out mousePos
+            parentRectTransform,
+            pointerPosition,
+            uiCamera,
+            out localPoint
         );
-        transform.localPosition = mousePos;
+
+        flashlightRect.localPosition = localPoint;
     }
 }

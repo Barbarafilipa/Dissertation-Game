@@ -12,4 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a608dcefa831e964797d2090cc9c501a, type: 3}
   m_Name: StickerData
   m_EditorClassIdentifier: 
-  collectedStickers: []
+  collectedStickers:
+  - Vergonha
+  - Ansiedade
+  - Nojo
+  - Ciume
+  placedStickers:
+  - Medo
+  - LanternaMagica
+  - MedalhaDaCoragem
+  savedAnswers:
+  - questionId: Input-Page01-01
+    answer: Dormir com as luzes apagadas
+  multiAnswers:
+  - questionId: Choice-Page02
+    selectedAnswers:
+    - Button-Page02-03

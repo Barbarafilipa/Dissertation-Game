@@ -24,6 +24,14 @@ Isto não é justo! #portrait:thought_lvl6 #animation:Child_angry #animation:Fri
     
     -> main
     
++ [Se calhar foi sem querer. $audio:child_lvl6_04]
+
+    Se calhar foi sem querer. #portrait:speech_left_lvl6 #animation:Child_seriousSide #audio:child_lvl6_04
+    
+    Às vezes as coisas acontecem sem intenção. Pensar assim ajuda-te a acalmar e a resolver melhor o problema. Agora tenta falar com ele com calma. #portrait:narration #animation:Child_smiling #audio:narrator_lvl6_09
+    
+    -> minigame_reciclagem_da_raiva
+    
 + [Vou brincar com outro amigo. $audio:child_lvl6_03]
 
     Vou brincar com outro amigo. #portrait:speech_left_lvl6 #animation:Child_stubborn #audio:child_lvl6_03
@@ -33,14 +41,6 @@ Isto não é justo! #portrait:thought_lvl6 #animation:Child_angry #animation:Fri
     Se explicares como te sentiste pode ser mais fácil resolverem o problema juntos. #audio:narrator_lvl6_08
     
     -> main
-    
-+ [Se calhar foi sem querer. $audio:child_lvl6_04]
-
-    Se calhar foi sem querer. #portrait:speech_left_lvl6 #animation:Child_seriousSide #audio:child_lvl6_04
-    
-    Às vezes as coisas acontecem sem intenção. Pensar assim ajuda-te a acalmar e a resolver melhor o problema. Agora tenta falar com ele com calma. #portrait:narration #animation:Child_smiling #audio:narrator_lvl6_09
-    
-    -> minigame_reciclagem_da_raiva
     
 
 === continue2 ===

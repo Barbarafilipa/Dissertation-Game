@@ -13,8 +13,17 @@ public class LevelButton : MonoBehaviour
     void Start()
     {
         button = GetComponent<Button>();
-
-        bool isUnlocked = PlayerPrefs.GetInt(level_name, 0) == 1;
+        bool isUnlocked;
+        if (level_name == "Level_1")
+        {
+            isUnlocked = true; // Level 1 is always unlocked by default
+        }
+        else
+        {
+            // Current button's level is unlocked if previous level is completed
+            int previousLevel = int.Parse(level_name.Split('_')[1]) - 1;
+            isUnlocked = PlayerPrefs.GetInt("Level_" + previousLevel, 0) == 1;
+        }
 
         button.interactable = isUnlocked;
         // If the level is unlocked, change the image to the unlock icon

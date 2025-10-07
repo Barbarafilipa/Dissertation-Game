@@ -87,25 +87,37 @@ public class DialogManager : MonoBehaviour
             return;
         }
 
-        if (Touchscreen.current == null) return;
+        bool pressed = false;
+        Vector2 position = Vector2.zero;
 
-        if (Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+        // Toque (telemóvel)
+        if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
         {
-            // Stop any audio that is currently playing
-            AudioManager.Instance.StopAudio();
-            if (IsTouchOverUI())
-            {
+            pressed = true;
+            position = Touchscreen.current.primaryTouch.position.ReadValue();
+        }
+        // Clique (PC)
+        else if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            pressed = true;
+            position = Mouse.current.position.ReadValue();
+        }
+
+        if (pressed)
+        {
+            if (IsPointerOverUI(position))
                 return;
-            }
+
+            AudioManager.Instance.StopAudio();
             ContinueStory();
         }
     }
 
-    private bool IsTouchOverUI()
+    private bool IsPointerOverUI(Vector2 position)
     {
         PointerEventData pointerData = new PointerEventData(EventSystem.current)
         {
-            position = Touchscreen.current.primaryTouch.position.ReadValue()
+            position = position
         };
 
         List<RaycastResult> results = new List<RaycastResult>();

@@ -12,18 +12,6 @@ Podes começar a ler quando estiveres pronto. #portrait:speech_right_lvl5 #hide:
 
 === main ===
 Estão todos a olhar para mim...  E agora? #portrait:thought_lvl5 #animation:Child_ashamed #audio:child_lvl5_01
-
-+ [Hoje não quero ler! $audio:child_lvl5_02]
-
-    Hoje não quero ler! #portrait:speech_left_lvl5_child #animation:Child_stubborn #animation:Teacher_sad #audio:child_lvl5_02
-    
-    Eu sei que pode parecer mais fácil não fazer isso agora, mas o que custa é o primeiro passo. #portrait:speech_right_lvl5 #animation:Child_veryAshamed #animation:Teacher_serious #audio:teacher_lvl5_02
-    
-    Depois perdes a vergonha, e vais ver que não é tão difícil quanto pensas. #animation:Teacher_smiling #audio:teacher_lvl5_03
-    
-    Vamos dar um passo de cada vez, sim? #audio:teacher_lvl5_04
-    
-    -> main
     
 + [Se eu me enganar vão todos gozar comigo, vai ser terrível. $audio:child_lvl5_03]
 
@@ -49,6 +37,18 @@ Estão todos a olhar para mim...  E agora? #portrait:thought_lvl5 #animation:Chi
     
     -> minigame_estrelas_da_confianca
     
++ [Hoje não quero ler! $audio:child_lvl5_02]
+
+    Hoje não quero ler! #portrait:speech_left_lvl5_child #animation:Child_stubborn #animation:Teacher_sad #audio:child_lvl5_02
+    
+    Eu sei que pode parecer mais fácil não fazer isso agora, mas o que custa é o primeiro passo. #portrait:speech_right_lvl5 #animation:Child_veryAshamed #animation:Teacher_serious #audio:teacher_lvl5_02
+    
+    Depois perdes a vergonha, e vais ver que não é tão difícil quanto pensas. #animation:Teacher_smiling #audio:teacher_lvl5_03
+    
+    Vamos dar um passo de cada vez, sim? #audio:teacher_lvl5_04
+    
+    -> main
+    
 
 === continue2 ===
 Parabéns! Cada estrela positiva ajudou a tua confiança a crescer. Agora és uma super estrela pronto para mais desafios! #portrait:narration #sticker:SuperEstrela #show:SuperEstrela #audio:narrator_lvl5_04
@@ -65,6 +65,14 @@ Isso é alegria. E os teus colegas também gostaram do teu texto! #portrait:spee
 
 Hum... O que devo fazer? #portrait:thought_lvl5 #audio:child_lvl5_06
 
++ [Eu gostei e quero fazer mais vezes! $audio:child_lvl5_08]
+
+    Eu gostei e quero fazer mais vezes! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy #audio:child_lvl5_08
+    
+    Ainda bem! A alegria cresce quando repetimos algo bom. #portrait:speech_right_lvl5 #animation:Child_happy #animation:Teacher_smiling #audio:teacher_lvl5_14
+
+    -> continue4
+
 + [Vou tentar não sorrir para não acharem que sou convencido. $audio:child_lvl5_07]
     
     Vou tentar não sorrir para não acharem que sou convencido. #portrait:speech_left_lvl5_child #animation:Child_serious #animation:Teacher_sad #audio:child_lvl5_07
@@ -73,14 +81,6 @@ Hum... O que devo fazer? #portrait:thought_lvl5 #audio:child_lvl5_06
     
     Não precisas de esconder um sorriso. É natural e bonito de se ver! #audio:teacher_lvl5_13
     -> novas_escolhas
-
-+ [Eu gostei e quero fazer mais vezes! $audio:child_lvl5_08]
-
-    Eu gostei e quero fazer mais vezes! #portrait:speech_left_lvl5_child #animation:Child_veryHappy #animation:Teacher_veryHappy #audio:child_lvl5_08
-    
-    Ainda bem! A alegria cresce quando repetimos algo bom. #portrait:speech_right_lvl5 #animation:Child_happy #animation:Teacher_smiling #audio:teacher_lvl5_14
-
-    -> continue4
     
 === continue4 ===
 

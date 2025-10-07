@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0395d4b5a0507dd4abad6eaa61863845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minigameStickers: []
   stickerData: {fileID: 11400000, guid: 350e9078f858d2f4fa6285a69d9949b9, type: 2}
 --- !u!1 &1666878232666212447
 GameObject:
@@ -91,9 +92,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inkJSON: {fileID: 4900000, guid: 4ab0bef381daa0243be2c91ce3b19d68, type: 3}
   minigameManager: {fileID: 4950185246110118547}
+  rewardManager: {fileID: 0}
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
   portraitAnimator: {fileID: 0}
+  confettis: {fileID: 0}
   choices:
   - {fileID: 0}
   - {fileID: 0}
@@ -101,6 +104,8 @@ MonoBehaviour:
   characters:
   - {fileID: 0}
   - {fileID: 0}
+  boyAnimator: {fileID: 0}
+  girlAnimator: {fileID: 0}
   otherUIElements:
   - {fileID: 0}
   - {fileID: 0}
@@ -150,7 +155,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogManager: {fileID: 5740080887726670077}
-  rewardManager: {fileID: 2557922139010346721}
   minigames:
   - {fileID: 0}
   - {fileID: 0}

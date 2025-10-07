@@ -7,7 +7,7 @@ public class GameInitializer : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
-
+        ClearPlayerPrefs();
         gameData.LoadStickers();
 
         if (!PlayerPrefs.HasKey("GameCompleted"))
@@ -16,10 +16,16 @@ public class GameInitializer : MonoBehaviour
             PlayerPrefs.Save();
         }
 
+        if (!PlayerPrefs.HasKey("TutorialCompleted"))
+        {
+            PlayerPrefs.SetInt("TutorialCompleted", 0);
+            PlayerPrefs.Save();
+        }
+
         // Unlock Level 1 by default, if not already done
         if (!PlayerPrefs.HasKey("Level_1"))
         {
-            PlayerPrefs.SetInt("Level_1", 1);
+            PlayerPrefs.SetInt("Level_1", 0);
             PlayerPrefs.Save();
         }
 
@@ -35,5 +41,11 @@ public class GameInitializer : MonoBehaviour
             PlayerPrefs.SetString("Name", PlayerPrefs.GetString("Character") == "Boy" ? "João" : "Maria");
             PlayerPrefs.Save();
         }
+    }
+
+    private void ClearPlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
     }
 }

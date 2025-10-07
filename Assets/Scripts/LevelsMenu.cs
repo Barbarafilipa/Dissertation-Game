@@ -6,11 +6,14 @@ public class LevelsMenu : MonoBehaviour
 {
     [SerializeField] private GameObject confettis;
     [SerializeField] private GameObject finalMessage;
+    [SerializeField] private Animator canvasAnimator;
+    [SerializeField] private GameObject levelsMenu;
 
     private void Start()
     {
         // Check if all levels are completed and trigger the final animation if so
         CheckGameCompletion();
+        PlayInitialTutorial();
     }
 
     public void GoBack()
@@ -30,17 +33,17 @@ public class LevelsMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("Home - Lvl 3");
     }
-    public void OpenHouseLvl4()
+    public void OpenSchoolLvl1()
     {
-        SceneManager.LoadSceneAsync("Home - Lvl 4");
+        SceneManager.LoadSceneAsync("School - Lvl 1");
     }
-    public void OpenHouseLvl5()
+    public void OpenSchoolLvl2()
     {
-        SceneManager.LoadSceneAsync("Home - Lvl 5");
+        SceneManager.LoadSceneAsync("School - Lvl 2");
     }
-    public void OpenHouseLvl6()
+    public void OpenSchoolLvl3()
     {
-        SceneManager.LoadSceneAsync("Home - Lvl 6");
+        SceneManager.LoadSceneAsync("School - Lvl 3");
     }
 
     private void CheckGameCompletion()
@@ -71,5 +74,20 @@ public class LevelsMenu : MonoBehaviour
         finalMessage.SetActive(true);
         yield return new WaitForSeconds(5f);
         finalMessage.SetActive(false);
+    }
+
+    private void PlayInitialTutorial()
+    {
+        // Check if LevelsMenu object is active
+        if (levelsMenu.activeInHierarchy)
+        {
+            if (!PlayerPrefs.HasKey("TutorialCompleted") || PlayerPrefs.GetInt("TutorialCompleted") == 0)
+            {
+                // Play the initial tutorial animation
+                canvasAnimator.enabled = true;
+                PlayerPrefs.SetInt("TutorialCompleted", 1);
+                PlayerPrefs.Save();
+            }
+        }
     }
 }
